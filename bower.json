@@ -1,0 +1,7 @@
+{
+  "name": "saco-inkomstjamforaren",
+  "private": true,
+  "dependencies": {
+    "d3": "~3.5.6"
+  }
+}

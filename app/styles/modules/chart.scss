@@ -1,0 +1,97 @@
+.bar-group {
+    .bar {
+      fill: $color-dark-grey;
+    }    
+}
+.bar-group.highlighted {
+    .bar {
+      fill: $saco-turcos;
+    }
+}
+
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis {
+    .tick {
+        font-size: 9px;
+        line {
+            display: none;
+        }
+    }
+}
+@media screen and (max-width: 520px) {
+    .x.axis .tick,
+    .title {
+        display: none;
+    }
+}
+
+.y.axis {
+    .tick {
+        font-size: 12px;
+        line {
+            display: none;
+        }    
+    }
+    
+    .domain {
+        display: none;
+    }
+}
+
+.income-line {
+    .line {
+        stroke: $saco-orange;
+        stroke-width: 1px;
+        stroke-dasharray: 3,3;
+    }
+    .label {
+        fill: $saco-orange;        
+    }
+}
+
+// Description
+#chart {
+    position: relative;
+
+    .description {
+        position: absolute;
+        font-size: 17px;
+
+        .amount {
+            font-size: 1.5em;
+            font-weight: bold;
+            display: inline-block;
+            border-bottom: 3px solid $saco-turcos;
+            margin-bottom: 5px;
+        }
+    }
+}
+@media screen and (max-width: 520px) {
+    #chart {
+        .description {
+            position:static;
+            max-width: 100% !important;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+// Hide description if profession is not valid
+#chart.invalid-profession {
+    display: none;
+}
+#chart.invalid-income {
+    .income-line {
+        display: none;
+    }
+}
+
+
