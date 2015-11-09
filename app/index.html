@@ -101,6 +101,13 @@
     var elemPublicPrivate = d3.select("#publicprivate");
     var elemChart = d3.select(chartSelector);
 
+    // Enable iframe resonsiveness
+    var isIframe = self !== top;
+    if (isIframe) {
+        var pymChild = new pym.Child();
+        pymChild.sendHeight();
+    }
+
     d3.csv("data/data.csv", columnFormats, function(error, data) {
       if (error) throw error;
 

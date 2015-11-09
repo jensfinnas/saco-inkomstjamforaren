@@ -151,6 +151,11 @@ IncomeChart = (function() {
             .attr("height", function(d) { return h - self.y(d.value); });
 
         self.updateIncomeLine(self.income);
+
+        // TODO: Handle scope of isIframe better 
+        if (isIframe) {
+            pymChild.sendHeight();
+        }
     }
 
     IncomeChart.prototype.updateData = function(data) {
