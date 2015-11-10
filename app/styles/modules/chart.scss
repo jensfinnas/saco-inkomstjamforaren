@@ -19,16 +19,15 @@
 
 .x.axis {
     .tick {
-        font-size: 9px;
         line {
             display: none;
         }
     }
 }
 @media screen and (max-width: 520px) {
-    .x.axis .tick,
-    .title {
-        display: none;
+    .x.axis .tick {
+        font-size: 10px;
+        //display: none;
     }
 }
 
@@ -63,6 +62,8 @@
     .description {
         position: absolute;
         font-size: 17px;
+        background-color: #fff;
+        padding: 10px;
 
         .amount {
             font-size: 1.5em;
@@ -79,6 +80,7 @@
             position:static;
             max-width: 100% !important;
             margin-bottom: 20px;
+            padding: 0;
         }
     }
 }

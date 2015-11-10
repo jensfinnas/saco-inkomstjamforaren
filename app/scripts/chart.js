@@ -10,7 +10,8 @@ IncomeChart = (function() {
         var self = this;
         self.container = d3.select(selector);
         defaultOpts = {
-            yMax: 1
+            yMax: 1,
+            isIframe: false
         }
         self.opts = extend(defaultOpts, opts);
 
@@ -21,7 +22,7 @@ IncomeChart = (function() {
         // Init description container
         self.description = self.container.append("div")
             .attr("class", "description")
-            .html('Men en inkomst på <span class="income"></span> tjänar du mer än <span class="amount"></span> av <span class="profession"></span> inom <span class="publicprivate"></span>.');
+            .html('Men en månadslön på <span class="income"></span> tjänar du mer än <span class="amount"></span> av <span class="profession"></span> inom <span class="publicprivate"></span>.');
 
         // Init chart
         self.xOrdinal = d3.scale.ordinal()
@@ -51,7 +52,7 @@ IncomeChart = (function() {
         self.margins = m = {
             top: 40,
             right: containerWidth * 0.1,
-            bottom: 100,
+            bottom: 45,
             left: 50
         };
         self.width = w = containerWidth - m.left - m.right;
@@ -89,6 +90,16 @@ IncomeChart = (function() {
             .tickFormat(formatPercent)
             .orient("left");
 
+        // Setup tooltip
+        var tooltip = d3.tip()
+          .attr('class', 'd3-tip')
+          .direction("n")
+          .offset([-10,0])
+          .html(function(d) {
+            return formatLargeNum(d.incomeLower) + "-" + formatLargeNum(d.incomeUpper) + " kr";
+          });
+        self.chart.call(tooltip);
+
         // Draw y axis
         self.chart.append("g")
             .attr("class", "y axis")
@@ -99,13 +110,19 @@ IncomeChart = (function() {
             .attr("class", "x axis")
             .attr("transform", "translate(0," + h + ")")
             .call(xAxis);
+        
+        xAxisGroup.selectAll(".tick text")
+            .text(function(d) {
+                var lowerIncome = d.split("-")[0];
+                return lowerIncome % 10000 == 0 ? formatLargeNum(lowerIncome) : ""; 
+            });
 
-        xAxisGroup.selectAll("text")
+        /*xAxisGroup.selectAll("text")
                 .attr("y", 0)
                 .attr("x", 9)
                 .attr("dy", ".35em")
                 .attr("transform", "rotate(90)")
-                .style("text-anchor", "start");
+                .style("text-anchor", "start");*/
 
         xAxisGroup.append("text")
           .attr("x", w / 2)
@@ -113,7 +130,7 @@ IncomeChart = (function() {
           .attr("dy", ".7em")
           .style("text-anchor", "middle")
           .attr("class", "title")
-          .text("Inkomstgrupp");
+          .text("Månadslön");
 
         // Income line
         self.incomeLine = self.chart.append("g")
@@ -148,12 +165,14 @@ IncomeChart = (function() {
         self.barGroups.append("rect")
             .attr("class", "bar")
             .attr("width", self.xOrdinal.rangeBand())
-            .attr("height", function(d) { return h - self.y(d.value); });
+            .attr("height", function(d) { return h - self.y(d.value); })
+            .on("mouseover", tooltip.show)
+            .on("mouseout", tooltip.hide);;
 
         self.updateIncomeLine(self.income);
 
-        // TODO: Handle scope of isIframe better 
-        if (isIframe) {
+        // Send resize signal to parent page
+        if (self.isIframe) {
             pymChild.sendHeight();
         }
     }
