@@ -1,6 +1,6 @@
-<!DOCTYPE html> <html class=no-js> <head> <meta charset=utf-8> <meta name=ROBOTS content="NOINDEX, NOFOLLOW"> <title>SACO: Inkomstjämföraren</title> <meta name=description content=""> <meta name=viewport content="width=device-width"> <link rel="shortcut icon" href=/6df2b309.favicon.ico> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel=stylesheet href=styles/c3501083.main.css>  <body> <!--[if lt IE 10]>
+<!DOCTYPE html> <html class=no-js> <head> <meta charset=utf-8> <meta name=ROBOTS content="NOINDEX, NOFOLLOW"> <title>SACO: Inkomstjämföraren</title> <meta name=description content=""> <meta name=viewport content="width=device-width"> <link rel="shortcut icon" href=/6df2b309.favicon.ico> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel=stylesheet href=styles/91b9f31e.main.css>  <body> <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--> <div id=ui> Jag har en månadslön på <input size=5 id=income placeholder="T.ex. 30 000"> kronor och jobbar som <select id=profession> <option value="">Välj yrke </select> inom <select id=publicprivate> <option value=public>offentlig sektor <option value=private>privat sektor </select> . Hur står sig min lön? </div> <div id=chart> </div> <!-- Saco typography --> <script type=text/javascript src=//use.typekit.net/zxg8sjd.js></script> <script type=text/javascript>try { Typekit.load(); } catch (e) { console.log(e); }</script> <script src=scripts/0d4ad71a.vendor.js></script> <script src=scripts/1ef7b196.main.js></script> <script>function columnFormats(d) {
+    <![endif]--> <div id=ui> Jag har en månadslön på <input size=5 id=income placeholder="T.ex. 30 000"> kronor och jobbar som <select id=profession> <option value="">Välj yrke </select> inom <select id=publicprivate> <option value=public>offentlig sektor <option value=private>privat sektor </select> . Hur står sig min lön? </div> <div id=chart> </div> <!-- Saco typography --> <script type=text/javascript src=//use.typekit.net/zxg8sjd.js></script> <script type=text/javascript>try { Typekit.load(); } catch (e) { console.log(e); }</script> <script src=scripts/0638f0a9.vendor.js></script> <script src=scripts/1f1065ff.main.js></script> <script>function columnFormats(d) {
       d.value = +d.value.replace(",",".");
       return d;
     }
@@ -78,7 +78,8 @@
       var currentData = getZeroData(data);
       var currentIncome = +elemIncome.node().value;
       var opts = {
-        yMax: d3.max(data.map(function(d) { return d.value }))
+        yMax: d3.max(data.map(function(d) { return d.value })),
+        isIframe: isIframe
       };
       var chart = new IncomeChart(chartSelector, currentData, currentIncome, opts)
       
