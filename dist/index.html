@@ -1,6 +1,6 @@
-<!DOCTYPE html> <html class=no-js> <head> <meta charset=utf-8> <meta name=ROBOTS content="NOINDEX, NOFOLLOW"> <title>Saco: Inkomstjämföraren</title> <meta name=description content=""> <meta name=viewport content="width=device-width"> <link rel="shortcut icon" href=/6df2b309.favicon.ico> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel=stylesheet href=styles/9bea8efd.vendor.css> <link rel=stylesheet href=styles/91ba65b1.main.css>  <body> <!--[if lt IE 10]>
+<!DOCTYPE html> <html class=no-js> <head> <meta charset=utf-8> <meta name=ROBOTS content="NOINDEX, NOFOLLOW"> <title>Saco: Inkomstjämföraren</title> <meta name=description content=""> <meta name=viewport content="width=device-width"> <link rel="shortcut icon" href=/6df2b309.favicon.ico> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel=stylesheet href=styles/4e82482c.main.css>  <body> <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--> <div class=container> <div id=ui> Jag har en månadslön på <input size=6 id=income placeholder="" value="35000"> kronor och jobbar som <select id=profession> <option value="">Välj yrke </select> inom <select id=publicprivate> <option value=public>offentlig sektor <option value=private>privat sektor </select> . Hur står sig min lön? </div> <div id=chart></div> </div> <!-- Saco typography --> <script type=text/javascript src=//use.typekit.net/zxg8sjd.js></script> <script type=text/javascript>try { Typekit.load(); } catch (e) { console.log(e); }</script> <script src=scripts/79537251.vendor.js></script> <script src=scripts/8a7599f2.main.js></script> <script>function columnFormats(d) {
+    <![endif]--> <div class=container> <div id=ui> Jag har en månadslön på <input size=6 id=income placeholder="" value="35000"> kronor och jobbar som <select id=profession> <option value="">Välj yrke </select> inom <select id=publicprivate> <option value=public>offentlig sektor <option value=private>privat sektor </select> . Hur står sig min lön? </div> <div id=chart></div> <div class=helper data-target=#income>Ange din månadslön här</div> </div> <!-- Saco typography --> <script type=text/javascript src=//use.typekit.net/zxg8sjd.js></script> <script type=text/javascript>try { Typekit.load(); } catch (e) { console.log(e); }</script> <script src=scripts/0638f0a9.vendor.js></script> <script src=scripts/ce096931.main.js></script> <script>function columnFormats(d) {
       d.value = +d.value.replace(",",".");
       return d;
     }
@@ -111,31 +111,21 @@
       elemIncome.on("keyup")();
 
 
-      // First define your tour.
-      var tour = {
-        "id": "hopscotch",
-        "steps": [
-          {
-            "target": "income",
-            "placement": "bottom",
-            "title": "Ange din lön här",
-            "content": ""
-          },/*
-          {
-            "target": "profession",
-            "placement": "bottom",
-            "title": "Ditt yrke",
-            "content": ""
-          }
-          {
-            "target": "publicprivate",
-            "placement": "bottom",
-            "title": "Och om du jobbar privat eller offentligt",
-            "content": ""
-          }*/
-        ]
-      };
+      // Init "helpers"
+      d3.selectAll(".helper").forEach(function(elem) {
+        var target = d3.select(elem[0].getAttribute("data-target"));
+        var targetBB = target.node().getBoundingClientRect();
+        var helperBB = elem[0].getBoundingClientRect();
 
-      // Then start the tour.
-      hopscotch.startTour(tour);
+        d3.selectAll(elem)
+          .classed("show", true);
+
+        d3.selectAll(elem)
+          .style("left", (targetBB.left + targetBB.width / 2 - helperBB.width / 2) + "px")
+          .style("top", (targetBB.top - helperBB.height - 14) + "px");
+
+      })
+      d3.select("body").on("click", function() {
+        d3.selectAll(".helper").classed("show", false);
+      })
     })</script>  
