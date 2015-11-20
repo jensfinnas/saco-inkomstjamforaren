@@ -28,8 +28,8 @@ IncomeChart = (function() {
         self.xOrdinal = d3.scale.ordinal()
             .domain(data.map(function(d) { return d.income; }));
 
-        var xMin = data[0].incomeUpper;
-        var xMax = data[data.length - 1].incomeLower;
+        var xMin = data[0].incomeUpper - 999;
+        var xMax = data[data.length - 1].incomeLower + 999;
         self.xLinear = d3.scale.linear()
             .domain([xMin, xMax]);
 
@@ -42,6 +42,11 @@ IncomeChart = (function() {
         d3.select(window).on('resize', function() {
             self.resize();
         });
+    }
+
+    function isActiveBin(bin, selectedIncome) {
+        return selectedIncome >= bin.incomeLower ;
+//        return selectedIncome > bin.incomeLower && bin.incomeUpper;
     }
 
     IncomeChart.prototype.drawChart = function() {
@@ -96,7 +101,9 @@ IncomeChart = (function() {
           .direction("n")
           .offset([-10,0])
           .html(function(d) {
-            return formatLargeNum(d.incomeLower) + "-" + formatLargeNum(d.incomeUpper) + " kr";
+            var lower = formatLargeNum(d.incomeLower);
+            var upper = d.incomeUpper ? formatLargeNum(d.incomeUpper) : "";
+            return lower + "-" + upper + " kr";
           });
         self.chart.call(tooltip);
 
@@ -134,8 +141,8 @@ IncomeChart = (function() {
 
         // Income line
         self.incomeLine = self.chart.append("g")
-            .attr("class","income-line");
-            //.attr("transform", "translate(" + self.xLinear(self.income) + "," + (-m.top) + ")")
+            .attr("class","income-line")
+            .attr("transform", "translate(" + self.xLinear(self.income) + "," + (-m.top) + ")");
 
         self.incomeLine.append("line")
             .attr("class", "line")
@@ -212,7 +219,7 @@ IncomeChart = (function() {
 
         // Update coloring of bars
         self.barGroups.classed("highlighted", function(d) { 
-            return self.income > d.incomeLower && d.incomeUpper; 
+            return isActiveBin(d, self.income); 
         })
 
         // 
@@ -223,16 +230,39 @@ IncomeChart = (function() {
         var self = this;
         var profession = self.data[0].profession;
         var publicprivate = self.data[0].publicprivate == "public" ? "offentlig sektor" : "privat sektor";
-        var amount = d3.sum(self.data
-                .filter(function(d) { return self.income > d.incomeLower && d.incomeUpper })
-                .map(function(d) { return d.value; })
-                );
+        var amount = self.getPercent(self.income);
 
         self.description.select(".income").text(formatLargeNum(self.income) + " kronor");
         self.description.select(".amount").text(formatPercentText(amount));
         self.description.select(".profession").text(pluralize(profession).toLowerCase());
         self.description.select(".publicprivate").text(publicprivate);
 
+    }
+
+    // Calculate how many percent have lower income
+    IncomeChart.prototype.getPercent = function(income) {
+        var self = this;
+        var activeBins = self.data.filter(function(d) { return isActiveBin(d, income); });
+        var numberOfBins = activeBins.length;
+        
+        var percent = d3.sum(activeBins.map(function(d,i) {
+            if (i == numberOfBins - 1) {
+                /*  If selected income is 30.500 and 10 % of population is in income group
+                    30.000-34.999, assume that 30.500 is greater than 5%.
+                */
+                var positionInBin = (1 - (d.incomeUpper - self.income) / (d.incomeUpper - d.incomeLower));
+                
+                // Ensure that really large incomes will not cause reversed effect 
+                positionInBin = Math.max(0,positionInBin)
+                var value = positionInBin * d.value;
+                return value;
+            }
+            else {
+                return d.value; 
+            }
+        }));
+
+        return percent;
     }
 
     IncomeChart.prototype.resize = function() {

@@ -7,6 +7,10 @@
     line-height: 1.6em;
     margin-bottom: 29px;
 
+    #income {
+        text-align: center;
+    }
+
     input,
     select {
         background-color: transparent;
@@ -14,5 +18,12 @@
         border: 0;
         border-radius: 0;
         border-bottom: 1px solid #333;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus,
+    button:focus {
+        outline: none;
     }
 }
