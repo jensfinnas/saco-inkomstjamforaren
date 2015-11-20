@@ -10,7 +10,6 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/hopscotch/dist/css/hopscotch.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -37,6 +36,10 @@
         . Hur står sig min lön?
       </div>
       <div id="chart"></div>
+
+
+      <div class="helper" data-target="#income">Ange din månadslön här</div>
+
     </div>
 
 <!-- Saco typography -->
@@ -49,7 +52,6 @@
     <script src="bower_components/d3/d3.js"></script>
     <script src="bower_components/pym.js/dist/pym.js"></script>
     <script src="bower_components/d3-tip/index.js"></script>
-    <script src="bower_components/hopscotch/dist/js/hopscotch.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -171,33 +173,23 @@
       elemIncome.on("keyup")();
 
 
-      // First define your tour.
-      var tour = {
-        "id": "hopscotch",
-        "steps": [
-          {
-            "target": "income",
-            "placement": "bottom",
-            "title": "Ange din lön här",
-            "content": ""
-          },/*
-          {
-            "target": "profession",
-            "placement": "bottom",
-            "title": "Ditt yrke",
-            "content": ""
-          }
-          {
-            "target": "publicprivate",
-            "placement": "bottom",
-            "title": "Och om du jobbar privat eller offentligt",
-            "content": ""
-          }*/
-        ]
-      };
+      // Init "helpers"
+      d3.selectAll(".helper").forEach(function(elem) {
+        var target = d3.select(elem[0].getAttribute("data-target"));
+        var targetBB = target.node().getBoundingClientRect();
+        var helperBB = elem[0].getBoundingClientRect();
 
-      // Then start the tour.
-      hopscotch.startTour(tour);
+        d3.selectAll(elem)
+          .classed("show", true);
+
+        d3.selectAll(elem)
+          .style("left", (targetBB.left + targetBB.width / 2 - helperBB.width / 2) + "px")
+          .style("top", (targetBB.top - helperBB.height - 14) + "px");
+
+      })
+      d3.select("body").on("click", function() {
+        d3.selectAll(".helper").classed("show", false);
+      })
     })
     </script>
 </body>

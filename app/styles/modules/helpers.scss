@@ -1,0 +1,35 @@
+.helper.show {
+    opacity: 1;
+}
+.helper {
+    background: #ffffff;
+    border: 1px solid #5e5e5e;
+    position: absolute;
+    padding: 10px;
+    border-radius: 4px;
+    display: inline-block;
+    opacity: 0;
+}
+.helper:after, .helper:before {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.helper:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: #ffffff;
+    border-width: 11px;
+    margin-left: -11px;
+}
+.helper:before {
+    border-color: rgba(94, 94, 94, 0);
+    border-top-color: #5e5e5e;
+    border-width: 12px;
+    margin-left: -12px;
+}

@@ -103,7 +103,8 @@ IncomeChart = (function() {
           .html(function(d) {
             var lower = formatLargeNum(d.incomeLower);
             var upper = d.incomeUpper ? formatLargeNum(d.incomeUpper) : "";
-            return lower + "-" + upper + " kr";
+            var amount = formatPercentText(d.value);
+            return amount + " tjänar <br/>" + lower + "-" + upper + " kr";
           });
         self.chart.call(tooltip);
 
