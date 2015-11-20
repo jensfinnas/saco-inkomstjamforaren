@@ -1,66 +1,6 @@
-<!doctype html>
-<html class="no-js">
-  <head>
-    <meta charset="utf-8">
-    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
-    <title>Saco: Inkomstjämföraren</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-    <link rel="shortcut icon" href="/favicon.ico">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:css(.) styles/vendor.css -->
-    <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/hopscotch/dist/css/hopscotch.css" />
-    <!-- endbower -->
-    <!-- endbuild -->
-    <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
-  </head>
-  <body>
-    <!--[if lt IE 10]>
+<!DOCTYPE html> <html class=no-js> <head> <meta charset=utf-8> <meta name=ROBOTS content="NOINDEX, NOFOLLOW"> <title>Saco: Inkomstjämföraren</title> <meta name=description content=""> <meta name=viewport content="width=device-width"> <link rel="shortcut icon" href=/6df2b309.favicon.ico> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel=stylesheet href=styles/9bea8efd.vendor.css> <link rel=stylesheet href=styles/91ba65b1.main.css>  <body> <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-
-    <div class="container">
-      <div id="ui">
-        Jag har en månadslön på <input type="text" size="6" id="income" placeholder="" value="35000"/>
-        kronor och jobbar som 
-        <select id="profession">
-          <option value="">Välj yrke</option>
-        </select>
-        inom
-        <select id="publicprivate">
-          <option value="public">offentlig sektor</option>
-          <option value="private">privat sektor</option>
-        </select>
-        . Hur står sig min lön?
-      </div>
-      <div id="chart"></div>
-    </div>
-
-<!-- Saco typography -->
-<script type="text/javascript" src="//use.typekit.net/zxg8sjd.js"></script>
-<script type="text/javascript">try { Typekit.load(); } catch (e) { console.log(e); }</script>
-
-
-    <!-- build:js(.) scripts/vendor.js -->
-    <!-- bower:js -->
-    <script src="bower_components/d3/d3.js"></script>
-    <script src="bower_components/pym.js/dist/pym.js"></script>
-    <script src="bower_components/d3-tip/index.js"></script>
-    <script src="bower_components/hopscotch/dist/js/hopscotch.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
-
-
-        <!-- build:js({app,.tmp}) scripts/main.js -->
-        <script src="scripts/chart.js"></script>
-        <script src="scripts/formats.js"></script>
-        <!-- endbuild -->
-
-    <script>
-    function columnFormats(d) {
+    <![endif]--> <div class=container> <div id=ui> Jag har en månadslön på <input size=6 id=income placeholder="" value="35000"> kronor och jobbar som <select id=profession> <option value="">Välj yrke </select> inom <select id=publicprivate> <option value=public>offentlig sektor <option value=private>privat sektor </select> . Hur står sig min lön? </div> <div id=chart></div> </div> <!-- Saco typography --> <script type=text/javascript src=//use.typekit.net/zxg8sjd.js></script> <script type=text/javascript>try { Typekit.load(); } catch (e) { console.log(e); }</script> <script src=scripts/79537251.vendor.js></script> <script src=scripts/8a7599f2.main.js></script> <script>function columnFormats(d) {
       d.value = +d.value.replace(",",".");
       return d;
     }
@@ -198,7 +138,4 @@
 
       // Then start the tour.
       hopscotch.startTour(tour);
-    })
-    </script>
-</body>
-</html>
+    })</script>  
