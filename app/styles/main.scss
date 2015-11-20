@@ -3,12 +3,23 @@
 
 @import 'variables';
 
+@import 'modules/bubble';
 @import 'modules/chart';
 @import 'modules/helpers';
+@import 'modules/promo';
 @import 'modules/tooltip';
 @import 'modules/typography';
 @import 'modules/ui';
 
 .container {
   max-width: 650px;
+}
+
+.pull-right {
+  float: right;
+}
+.box {
+    padding: 18px 22px;
+    border-radius: 7px;
+    background-color: $saco-grey;    
 }

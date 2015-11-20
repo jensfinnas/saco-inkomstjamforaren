@@ -87,13 +87,29 @@
 
 
 // Hide description if profession is not valid
-#chart.invalid-profession {
-    display: none;
-}
-#chart.invalid-income {
-    .income-line {
-        display: none;
+#chart.has-error {
+    svg,
+    .description {
+        opacity: 0.1;
     }
 }
+#chart .error-message {
+    display: none;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    padding-top: 34px;
+    font-size: 2em;
+}
+#chart.invalid-profession .error-message.invalid-profession-error {
+    display: block;
+}
+#chart.invalid-income .error-message.invalid-income-error {
+    display: block;
+}
+#chart.not-enough-data .error-message.not-enough-data-error {
+    display: block;
+}
+
 
 

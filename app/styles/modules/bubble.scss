@@ -1,0 +1,102 @@
+/*.bubble {
+    position: relative;
+    border: #7F7F7F solid 1px;
+
+}
+
+.bubble:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    margin-left: -10px;
+    bottom: -15px;
+    left: 50%;
+}
+
+.bubble:before {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-color: #7F7F7F transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+    margin-left: -10px;
+    left: 50%;
+}
+.bubble.top:after {
+    border-width: 0 10px 15px;
+    border-color: #FFFFFF transparent;
+    top: -15px;
+    bottom: auto;
+}
+.bubble.top:before {
+    border-width: 0 10px 15px;
+    top: -16px;
+    bottom: auto;
+}
+.bubble.bottom:after {
+    border-width: 15px 10px 0;
+    bottom: -15px;
+    top:auto;
+}
+.bubble.bottom:before {
+    border-width: 15px 10px 0;
+    bottom: -16px;
+    top: auto;
+}*/
+@mixin bubble($background-color, $border-color, $horizontal-position) {
+    position: relative;
+    border: $border-color solid 1px;
+    background-color: $background-color;
+    
+    &:after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-color: $background-color transparent;
+        display: block;
+        width: 0;
+        z-index: 1;
+        margin-left: -10px;
+        bottom: -15px;
+        left: $horizontal-position;
+    }
+
+    &:before {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-color: $border-color transparent;
+        display: block;
+        width: 0;
+        z-index: 0;
+        margin-left: -10px;
+        left: $horizontal-position;
+    }
+    &.top:after {
+        border-width: 0 10px 15px;
+        border-color: $background-color transparent;
+        top: -15px;
+        bottom: auto;
+    }
+    &.top:before {
+        border-width: 0 10px 15px;
+        top: -16px;
+        bottom: auto;
+    }
+    &.bottom:after {
+        border-width: 15px 10px 0;
+        bottom: -15px;
+        top:auto;
+    }
+    &.bottom:before {
+        border-width: 15px 10px 0;
+        bottom: -16px;
+        top: auto;
+    }
+}

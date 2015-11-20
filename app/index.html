@@ -22,7 +22,7 @@
     <![endif]-->
 
     <div class="container">
-      <div id="ui">
+      <div id="ui" class="box">
         Jag har en månadslön på <input type="text" size="6" id="income" placeholder="" value="35000"/>
         kronor och jobbar som 
         <select id="profession">
@@ -35,10 +35,24 @@
         </select>
         . Hur står sig min lön?
       </div>
-      <div id="chart"></div>
+      <div id="chart">
+        <div class="error-message invalid-profession-error">Välj ett yrke</div>
+        <div class="error-message invalid-income-error">Felaktig inkomst</div>
+        <div class="error-message not-enough-data-error">För litet urval</div>
+      </div>
 
+      <!-- Helpers for form elements -->
+      <div class="helper bottom" data-target="#income">Ange din månadslön här</div>
 
-      <div class="helper" data-target="#income">Ange din månadslön här</div>
+      <!-- Promo for Lönesök -->
+      <div id="promo" class="box top">
+        <div class="icon-salary pull-right"></div>
+        <div class="content">
+          <h3>Mer statistik</h3>
+          <span class="random-sentence"></span> I Saco Lönesök hittar du löneuppgifter för över 300 000 akademiker.
+        </div>
+
+      </div>
 
     </div>
 
@@ -59,6 +73,8 @@
         <!-- build:js({app,.tmp}) scripts/main.js -->
         <script src="scripts/chart.js"></script>
         <script src="scripts/formats.js"></script>
+        <script src="scripts/helpers.js"></script>
+        <script src="scripts/promo.js"></script>
         <!-- endbuild -->
 
     <script>
@@ -144,14 +160,14 @@
       };
       var chart = new IncomeChart(chartSelector, currentData, currentIncome, opts)
       
-      elemChart.classed("invalid-profession", !validProfessionSelection());
-      elemChart.classed("invalid-income", !validIncomeInput());
+      elemChart.classed("invalid-profession has-error", !validProfessionSelection());
+      elemChart.classed("invalid-income has-error", !validIncomeInput());
 
 
       // Update chart when UI changes
       d3.selectAll("#publicprivate, #profession").on("change", function() {
         var validProfession = validProfessionSelection();
-        elemChart.classed("invalid-profession", !validProfession);
+        elemChart.classed("invalid-profession has-error", !validProfession);
         if (validProfession) {
           var currentData = getCurrentData(data);
           chart.updateData(currentData);          
@@ -160,7 +176,7 @@
 
       elemIncome.on("keyup", function() {
         var validIncome = validIncomeInput();
-        elemChart.classed("invalid-income", !validIncome);
+        elemChart.classed("invalid-income has-error", !validIncome);
 
         if (validIncome) {
           var currentIncome = +elemIncome.node().value;
@@ -174,22 +190,9 @@
 
 
       // Init "helpers"
-      d3.selectAll(".helper").forEach(function(elem) {
-        var target = d3.select(elem[0].getAttribute("data-target"));
-        var targetBB = target.node().getBoundingClientRect();
-        var helperBB = elem[0].getBoundingClientRect();
+      initHelpers();
 
-        d3.selectAll(elem)
-          .classed("show", true);
-
-        d3.selectAll(elem)
-          .style("left", (targetBB.left + targetBB.width / 2 - helperBB.width / 2) + "px")
-          .style("top", (targetBB.top - helperBB.height - 14) + "px");
-
-      })
-      d3.select("body").on("click", function() {
-        d3.selectAll(".helper").classed("show", false);
-      })
+      initPromo();
     })
     </script>
 </body>
