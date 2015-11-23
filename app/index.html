@@ -36,13 +36,12 @@
         . Hur står sig min lön?
       </div>
       <div id="chart">
-        <div class="error-message invalid-profession-error">Välj ett yrke</div>
-        <div class="error-message invalid-income-error">Felaktig inkomst</div>
-        <div class="error-message not-enough-data-error">För litet urval</div>
+        <div class="error-message not-enough-data-error">Det finns för lite data</div>
       </div>
 
       <!-- Helpers for form elements -->
       <div class="helper bottom" data-target="#income">Ange din månadslön här</div>
+      <div class="helper top" data-target="#profession">Du måste välja ett yrke här</div>
 
       <!-- Promo for Lönesök -->
       <div id="promo" class="box top">
@@ -60,7 +59,6 @@
 <script type="text/javascript" src="//use.typekit.net/zxg8sjd.js"></script>
 <script type="text/javascript">try { Typekit.load(); } catch (e) { console.log(e); }</script>
 
-
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/d3/d3.js"></script>
@@ -75,6 +73,7 @@
         <script src="scripts/formats.js"></script>
         <script src="scripts/helpers.js"></script>
         <script src="scripts/promo.js"></script>
+        <script src="scripts/ui.js"></script>
         <!-- endbuild -->
 
     <script>
@@ -99,8 +98,8 @@
       })
     }
     function getCurrentData(data) {
-      var profession = elemProfession.node().value;
-      var publicprivate = elemPublicPrivate.node().value;
+      var profession = ui.profession().value;
+      var publicprivate = ui.publicprivate().value;
 
       if (profession == null) {
         return getZeroData(data);
@@ -109,17 +108,8 @@
         return (d.profession == profession && d.publicprivate == publicprivate);
       })
     }
-    function validProfessionSelection() {
-      return elemProfession.node().value !== "";
-    }
-    function validIncomeInput() {
-      var income = elemIncome.node().value.trim();
-      return !isNaN(income);
-    }
+    var ui;
     var chartSelector = "#chart";
-    var elemProfession = d3.select("#profession");
-    var elemIncome = d3.select("#income");
-    var elemPublicPrivate = d3.select("#publicprivate");
     var elemChart = d3.select(chartSelector);
 
     // Enable iframe resonsiveness
@@ -132,6 +122,7 @@
     d3.csv("data/data.csv", columnFormats, function(error, data) {
       if (error) throw error;
 
+      // Prepare data
       // Fetch upper and lower boundry of income group
       data = data.map(function(d) {
         d.incomeLower = +d.income.split("-")[0];
@@ -139,54 +130,46 @@
         return d;
       })
       
-      // Build UI
-      var professions = d3.set(data.map(function(d) { return d.profession; }))
-        .values()
-        .sort();
-
-      elemProfession.selectAll("option")
-        .data(professions, function(d) { return d; })
-        .enter()
-        .append("option")
-        .attr("value", function(d) { return d; })
-        .text(function(d) { return d.toLowerCase(); });
+      ui = new UI("#ui", data);
+      ui.renderProfessions();
+      ui.select("profession", "Bibliotekarie")
 
       // Init visualiztion
       var currentData = getZeroData(data);
-      var currentIncome = +elemIncome.node().value;
+      var currentIncome = ui.income().value;
       var opts = {
         yMax: d3.max(data.map(function(d) { return d.value })),
         isIframe: isIframe
       };
       var chart = new IncomeChart(chartSelector, currentData, currentIncome, opts)
       
-      elemChart.classed("invalid-profession has-error", !validProfessionSelection());
-      elemChart.classed("invalid-income has-error", !validIncomeInput());
+      ui.validate();
+      chart.updateData(getCurrentData(data));
 
 
       // Update chart when UI changes
       d3.selectAll("#publicprivate, #profession").on("change", function() {
-        var validProfession = validProfessionSelection();
-        elemChart.classed("invalid-profession has-error", !validProfession);
+        var validProfession = ui.profession().valid;
+        ui.validate();
+
         if (validProfession) {
           var currentData = getCurrentData(data);
           chart.updateData(currentData);          
         }
       })
 
-      elemIncome.on("keyup", function() {
-        var validIncome = validIncomeInput();
-        elemChart.classed("invalid-income has-error", !validIncome);
+      ui.elems.income.on("keyup", function() {
+        var income = ui.income();
+        ui.validate();
 
-        if (validIncome) {
-          var currentIncome = +elemIncome.node().value;
-          chart.updateIncomeLine(currentIncome);          
+        if (income.valid) {
+          chart.updateIncomeLine(income.value);          
         }
       })
 
-      elemProfession.node().value = "Bibliotekarie";
-      d3.selectAll("#publicprivate, #profession").on("change")();
-      elemIncome.on("keyup")();
+      
+      //d3.selectAll("#publicprivate, #profession").on("change")();
+      //elemIncome.on("keyup")();
 
 
       // Init "helpers"
