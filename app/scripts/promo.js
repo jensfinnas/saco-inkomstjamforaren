@@ -2,9 +2,9 @@
 function initPromo() {
     var elem = d3.select("#promo");
     var sentences = [
-        "Vill du också veta vad personer födda samma år som du tjänar?",
-        "Också nyfiken på vad akademiker från samma del av landet som du tjänar?",
-        "Vill du också veta vad personer som tog examen samma år som du tjänar?"
+        "Vad tjänar personer födda samma år som du?",
+        "Vad har andra akademiker från ditt län för lön?",
+        "Vad tjänar personer som tog examen samma år som du?"
     ]
     var randomSentence = sentences[Math.floor(Math.random()*sentences.length)];
     elem.selectAll(".random-sentence").text(randomSentence);

@@ -7,11 +7,11 @@ function initHelpers() {
 
         // Show income helper on init
         if (elem.attr("data-target") == "#income") {
-           elem.classed("show", true);
+           elem.classed("show-at-start", true);
         }
  
         var x = (targetBB.left + targetBB.width / 2 - helperBB.width / 2);
-        var y = elem.classed("bottom") ? (targetBB.top - helperBB.height - 14) : (targetBB.top + helperBB.height)
+        var y = elem.classed("tip-bottom") ? (targetBB.top - helperBB.height - 8) : (targetBB.top + helperBB.height)
 
         elem
           .style("left", x + "px")
@@ -19,6 +19,6 @@ function initHelpers() {
 
       })
       d3.select("body").on("click", function() {
-        d3.selectAll(".helper").classed("show", false);
+        d3.selectAll(".helper").classed("show-at-start", false);
       })
 }

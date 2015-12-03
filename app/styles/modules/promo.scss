@@ -1,7 +1,12 @@
 #promo {
-    @include bubble($saco-grey, $saco-grey, 10%);
+    //@include bubble($saco-grey, $saco-grey, 10%);
 
-    font-size: 1.1em;
+    background-color: #212424;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    border-radius: 6px;
+
     margin-top: 24px;
 
     .icon-salary {
@@ -13,13 +18,28 @@
     }
 
     h3 {
-        font-size: 24px;
-        margin: 0 0 5px 0;
+        font-size: 1.3rem;
+        margin: 0 0 10px 0;
         padding: 0;
+        color: #FFF;
         font-weight: 300;
         text-transform: uppercase;
+    }
+
+    .button {
+        background: #99d2d9;
+        color: #212424;
+        font-weight: 700;
+        padding: 14px 25px 13px 23px;
+        display: inline-block;
+        border-radius: 4px;
+        border: 0;
+        margin-bottom: 10px 0;
+        text-decoration: none;
+        margin-top: 10px;
     }
     .content {
         padding-right: 70px;
     }
+
 }

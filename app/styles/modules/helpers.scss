@@ -1,11 +1,13 @@
 
 
 
-.helper.show {
+.helper.show,
+.helper.show-at-start
+ {
     opacity: 1;
 }
 .helper {
-    @include bubble(#fff, #5e5e5e, 50%);
+    @include bubble(#fff, #5e5e5e, 50%, 7px);
 
     padding: 10px;
     border-radius: 4px;

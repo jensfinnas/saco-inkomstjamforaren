@@ -1,55 +1,5 @@
-/*.bubble {
-    position: relative;
-    border: #7F7F7F solid 1px;
 
-}
-
-.bubble:after {
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-color: #FFFFFF transparent;
-    display: block;
-    width: 0;
-    z-index: 1;
-    margin-left: -10px;
-    bottom: -15px;
-    left: 50%;
-}
-
-.bubble:before {
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-color: #7F7F7F transparent;
-    display: block;
-    width: 0;
-    z-index: 0;
-    margin-left: -10px;
-    left: 50%;
-}
-.bubble.top:after {
-    border-width: 0 10px 15px;
-    border-color: #FFFFFF transparent;
-    top: -15px;
-    bottom: auto;
-}
-.bubble.top:before {
-    border-width: 0 10px 15px;
-    top: -16px;
-    bottom: auto;
-}
-.bubble.bottom:after {
-    border-width: 15px 10px 0;
-    bottom: -15px;
-    top:auto;
-}
-.bubble.bottom:before {
-    border-width: 15px 10px 0;
-    bottom: -16px;
-    top: auto;
-}*/
-@mixin bubble($background-color, $border-color, $horizontal-position) {
+@mixin bubble($background-color, $border-color, $horizontal-position, $size) {
     position: relative;
     border: $border-color solid 1px;
     background-color: $background-color;
@@ -62,8 +12,8 @@
         display: block;
         width: 0;
         z-index: 1;
-        margin-left: -10px;
-        bottom: -15px;
+        margin-left: -($size * 0.85);
+        bottom: -$size;
         left: $horizontal-position;
     }
 
@@ -75,28 +25,28 @@
         display: block;
         width: 0;
         z-index: 0;
-        margin-left: -10px;
+        margin-left: -($size * 0.85);
         left: $horizontal-position;
     }
     &.tip-top:after {
-        border-width: 0 10px 15px;
+        border-width: 0 ($size * 0.85) $size;
         border-color: $background-color transparent;
-        top: -15px;
+        top: -$size;
         bottom: auto;
     }
     &.tip-top:before {
-        border-width: 0 10px 15px;
-        top: -16px;
+        border-width: 0 ($size * 0.85) $size;
+        top: -($size + 1);
         bottom: auto;
     }
     &.tip-bottom:after {
-        border-width: 15px 10px 0;
-        bottom: -15px;
+        border-width: $size ($size * 0.85) 0;
+        bottom: -$size;
         top:auto;
     }
     &.tip-bottom:before {
-        border-width: 15px 10px 0;
-        bottom: -16px;
+        border-width: $size ($size * 0.85) 0;
+        bottom: -($size + 1);
         top: auto;
     }
 }
