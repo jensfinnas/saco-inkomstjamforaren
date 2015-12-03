@@ -20,8 +20,13 @@
     <!--[if lt IE 9]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-
-    <div class="container">
+    <div class="loading">
+        <div class="spinner">
+          <div class="dot1"></div>
+          <div class="dot2"></div>
+        </div>
+    </div>
+    <div class="container hidden">
       <div id="ui" class="box">
         Jag har en månadslön på <input type="text" size="6" id="income" placeholder="" value="35000"/>
         kronor och jobbar som 
@@ -122,6 +127,11 @@
     dsv("data/data.csv", columnFormats, function(error, data) {
       if (error) throw error;
 
+      // Hide loader and show viz
+      d3.selectAll(".loading").classed("hidden", true);
+      d3.select(".container").classed("hidden", false);
+
+
       // Prepare data
       // Fetch upper and lower boundry of income group
       data = data.map(function(d) {
@@ -172,10 +182,12 @@
       //elemIncome.on("keyup")();
 
 
+
       // Init "helpers"
       initHelpers();
 
       initPromo();
+
 
       if (isIframe) {
           var pymChild = new pym.Child();
