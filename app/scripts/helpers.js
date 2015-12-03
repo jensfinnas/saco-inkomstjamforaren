@@ -1,19 +1,19 @@
 function initHelpers() {
-    console.log()
     d3.selectAll(".helper").each(function(elem) {
-        var elem = this;
-        var target = d3.select(elem.getAttribute("data-target"));
+        var elem = d3.select(this);
+        var target = d3.select(elem.attr("data-target"));
         var targetBB = target.node().getBoundingClientRect();
-        var helperBB = elem.getBoundingClientRect();
+        var helperBB = elem.node().getBoundingClientRect();
 
-        d3.selectAll(elem)
-          .classed("show", true);
-
+        // Show income helper on init
+        if (elem.attr("data-target") == "#income") {
+           elem.classed("show", true);
+        }
+ 
         var x = (targetBB.left + targetBB.width / 2 - helperBB.width / 2);
-        var y = d3.select(elem).classed("bottom") ? (targetBB.top - helperBB.height - 14) : (targetBB.top + helperBB.height)
+        var y = elem.classed("bottom") ? (targetBB.top - helperBB.height - 14) : (targetBB.top + helperBB.height)
 
-        console.log(y);
-        d3.select(elem)
+        elem
           .style("left", x + "px")
           .style("top", y + "px");
 

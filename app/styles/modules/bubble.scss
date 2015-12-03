@@ -78,23 +78,23 @@
         margin-left: -10px;
         left: $horizontal-position;
     }
-    &.top:after {
+    &.tip-top:after {
         border-width: 0 10px 15px;
         border-color: $background-color transparent;
         top: -15px;
         bottom: auto;
     }
-    &.top:before {
+    &.tip-top:before {
         border-width: 0 10px 15px;
         top: -16px;
         bottom: auto;
     }
-    &.bottom:after {
+    &.tip-bottom:after {
         border-width: 15px 10px 0;
         bottom: -15px;
         top:auto;
     }
-    &.bottom:before {
+    &.tip-bottom:before {
         border-width: 15px 10px 0;
         bottom: -16px;
         top: auto;
