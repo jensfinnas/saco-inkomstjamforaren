@@ -1,9 +1,3 @@
-function extend(a, b){
-    for(var key in b)
-        if(b.hasOwnProperty(key))
-            a[key] = b[key];
-    return a;
-}
 
 IncomeChart = (function() {
     function IncomeChart(selector, data, income, opts) {
@@ -16,22 +10,27 @@ IncomeChart = (function() {
         self.opts = extend(defaultOpts, opts);
 
         // Inital state
-        self.data = data;
+        self.data = data.incomeGroupData;
+        self.percentileData = data.percentileData;
         self.income = income;
 
+        // Append chart container
+        self.chartContainer = self.container.append("div")
+            .attr("class", "chart-container");
+
         // Init description container
-        self.description = self.container.append("div")
+        /*self.description = self.container.append("div")
             .attr("class", "description")
-            .html('Men en månadslön på <span class="income"></span> tjänar du mer än <span class="amount"></span> av <span class="profession"></span> inom <span class="publicprivate"></span>.');
+            .html('Men en månadslön på <span class="income"></span> tjänar du mer än <span class="amount"></span> av <span class="profession"></span> inom <span class="publicprivate"></span>.');*/
 
         // Init chart
         self.xOrdinal = d3.scale.ordinal()
-            .domain(data.map(function(d) { return d.income; }));
+            .domain(self.data.map(function(d) { return d.income; }));
 
-        var xMin = data[0].incomeUpper - 999;
-        var xMax = data[data.length - 1].incomeLower + 999;
+        self.minIncome = self.data[0].incomeUpper - 999;
+        self.maxIncome = self.data[self.data.length - 1].incomeLower + 999;
         self.xLinear = d3.scale.linear()
-            .domain([xMin, xMax]);
+            .domain([self.minIncome, self.maxIncome]);
 
         self.y = d3.scale.linear()
             .domain([0, self.opts.yMax]);
@@ -46,19 +45,19 @@ IncomeChart = (function() {
 
     function isActiveBin(bin, selectedIncome) {
         return selectedIncome >= bin.incomeLower ;
-//        return selectedIncome > bin.incomeLower && bin.incomeUpper;
     }
 
+    // Draw all DOM elements
     IncomeChart.prototype.drawChart = function() {
         var self = this;
         var containerWidth = self.container[0][0].offsetWidth;
 
         // Setup sizing
         self.margins = m = {
-            top: 40,
-            right: containerWidth * 0.1,
+            top: 5,
+            right: 25,
             bottom: 45,
-            left: 50
+            left: 35 
         };
         self.width = w = containerWidth - m.left - m.right;
         self.height = h = w * 0.5;
@@ -66,14 +65,14 @@ IncomeChart = (function() {
         var fontSize = m.bottom * 0.7 + "px";
 
         //Position description container
-        self.description
+        /*self.description
             .style("left", m.left + w * 0.6 + "px")
             .style("top", m.top + h * 0.05 + "px")
-            .style("max-width", m.left + w * 0.25 + "px")
+            .style("max-width", m.left + w * 0.25 + "px")*/
 
 
         // Create SVG container
-        self.svg = self.container.append('svg')
+        self.svg = self.chartContainer.append('svg')
             .attr('width', w + m.left + m.right)
             .attr('height', h + m.top + m.bottom);
         self.chart = self.svg.append('g')
@@ -175,9 +174,31 @@ IncomeChart = (function() {
             .attr("width", self.xOrdinal.rangeBand())
             .attr("height", function(d) { return h - self.y(d.value); })
             .on("mouseover", tooltip.show)
-            .on("mouseout", tooltip.hide);;
+            .on("mouseout", tooltip.hide);
 
-        self.updateIncomeLine(self.income);
+        // Income marker
+        self.incomeMarker = self.chart.append("g")
+            .attr("class","income-marker")
+            .attr("transform", "translate(" + self.xLinear(self.income) + "," + (0) + ")");
+
+        var _mW = Math.max(9, self.xOrdinal.rangeBand() * 0.8);
+        var _mH = _mW * 0.9;
+        var _points = [[-_mW / 2,0], [_mW/2,0], [0, _mH] ];
+        var _path = "M " + _points.join(" L ") + " Z";
+        self.incomeMarker.append("path")
+            .attr("d", _path)
+            .attr("class", "marker")
+            .attr("transform", "translate(" + [0, -_mH - 2] + ")")
+
+        self.incomeMarker.append("text")
+            .attr("dy",".35em")
+            .attr("transform", "rotate(270)")
+            .attr("x", _mH + 6)
+            .attr("class","label")
+            .text("Din lön")
+
+        // Highlight bars below income
+        self.highlightBars(self.income);
 
         // Send resize signal to parent page
         if (self.isIframe) {
@@ -185,9 +206,11 @@ IncomeChart = (function() {
         }
     }
 
+    // Transitions only
     IncomeChart.prototype.updateData = function(data) {
         var self = this;
-        self.data = data;
+        self.data = data.incomeGroupData;
+        self.percentileData = data.percentileData;
         var animationDuration = 700;
 
         var barGroups = self.barGroups
@@ -205,66 +228,122 @@ IncomeChart = (function() {
         barGroups.select(".bar")
             .attr("height", function(d) { return h - self.y(d.value); })
 
-        self.updateDescription();
+        // Update marker
+        var lastHighlighted = self.chart.selectAll(".highlighted").last();
+        var _d = lastHighlighted[0][0].__data__;
+        self.incomeMarker
+            .transition()
+            .duration(animationDuration)
+            .attr("transform", "translate("+[self.xLinear(self.income), self.y(_d.value)]+")");
+        self.updatePercentile();
     }
 
+    // Transitions only
     IncomeChart.prototype.updateIncomeLine = function(income) {
         var self = this;
-        self.income = income;
-        var incomeLineX = self.xLinear(self.income);
-        incomeLineX = Math.min(Math.max(incomeLineX, 0), w);
-        self.incomeLine
-            .transition()
-            .duration(500)
-            .attr("transform", "translate(" + incomeLineX + "," + (-m.top) + ")")
+        // Make sure that the income is within range
+        income = Math.max(Math.min(self.maxIncome, income), self.minIncome);
 
-        // Update coloring of bars
-        self.barGroups.classed("highlighted", function(d) { 
-            return isActiveBin(d, self.income); 
-        })
+        // Store the previuos income for calculations
+        var _prevIncome = self.income;
+        self.income = income;
+
+        // Make animation length depend on size of change
+        var animationDuration = 1000 * Math.abs(income - _prevIncome) / (self.maxIncome - self.minIncome);
+
+        // Animate change if income has changed
+        // Couldn't find a d3 way to animate this transition so we do it "manually"
+        // with setInterval()
+        if (_prevIncome !== income) {
+            var frames = 100;
+            var frame = 0;
+
+            // Stop ongoing animation
+            clearInterval(self.animation);
+
+            self.animation = setInterval(function() {
+                // Get the income and x value of the current state of the animation
+                var _income = _prevIncome + (income - _prevIncome) * frame/frames; 
+
+                self.highlightBars(_income); 
+
+                frame++;
+                if (frame == frames) clearInterval(self.animation);
+            }, animationDuration / frames);            
+        }
+
+
+        
 
         // 
-        self.updateDescription();
+        self.updatePercentile();
     }
 
-    IncomeChart.prototype.updateDescription = function() {
+    // Update the percentile text
+    IncomeChart.prototype.updatePercentile = function() {
+        var self  = this;
+        var percentile = self.getPercentile(self.income);
+        d3.selectAll(".percentile").text(percentile);
+    }
+
+    /*IncomeChart.prototype.updateDescription = function() {
         var self = this;
         var profession = self.data[0].profession;
         var publicprivate = self.data[0].publicprivate == "public" ? "offentlig sektor" : "privat sektor";
-        var amount = self.getPercent(self.income);
+        var percentile = self.getPercentile(self.income);
 
         self.description.select(".income").text(formatLargeNum(self.income) + " kronor");
-        self.description.select(".amount").text(formatPercentText(amount));
+        self.description.select(".amount").text(percentile);
         self.description.select(".profession").text(pluralize(profession).toLowerCase());
         self.description.select(".publicprivate").text(publicprivate);
 
-    }
+    }*/
 
     // Calculate how many percent have lower income
-    IncomeChart.prototype.getPercent = function(income) {
+    // This is done using the percentile dataset
+    IncomeChart.prototype.getPercentile = function(income) {
         var self = this;
-        var activeBins = self.data.filter(function(d) { return isActiveBin(d, income); });
-        var numberOfBins = activeBins.length;
-        
-        var percent = d3.sum(activeBins.map(function(d,i) {
-            if (i == numberOfBins - 1) {
-                /*  If selected income is 30.500 and 10 % of population is in income group
-                    30.000-34.999, assume that 30.500 is greater than 5%.
-                */
-                var positionInBin = (1 - (d.incomeUpper - self.income) / (d.incomeUpper - d.incomeLower));
-                
-                // Ensure that really large incomes will not cause reversed effect 
-                positionInBin = Math.max(0,positionInBin)
-                var value = positionInBin * d.value;
-                return value;
+        var percentile
+        var i=0;
+        for (i=0; i<self.percentileData.length; i++) {
+            var d = self.percentileData[i];
+            if (i == self.percentileData.length - 1) {
+                return "över " + d.percentile + " procent";
             }
-            else {
-                return d.value; 
+            if (d.income > income) {
+                if (i==0) {
+                    return "under " + d.percentile + " procent";
+                }
+                else {
+                    return d.percentile + " procent";
+                }
             }
-        }));
-
-        return percent;
+        }
+        return "";
     }
+
+    // Highlight all bars below a given income
+    IncomeChart.prototype.highlightBars = function(income) {
+        var self = this; 
+
+        // Highlight income groups below current income level
+        var _numerOfHighlighted = 0;
+        self.barGroups.classed("highlighted", function(d) { 
+            var isActive = isActiveBin(d, income)
+            if (isActive) _numerOfHighlighted++;
+            return isActive; 
+        });
+
+        // Get the last highlighted income groups height for
+        // positioning of marker
+        var lastHighlighted = self.barGroups[0][_numerOfHighlighted - 1];
+        
+        var _y = self.y(lastHighlighted.__data__.value);
+        var _x = self.xLinear(income);
+        self.incomeMarker
+            .attr("transform", "translate(" + _x + "," + _y + ")")
+    }
+
 
     IncomeChart.prototype.resize = function() {
         var self = this;

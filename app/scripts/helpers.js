@@ -17,7 +17,11 @@ function initHelpers() {
           .style("left", x + "px")
           .style("top", y + "px");
 
+        elem.classed("initiated", true);
+
       })
+
+
       d3.select("body").on("click", function() {
         d3.selectAll(".helper").classed("show-at-start", false);
       })

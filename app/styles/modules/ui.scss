@@ -23,6 +23,14 @@
     button:focus {
         outline: none;
     }
+
+    .percentile {
+        //font-size: 1.5em;
+        font-weight: bold;
+        display: inline-block;
+        border-bottom: 3px solid $saco-turcos;
+        //margin-bottom: 5px;
+    }
 }
 
 

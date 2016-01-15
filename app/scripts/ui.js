@@ -15,9 +15,9 @@ UI = (function(){
     UI.prototype.renderProfessions = function() {
         var self = this;
         // Build UI
-        var professions = d3.set(self.data.map(function(d) { return d.profession; }))
-          .values()
-          .sort();
+        var professions = self.data
+            .map(function(d) { return d.profession; })
+            .sort();
 
         self.elems.profession.selectAll("option")
           .data(professions, function(d) { return d; })

@@ -28,17 +28,16 @@
     </div>
     <div class="container hidden">
       <div id="ui" class="box">
-        Jag har en månadslön på <input type="text" size="6" id="income" placeholder="" value="35000"/>
-        kronor och jobbar som 
-        <select id="profession">
+        Om du jobbar som <select id="profession">
           <option value="">Välj yrke</option>
         </select>
-        inom
+        inom 
         <select id="publicprivate">
           <option value="public">offentlig sektor</option>
           <option value="private">privat sektor</option>
         </select>
-        . Hur står sig min lön?
+        med en månadslön på <input type="text" size="6" id="income" placeholder="" value="35000"/>
+         tjänar du mer än <span class="percentile"></span>.
       </div>
       <div id="chart">
         <div class="error-message not-enough-data-error">Det finns för lite data</div>
@@ -78,71 +77,139 @@
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
         <script src="scripts/chart.js"></script>
+        <script src="scripts/data.js"></script>
         <script src="scripts/formats.js"></script>
         <script src="scripts/helpers.js"></script>
         <script src="scripts/promo.js"></script>
         <script src="scripts/ui.js"></script>
+        <script src="scripts/utils.js"></script>
         <!-- endbuild -->
 
     <script>
-    function columnFormats(d) {
-      d.value = +d.value.replace(",",".");
-      return d;
-    }
-    function getZeroData(data) {
-      var incomeGroups = d3.set(data.map(function(d) { return d.income; }))
+    
+    function generateZeroData(data) {
+      var incomeGroups = d3.set(data.incomeGroupData.map(function(d) { return d.income; }))
         .values()
         .sort();
 
-      return incomeGroups.map(function(d) {
-        return {
-          income: d,
-          incomeLower: +d.split("-")[0],
-          incomeUpper: +d.split("-")[1],
-          value: 0,
-          publicprivate: null,
-          profession: null,
-        }
-      })
+      return {
+        percentileData: [],
+        incomeGroupData: incomeGroups.map(function(d) {
+          return {
+            income: d,
+            incomeLower: +d.split("-")[0],
+            incomeUpper: +d.split("-")[1],
+            value: 0,
+            publicprivate: null,
+            profession: null,
+          }
+        })
+      }
     }
-    function getCurrentData(data) {
+    function getCurrentData() {
       var profession = ui.profession().value;
       var publicprivate = ui.publicprivate().value;
 
       if (profession == null) {
-        return getZeroData(data);
+        return gData.zero;
       }
-      return data.filter(function(d) {
-        return (d.profession == profession && d.publicprivate == publicprivate);
-      })
+      return gData[profession][publicprivate];
+    }
+    function getSlug(filePath) {
+      return filePath.split("-")[1].replace(".csv","");
     }
     var ui;
+    // Global data obejct
+    var gData = {};
     var chartSelector = "#chart";
     var elemChart = d3.select(chartSelector);
 
     // Enable iframe resonsiveness
     var isIframe = self !== top;
 
+
+
+    // Get a list of profession
+    getProfessionList("data/percentile-file_list.json", function(professionList) {
+      // Init ui
+      ui = new UI("#ui", professionList);
+      ui.renderProfessions();
+      ui.select("profession", "Civilingenjör");
+      getProfessionData("civilingenjor", function(professionData) {
+        gData["Civilingenjör"] = professionData;
+        // Generate "zero" data-targe
+        gData.zero = generateZeroData(professionData.private);
+
+        // Hide loader and show viz
+        d3.selectAll(".loading").classed("hidden", true);
+        d3.select(".container").classed("hidden", false);
+
+        // Init visualiztion
+        var currentIncome = ui.income().value;
+        var opts = {
+          yMax: .1,//d3.max(data.map(function(d) { return d.value })),
+          isIframe: isIframe
+        };
+        var chart = new IncomeChart(chartSelector, gData.zero, currentIncome, opts)
+        
+        ui.validate();
+        chart.updateData(getCurrentData());
+
+        // Update chart when UI changes
+        d3.selectAll("#publicprivate, #profession").on("change", function() {
+          var validProfession = ui.profession().valid;
+          ui.validate();
+
+          if (validProfession) {
+            var currentData = getCurrentData();
+            chart.updateData(currentData);          
+          }
+        })
+
+        ui.elems.income.on("keyup", function() {
+          var income = ui.income();
+          ui.validate();
+
+          if (income.valid) {
+            chart.updateIncomeLine(income.value);          
+          }
+        })
+
+        // Init "helpers"
+        initHelpers();
+
+        initPromo();
+
+
+        if (isIframe) {
+            var pymChild = new pym.Child();
+            pymChild.sendHeight();
+        }
+
+        // Get rest of data
+        professionList.forEach(function(d) {
+          var slug = getSlug(d.file_name);
+          var profession = d.profession;
+
+          getProfessionData(slug, function(professionData) {
+            gData[profession] = professionData;
+          })
+        })
+
+      })
+
+      /*
+      })*/
+    })
+    /*
     var dsv = d3.dsv(";", "text/plain");
     dsv("data/data.csv", columnFormats, function(error, data) {
       if (error) throw error;
 
-      // Hide loader and show viz
-      d3.selectAll(".loading").classed("hidden", true);
-      d3.select(".container").classed("hidden", false);
 
 
       // Prepare data
-      // Fetch upper and lower boundry of income group
-      data = data.map(function(d) {
-        d.incomeLower = +d.income.split("-")[0];
-        d.incomeUpper = +d.income.split("-")[1];
-        return d;
-      })
       
-      ui = new UI("#ui", data);
-      ui.renderProfessions();
-      ui.select("profession", "Bibliotekarie")
 
       // Init visualiztion
       var currentData = getZeroData(data);
@@ -157,43 +224,8 @@
       chart.updateData(getCurrentData(data));
 
 
-      // Update chart when UI changes
-      d3.selectAll("#publicprivate, #profession").on("change", function() {
-        var validProfession = ui.profession().valid;
-        ui.validate();
-
-        if (validProfession) {
-          var currentData = getCurrentData(data);
-          chart.updateData(currentData);          
-        }
-      })
-
-      ui.elems.income.on("keyup", function() {
-        var income = ui.income();
-        ui.validate();
-
-        if (income.valid) {
-          chart.updateIncomeLine(income.value);          
-        }
-      })
-
       
-      //d3.selectAll("#publicprivate, #profession").on("change")();
-      //elemIncome.on("keyup")();
-
-
-
-      // Init "helpers"
-      initHelpers();
-
-      initPromo();
-
-
-      if (isIframe) {
-          var pymChild = new pym.Child();
-          pymChild.sendHeight();
-      }
-    })
+    })*/
     </script>
 </body>
 </html>

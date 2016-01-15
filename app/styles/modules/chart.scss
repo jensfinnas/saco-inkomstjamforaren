@@ -9,7 +9,24 @@
     }
 }
 
-
+.income-marker {
+    .marker {
+        fill: $saco-orange;
+        stroke: #fff;
+        stroke-width: 1px;
+    }
+    .label {
+        font-size: 14px;
+        fill: $saco-orange;
+    }
+}
+@media screen and (max-width: 520px) {
+    .income-marker {
+        .label {
+            font-size: 11px;
+        }
+    }   
+}
 .axis path,
 .axis line {
   fill: none;
@@ -45,6 +62,7 @@
 }
 
 .income-line {
+    display: none;
     .line {
         stroke: $saco-orange;
         stroke-width: 1px;
@@ -54,23 +72,34 @@
         fill: $saco-orange;        
     }
 }
+@media screen and (max-width: 520px) {
+    .income-line {
+        font-size: 12px;
+    }
+}
 
 // Description
 #chart {
     position: relative;
 
     .description {
-        position: absolute;
+        //position: absolute;
         font-size: 17px;
         background-color: #fff;
         padding: 10px;
 
+        .income {
+            border-top: $saco-orange 2px solid;
+            background-color: lighten($saco-orange, 40%);
+            padding: 0 3px;
+        }
+
         .amount {
-            font-size: 1.5em;
+            //font-size: 1.5em;
             font-weight: bold;
             display: inline-block;
             border-bottom: 3px solid $saco-turcos;
-            margin-bottom: 5px;
+            //margin-bottom: 5px;
         }
     }
 }
