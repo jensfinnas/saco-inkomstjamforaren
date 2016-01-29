@@ -25,21 +25,30 @@ def save_csv_file(file_name, dataset):
 
 def save_list_of_datasets(def_dict, folder, prefix):
     file_list = [] # A list of saved files for reference
-    for profession in def_dict:
-        dataset = def_dict[profession]
-        file_name = folder + "/" + prefix + slugify(profession) + ".csv"
+    for key in def_dict:
+        dataset = def_dict[key]
+        profession = key.split(";")[0]
+        publicprivate = key.split(";")[1]
+        file_name = folder + "/" + prefix + slugify(profession) + "-" + publicprivate + ".csv"
         save_csv_file(file_name, dataset)
-        file_list.append({ "file_name": file_name, "profession": profession })
+        file_list.append({ 
+            "file_name": file_name, 
+            "profession": profession,
+            "publicprivate": publicprivate  
+        })
 
     with open(prefix + 'file_list.json', 'w') as outfile:
         json.dump(file_list, outfile)
 
-def split_by_profession(dataset):
-    data_by_profession = defaultdict(list)
+def split_by_profession_and_publicprivate(dataset):
+    grouped_data = defaultdict(list)
     for row in dataset:
-        data_by_profession[row["profession"]].append(row)
+        key = row["profession"] + ";" + row["publicprivate"]
+        grouped_data[key].append(row)
 
-    return data_by_profession
+    return grouped_data
+
+
 
 def transform_percentile_dataset(dataset):
     _resp = []
@@ -53,12 +62,33 @@ def transform_percentile_dataset(dataset):
 
     return _resp
 
+def transform_incomegroup_dataset(dataset):
+    _resp = []
+    for row in dataset:
+        _row = {}
+        _row["profession"] = row["Utbildning"]
+        _row["publicprivate"] = "private" if row["Arbsektor"] == "Privat" else "public"
+        _row["income"] = row[u"Lön"].replace(" ","").replace("<","-")
+        if ">=" in _row["income"]:
+            _row["income"] = _row["income"].replace(">=","") + "-"
+        _row["value"] = float(row["Andel"].replace(",",".")) / 100
+        _resp.append(_row)
+
+    return _resp
+
 
 def prepare_percentile_data(original_file):
     percentile_dataset = open_csv_file(original_file)
     percentile_dataset = transform_percentile_dataset(percentile_dataset)
-    percentile_dataset = split_by_profession(percentile_dataset)
+    percentile_dataset = split_by_profession_and_publicprivate(percentile_dataset)
     save_list_of_datasets(percentile_dataset, "by_profession", "percentile-")    
 
+def prepare_incomegroup_data(original_file):
+    incomegroup_dataset = open_csv_file(original_file)
+    incomegroup_dataset = transform_incomegroup_dataset(incomegroup_dataset)
+    incomegroup_dataset = split_by_profession_and_publicprivate(incomegroup_dataset)
+    save_list_of_datasets(incomegroup_dataset, "by_profession", "incomegroup-")    
 
-prepare_percentile_data("original/percentile_data.csv")
+
+prepare_percentile_data("original/160129 - percentile_data.csv")
+prepare_incomegroup_data("original/160129 - tusental.csv")
