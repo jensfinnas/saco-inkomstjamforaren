@@ -1,6 +1,6 @@
 <!DOCTYPE html> <html class=no-js> <head> <meta charset=utf-8> <meta name=ROBOTS content="NOINDEX, NOFOLLOW"> <title>Saco: Inkomstjämföraren</title> <meta name=description content=""> <meta name=viewport content="width=device-width"> <link rel="shortcut icon" href=/6df2b309.favicon.ico> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel=stylesheet href=styles/f5317d4f.main.css>  <body> <!--[if lt IE 9]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--> <div class=loading> <div class=spinner> <div class=dot1></div> <div class=dot2></div> </div> </div> <div class="container hidden"> <div id=ui class=box> Om du jobbar som <select id=profession> <option value="">Välj yrke </select> inom <select id=publicprivate> <option value=public>offentlig sektor <option value=private>privat sektor </select> med en månadslön på <input size=6 id=income placeholder="" value="35000"> kronor tjänar du mer än <span class=percentile></span>. </div> <div id=chart> <div class="error-message not-enough-data-error">Det finns för lite data</div> </div> <!-- Helpers for form elements --> <div class="helper tip-top" data-target=#income>Ange din månadslön här</div> <div class="helper tip-top" data-target=#profession>Du måste välja ett yrke här</div> <!-- Promo for Lönesök --> <div id=promo class="box tip-top"> <!--<div class="icon-salary pull-right"></div>--> <div class=content> <h3 class=random-sentence></h3> <span>Som Saco-medlem får du tillgång till löneuppgifter för över 300 000 akademiker.</span> <div> <a class=button href="https://www.saco.se/fackligt-arbete/hitta-ditt-sacoforbund/bli-medlem-i-ett-akademikerforbund/" target=_top>Bli medlem i ett Sacoförbund</a> </div> </div> </div> </div> <!-- Saco typography --> <script type=text/javascript src=//use.typekit.net/zxg8sjd.js></script> <script type=text/javascript>try { Typekit.load(); } catch (e) { console.log(e); }</script> <script src=scripts/0638f0a9.vendor.js></script> <script src=scripts/321acbf8.main.js></script> <script>function generateZeroData(data) {
+    <![endif]--> <div class=loading> <div class=spinner> <div class=dot1></div> <div class=dot2></div> </div> </div> <div class="container hidden"> <div id=ui class=box> Om du jobbar som <select id=profession> <option value="">Välj yrke </select> inom <select id=publicprivate> <option value=public>offentlig sektor <option value=private>privat sektor </select> med en månadslön på <input size=6 id=income placeholder="" value="35000"> kronor tjänar du mer än <span class=percentile></span>. </div> <div id=chart> <div class="error-message not-enough-data-error">Det finns för lite data</div> </div> <!-- Helpers for form elements --> <div class="helper tip-top" data-target=#income>Ange din månadslön här</div> <div class="helper tip-top" data-target=#profession>Du måste välja ett yrke här</div> <!-- Promo for Lönesök --> <div id=promo class="box tip-top"> <!--<div class="icon-salary pull-right"></div>--> <div class=content> <h3 class=random-sentence></h3> <span>Som Saco-medlem får du tillgång till löneuppgifter för över 300 000 akademiker.</span> <div> <a class=button href="https://www.saco.se/fackligt-arbete/hitta-ditt-sacoforbund/bli-medlem-i-ett-akademikerforbund/" target=_top>Bli medlem i ett Sacoförbund</a> </div> </div> </div> </div> <!-- Saco typography --> <script type=text/javascript src=//use.typekit.net/zxg8sjd.js></script> <script type=text/javascript>try { Typekit.load(); } catch (e) { console.log(e); }</script> <script src=scripts/0638f0a9.vendor.js></script> <script src=scripts/4909d302.main.js></script> <script>function generateZeroData(data) {
       var incomeGroups = d3.set(data.incomeGroupData.map(function(d) { return d.income; }))
         .values()
         .sort();
@@ -48,10 +48,10 @@
       ui = new UI("#ui", professionList);
       ui.renderProfessions();
       ui.select("profession", "Civilingenjör");
-      getProfessionData("civilingenjor", function(professionData) {
-        gData["Civilingenjör"] = professionData;
+      getData("civilingenjor","public", function(data) {
+        gData["Civilingenjör"] = { "public": data };
         // Generate "zero" data-targe
-        gData.zero = generateZeroData(professionData.private);
+        gData.zero = generateZeroData(data);
 
         // Hide loader and show viz
         d3.selectAll(".loading").classed("hidden", true);
@@ -60,13 +60,13 @@
         // Init visualiztion
         var currentIncome = ui.income().value;
         var opts = {
-          yMax: .1,//d3.max(data.map(function(d) { return d.value })),
+          yMax: .15,//d3.max(data.map(function(d) { return d.value })),
           isIframe: isIframe
         };
         var chart = new IncomeChart(chartSelector, gData.zero, currentIncome, opts)
         
         ui.validate();
-        chart.updateData(getCurrentData());
+        chart.update(getCurrentData());
 
         // Update chart when UI changes
         d3.selectAll("#publicprivate, #profession").on("change", function() {
@@ -75,7 +75,7 @@
 
           if (validProfession) {
             var currentData = getCurrentData();
-            chart.updateData(currentData);          
+            chart.update(currentData);          
           }
         })
 
@@ -101,18 +101,19 @@
 
         // Get rest of data
         professionList.forEach(function(d) {
-          var slug = getSlug(d.file_name);
+          var professionSlug = getSlug(d.file_name);
           var profession = d.profession;
+          var publicprivate = d.publicprivate;
 
-          getProfessionData(slug, function(professionData) {
-            gData[profession] = professionData;
+          getData(professionSlug, publicprivate, function(data) {
+            if (!gData[profession]) {
+              gData[profession] = {};
+            }
+            gData[profession][publicprivate] = data;
           })
         })
 
       })
-
-      /*
-      })*/
     })
     /*
     var dsv = d3.dsv(";", "text/plain");
@@ -134,7 +135,7 @@
       var chart = new IncomeChart(chartSelector, currentData, currentIncome, opts)
       
       ui.validate();
-      chart.updateData(getCurrentData(data));
+      chart.update(getCurrentData(data));
 
 
       
