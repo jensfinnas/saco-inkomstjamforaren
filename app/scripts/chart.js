@@ -4,7 +4,7 @@ IncomeChart = (function() {
         var self = this;
         self.container = d3.select(selector);
         defaultOpts = {
-            yMax: 1,
+            yMax: "auto",
             isIframe: false
         }
         self.opts = extend(defaultOpts, opts);
@@ -28,8 +28,8 @@ IncomeChart = (function() {
 
         self.defineXScale(self.data.incomeGroupData);
 
-        self.y = d3.scale.linear()
-            .domain([0, self.opts.yMax]);
+        self.y = d3.scale.linear();
+        self.defineYScale(self.data.incomeGroupData);
 
         self.drawChart();
         self.update(data);
@@ -51,7 +51,7 @@ IncomeChart = (function() {
 
         // Setup sizing
         self.margins = m = {
-            top: 5,
+            top: 65,
             right: 25,
             bottom: 45,
             left: 35 
@@ -154,7 +154,7 @@ IncomeChart = (function() {
             .attr("class","income-marker")
             .attr("transform", "translate(" + self.xLinear(self.income) + "," + (0) + ")");
 
-        var _mW = Math.max(9, self.xOrdinal.rangeBand() * 0.8);
+        var _mW = 9;//Math.max(9, w * 0.01);
         var _mH = _mW * 0.9;
         var _points = [[-_mW / 2,0], [_mW/2,0], [0, _mH] ];
         var _path = "M " + _points.join(" L ") + " Z";
@@ -180,51 +180,97 @@ IncomeChart = (function() {
     IncomeChart.prototype.update = function(data) {
         var self = this;
         self.data = data;
-        self.defineXScale(self.data.incomeGroupData);
         var animationDuration = 700;
 
+        // Append updated data to DOM elements
         self.barGroups = self.chart.selectAll(".bar-group")
-            .data(self.data.incomeGroupData, function(d) { return d.income });
+            .data(self.data.incomeGroupData, function(d) { return d.income.split("-")[0] });
         
-        // Draw bars
-        var enteringBars = self.barGroups
-            .enter()
-            .append("g")
-            .attr("class", "bar-group")
-            .attr("transform", function(d) {
-                var x = self.xOrdinal(d.income);
-                var y = self.y(d.value);
-                return "translate(" + x + "," + y + ")";
-            })
-        
-        enteringBars.append("rect")
-            .attr("class", "bar")
-            .attr("width", self.xOrdinal.rangeBand())
-            .attr("height", function(d) { return h - self.y(d.value); })
-            .on("mouseover", self.tooltip.show)
-            .on("mouseout", self.tooltip.hide);
-
-
-        var transitioningBars = self.barGroups.transition()
+        // Animation step 1: Minimize exiting bars
+        var exitingBars = self.barGroups.exit()
+            .transition()
             .duration(animationDuration);
         
-        transitioningBars
-            .attr("transform", function(d) {
+        exitingBars.attr("transform", function(d) {
                 var x = self.xOrdinal(d.income);
-                var y = self.y(d.value);
+                var y = self.height;
                 return "translate(" + x + "," + y + ")";
             })
+            .remove();
 
-        transitioningBars.select(".bar")
-            .attr("height", function(d) { return h - self.y(d.value); })
-            .attr("width", self.xOrdinal.rangeBand());
+        exitingBars.select(".bar")
+            .attr("height", 0);
+            
 
-        self.barGroups.exit().remove();
+        // Update scales 
+        // We need the old scales for the exiting bars
+        self.defineXScale(self.data.incomeGroupData);
+        self.defineYScale(self.data.incomeGroupData);
+
+
+        // Animation step 2: Animate existing and entering bars 
+        setTimeout(function() {
+            // Draw  new bars
+            var enteringBars = self.barGroups
+                .enter();
+            
+            var enteringBarGroups = enteringBars.append("g")
+                .attr("class", "bar-group");
+
+            // Draw the new bars with 0 height and then transition them
+            // to correct height
+            enteringBarGroups.attr("transform", function(d) {
+                    var x = self.xOrdinal(d.income);
+                    var y = self.y(0);
+                    return "translate(" + x + "," + y + ")";
+                });
+
+            enteringBarGroups.append("rect")
+                .attr("class", "bar")
+                .attr("width", self.xOrdinal.rangeBand())
+                .attr("height", 0);
+                .on("mouseover", self.tooltip.show)
+                .on("mouseout", self.tooltip.hide);
+
+            // Animate existing and entering bars
+            var transitioningBars = self.barGroups.transition()
+                .duration(animationDuration);
+            
+            transitioningBars
+                .attr("transform", function(d) {
+                    var x = self.xOrdinal(d.income);
+                    var y = self.y(d.value);
+                    return "translate(" + x + "," + y + ")";
+                })
+
+            transitioningBars.select(".bar")
+                .attr("height", function(d) { return h - self.y(d.value); })
+                .attr("width", self.xOrdinal.rangeBand());
+
+            // Highlight bars below selected income
+            self.highlightBars(self.income, animationDuration);
+
+            // Update marker
+            var lastHighlighted = self.chart.selectAll(".highlighted").last();
+            var _d = lastHighlighted[0][0].__data__;
+            self.incomeMarker
+                .transition()
+                .duration(animationDuration)
+                .attr("transform", "translate("+[self.xLinear(self.income), self.y(_d.value)]+")");
+            self.updatePercentile();
+
+        }, exitingBars[0].length > 0 ? animationDuration : 0);
 
         // Update x axis
         self.xAxisGroup.transition()
             .duration(animationDuration)
             .call(self.xAxis)
+
+        // Update y axis
+        self.yAxis.ticks(self.yMax < 0.05 ? 4 : 8);
+        self.yAxisGroup.transition()
+            .duration(animationDuration)
+            .call(self.yAxis);
 
         var labelInterval = self.maxIncome - self.minIncome > 25000 ? 10000 : 5000;
         self.xAxisGroup.selectAll(".tick text")
@@ -232,18 +278,6 @@ IncomeChart = (function() {
                 var lowerIncome = d.split("-")[0];
                 return lowerIncome % labelInterval == 0 ? formatLargeNum(lowerIncome) : ""; 
             });
-
-        // Highlight bars below income
-        self.highlightBars(self.income, animationDuration);
-
-        // Update marker
-        var lastHighlighted = self.chart.selectAll(".highlighted").last();
-        var _d = lastHighlighted[0][0].__data__;
-        self.incomeMarker
-            .transition()
-            .duration(animationDuration)
-            .attr("transform", "translate("+[self.xLinear(self.income), self.y(_d.value)]+")");
-        self.updatePercentile();
     }
 
     // Transitions only
@@ -280,9 +314,6 @@ IncomeChart = (function() {
             }, animationDuration / frames);            
         }
 
-
-        
-
         // 
         self.updatePercentile();
     }
@@ -316,6 +347,20 @@ IncomeChart = (function() {
         self.minIncome = incomeGroupData[0].incomeUpper - 999;
         self.maxIncome = incomeGroupData[incomeGroupData.length - 1].incomeLower + 999;
         self.xLinear.domain([self.minIncome, self.maxIncome]);
+    }
+
+    IncomeChart.prototype.defineYScale = function(incomeGroupData) {
+        var self = this;
+        if (self.opts.yMax == "auto") {
+            self.yMax = d3.max(incomeGroupData.map(function(d) {
+                return d.value;
+            })); 
+        }
+        else {
+            self.yMax = self.opts.yMax;
+        }
+        self.y.domain([0, self.yMax]);
+
     }
 
     // Calculate how many percent have lower income

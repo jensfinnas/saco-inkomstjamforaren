@@ -147,7 +147,6 @@
         // Init visualiztion
         var currentIncome = ui.income().value;
         var opts = {
-          yMax: .15,//d3.max(data.map(function(d) { return d.value })),
           isIframe: isIframe
         };
         var chart = new IncomeChart(chartSelector, gData.zero, currentIncome, opts)
