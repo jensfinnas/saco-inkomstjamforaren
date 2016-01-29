@@ -1,7 +1,7 @@
 // Funcitons for managing data
 var columnFormats =  {
     incomeGroup: function(d) {
-        d.value = +d.value.replace(",",".");
+        d.value = +d.value;
         return d;
     },
     percentile: function(d) {
@@ -10,12 +10,10 @@ var columnFormats =  {
     },
 }
 
-var dsv = d3.dsv(";", "text/plain");
-
-function getProfessionData(professionSlug, callback) {
-    var incomeGroupFile = "data/by_profession/incomegroup-" + professionSlug + ".csv";
-    var percentileFile = "data/by_profession/percentile-" + professionSlug + ".csv";
-    dsv(incomeGroupFile, columnFormats.incomeGroup, function(error, incomeGroupData) {
+function getData(professionSlug, publicprivate, callback) {
+    var incomeGroupFile = "data/by_profession/incomegroup-" + professionSlug + "-" + publicprivate + ".csv";
+    var percentileFile = "data/by_profession/percentile-" + professionSlug + "-" + publicprivate + ".csv";
+    d3.csv(incomeGroupFile, columnFormats.incomeGroup, function(error, incomeGroupData) {
         
         // Fetch upper and lower boundry of income group
         incomeGroupData = incomeGroupData.map(function(d) {
@@ -23,37 +21,13 @@ function getProfessionData(professionSlug, callback) {
             d.incomeUpper = +d.income.split("-")[1];
             return d;
         })
-        // Nest by public/private
-        var nestedData = {
-            incomeGroup: {},
-            percentile: {}
-        };
-        d3.nest()
-            .key(function(d) { return d.publicprivate; })
-            .entries(incomeGroupData)
-            .forEach(function(d) {
-                nestedData.incomeGroup[d.key] = d.values;
-            });
-
         d3.csv(percentileFile, columnFormats.percentile, function(error, percentileData) {
-            d3.nest()
-                .key(function(d) { return d.publicprivate; })
-                .entries(percentileData)
-                .forEach(function(d) {
-                    nestedData.percentile[d.key] = d.values;
-                });
             callback({
-                "private": {
-                    incomeGroupData: nestedData.incomeGroup["private"],
-                    percentileData: nestedData.percentile["private"]
-                },
-                "public": {
-                    incomeGroupData: nestedData.incomeGroup["public"],
-                    percentileData: nestedData.percentile["public"]
-                }
+                incomeGroupData: incomeGroupData,
+                percentileData: percentileData
             })
-        })
-    })
+        });
+    });
 }
 
 // Get a list of available professions from json file

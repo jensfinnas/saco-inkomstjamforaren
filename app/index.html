@@ -135,10 +135,10 @@
       ui = new UI("#ui", professionList);
       ui.renderProfessions();
       ui.select("profession", "Civilingenjör");
-      getProfessionData("civilingenjor", function(professionData) {
-        gData["Civilingenjör"] = professionData;
+      getData("civilingenjor","public", function(data) {
+        gData["Civilingenjör"] = { "public": data };
         // Generate "zero" data-targe
-        gData.zero = generateZeroData(professionData.private);
+        gData.zero = generateZeroData(data);
 
         // Hide loader and show viz
         d3.selectAll(".loading").classed("hidden", true);
@@ -147,13 +147,13 @@
         // Init visualiztion
         var currentIncome = ui.income().value;
         var opts = {
-          yMax: .1,//d3.max(data.map(function(d) { return d.value })),
+          yMax: .15,//d3.max(data.map(function(d) { return d.value })),
           isIframe: isIframe
         };
         var chart = new IncomeChart(chartSelector, gData.zero, currentIncome, opts)
         
         ui.validate();
-        chart.updateData(getCurrentData());
+        chart.update(getCurrentData());
 
         // Update chart when UI changes
         d3.selectAll("#publicprivate, #profession").on("change", function() {
@@ -162,7 +162,7 @@
 
           if (validProfession) {
             var currentData = getCurrentData();
-            chart.updateData(currentData);          
+            chart.update(currentData);          
           }
         })
 
@@ -188,18 +188,19 @@
 
         // Get rest of data
         professionList.forEach(function(d) {
-          var slug = getSlug(d.file_name);
+          var professionSlug = getSlug(d.file_name);
           var profession = d.profession;
+          var publicprivate = d.publicprivate;
 
-          getProfessionData(slug, function(professionData) {
-            gData[profession] = professionData;
+          getData(professionSlug, publicprivate, function(data) {
+            if (!gData[profession]) {
+              gData[profession] = {};
+            }
+            gData[profession][publicprivate] = data;
           })
         })
 
       })
-
-      /*
-      })*/
     })
     /*
     var dsv = d3.dsv(";", "text/plain");
@@ -221,7 +222,7 @@
       var chart = new IncomeChart(chartSelector, currentData, currentIncome, opts)
       
       ui.validate();
-      chart.updateData(getCurrentData(data));
+      chart.update(getCurrentData(data));
 
 
       
