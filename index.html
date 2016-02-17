@@ -1,6 +1,6 @@
-<!DOCTYPE html> <html class=no-js> <head> <meta charset=utf-8> <meta name=ROBOTS content="NOINDEX, NOFOLLOW"> <title>Saco: Inkomstjämföraren</title> <meta name=description content=""> <meta name=viewport content="width=device-width"> <link rel="shortcut icon" href=/6df2b309.favicon.ico> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel=stylesheet href=styles/23bb7c22.main.css>  <body> <!--[if lt IE 9]>
+<!DOCTYPE html> <html class=no-js> <head> <meta charset=utf-8> <meta name=ROBOTS content="NOINDEX, NOFOLLOW"> <title>Saco: Inkomstjämföraren</title> <meta name=description content=""> <meta name=viewport content="width=device-width"> <link rel="shortcut icon" href=/6df2b309.favicon.ico> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel=stylesheet href=styles/1801e69e.main.css>  <body> <!--[if lt IE 9]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--> <div class=loading> <div class=spinner> <div class=dot1></div> <div class=dot2></div> </div> </div> <div class="container hidden"> <div id=ui class=box> Om du jobbar som <select id=profession> <option value="">Välj yrke </select> inom <select id=publicprivate> <option value=public>offentlig sektor <option value=private>privat sektor </select> med en månadslön på <input size=6 id=income placeholder="" value="35000"> kronor tjänar du mer än <span class=percentile></span>. </div> <div id=chart> <div class="error-message not-enough-data-error">Det finns för lite data</div> </div> <!-- Helpers for form elements --> <div class="helper tip-top" data-target=#income>Ange din månadslön här</div> <div class="helper tip-top" data-target=#profession>Du måste välja ett yrke här</div> <!-- Promo for Lönesök --> <div id=promo class="box tip-top"> <!--<div class="icon-salary pull-right"></div>--> <div class=content> <h3 class=random-sentence></h3> <span>Som Saco-medlem får du tillgång till löneuppgifter för över 300 000 akademiker.</span> <div> <a class=button href="https://www.saco.se/fackligt-arbete/hitta-ditt-sacoforbund/bli-medlem-i-ett-akademikerforbund/" target=_top>Bli medlem i ett Sacoförbund</a> </div> </div> </div> </div> <!-- Saco typography --> <script type=text/javascript src=//use.typekit.net/zxg8sjd.js></script> <script type=text/javascript>try { Typekit.load(); } catch (e) { console.log(e); }</script> <script src=scripts/0638f0a9.vendor.js></script> <script src=scripts/ecddd972.main.js></script> <script>function generateZeroData(data) {
+    <![endif]--> <div class=loading> <div class=spinner> <div class=dot1></div> <div class=dot2></div> </div> </div> <div class="container hidden"> <div id=ui class=box> Om du är utbildad <select id=profession> <option value="">Välj yrke </select> och arbetar i <select id=publicprivate> <option value=public>offentlig sektor <option value=private>privat sektor </select> med en månadslön på <input size=6 id=income placeholder="" value="35000"> tjänar du mer än <span class=percentile></span> i samma urvalsgrupp. </div> <div id=chart> <div class="error-message not-enough-data-error">Det finns för lite data</div> </div> <!-- Helpers for form elements --> <div class="helper tip-top" data-target=#income>Ange din månadslön här</div> <div class="helper tip-top" data-target=#profession>Du måste välja ett yrke här</div> <!-- Promo for Lönesök --> <div id=promo class="box tip-top"> <!--<div class="icon-salary pull-right"></div>--> <div class=content> <h2> <span class=random-sentence></span> <span>Som Saco-medlem får du tillgång till löneuppgifter för över 300 000 akademiker.</span> </h2> <div> <a class=button href="https://www.saco.se/fackligt-arbete/hitta-ditt-sacoforbund/bli-medlem-i-ett-akademikerforbund/" target=_top onclick="_gaq.push(['_trackEvent', 'Link click', 'Klickade på Bli medlem-knappen'])">Bli medlem i ett Sacoförbund</a> </div> </div> </div> </div> <!-- Saco typography --> <script type=text/javascript src=//use.typekit.net/zxg8sjd.js></script> <script type=text/javascript>try { Typekit.load(); } catch (e) { console.log(e); }</script> <script src=scripts/0638f0a9.vendor.js></script> <script src=scripts/6dcc9d64.main.js></script> <script>function generateZeroData(data) {
       var incomeGroups = d3.set(data.incomeGroupData.map(function(d) { return d.income; }))
         .values()
         .sort();
@@ -113,29 +113,10 @@
         })
 
       })
-    })
-    /*
-    var dsv = d3.dsv(";", "text/plain");
-    dsv("data/data.csv", columnFormats, function(error, data) {
-      if (error) throw error;
+    })</script> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. --> <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-
-
-      // Prepare data
-      
-
-      // Init visualiztion
-      var currentData = getZeroData(data);
-      var currentIncome = ui.income().value;
-      var opts = {
-        yMax: d3.max(data.map(function(d) { return d.value })),
-        isIframe: isIframe
-      };
-      var chart = new IncomeChart(chartSelector, currentData, currentIncome, opts)
-      
-      ui.validate();
-      chart.update(getCurrentData(data));
-
-
-      
-    })*/</script>  
+      ga('create', 'UA-2905033-1', 'auto');
+      ga('send', 'pageview');</script>  
