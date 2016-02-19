@@ -8,6 +8,7 @@ import csvkit as csv
 import json
 from collections import defaultdict
 from slugify import slugify
+from copy import deepcopy
 
 def open_csv_file(file_path):
     with open(file_path) as csvfile:
@@ -22,6 +23,20 @@ def save_csv_file(file_name, dataset):
         writer.writeheader()
         for row in dataset:
             writer.writerow(row)
+
+def parse_int(string):
+    try:
+        return int(float(string))
+    except ValueError:
+        return None
+
+def srange(start, stop, step):
+    """ Like range(), but with custom incrementation
+    """
+    r = start
+    while r < stop:
+        yield r
+        r += step
 
 def save_list_of_datasets(def_dict, folder, prefix):
     file_list = [] # A list of saved files for reference
@@ -76,6 +91,26 @@ def transform_incomegroup_dataset(dataset):
 
     return _resp
 
+def fill_empty_bins(grouped_data):
+    """ Some datasets miss income groups if value is 0
+        This function fills those holes
+    """
+    for key, dataset in grouped_data.iteritems():
+        existing_incomegroups = [parse_int(row["income"].split("-")[0]) for row in dataset]
+        incomegroups = [x for x in srange(existing_incomegroups[1],existing_incomegroups[-1],1000)]
+        missing = list(set(incomegroups) - set(existing_incomegroups[1:-1]))
+        for income_lower in missing:
+            row = deepcopy(dataset[0])
+            row["value"] = 0.0
+            row["income"] = "%s-%s" % (income_lower, income_lower+999)
+            dataset.append(row)
+    return grouped_data
+
+def sort_datasets(grouped_data):
+    for key, dataset in grouped_data.iteritems():
+        grouped_data[key] = sorted(dataset, key=lambda k: k['income'])
+
+    return grouped_data
 
 def prepare_percentile_data(original_file):
     percentile_dataset = open_csv_file(original_file)
@@ -87,8 +122,10 @@ def prepare_incomegroup_data(original_file):
     incomegroup_dataset = open_csv_file(original_file)
     incomegroup_dataset = transform_incomegroup_dataset(incomegroup_dataset)
     incomegroup_dataset = split_by_profession_and_publicprivate(incomegroup_dataset)
+    incomegroup_dataset = fill_empty_bins(incomegroup_dataset)
+    incomegroup_dataset = sort_datasets(incomegroup_dataset)
     save_list_of_datasets(incomegroup_dataset, "by_profession", "incomegroup-")    
 
 
-prepare_percentile_data("original/160129 - percentile_data.csv")
-prepare_incomegroup_data("original/160129 - tusental.csv")
+prepare_percentile_data("original/160218 - percentile_data.csv")
+prepare_incomegroup_data("original/160218 - tusental.csv")
