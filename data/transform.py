@@ -83,9 +83,14 @@ def transform_incomegroup_dataset(dataset):
         _row = {}
         _row["profession"] = row["Utbildning"]
         _row["publicprivate"] = "private" if row["Arbsektor"] == "Privat" else "public"
-        _row["income"] = row[u"Lön"].replace(" ","").replace("<","-")
+        _row["income"] = row[u"Lön"].replace(" ","")
         if ">=" in _row["income"]:
             _row["income"] = _row["income"].replace(">=","") + "-"
+
+        # Transform the first bin (<25000) to 24999
+        if "<" in _row["income"]:
+            income_upper = parse_int(_row["income"].split("<")[1]) - 1
+            _row["income"] = "-%s" % income_upper            
         _row["value"] = float(row["Andel"].replace(",",".")) / 100
         _resp.append(_row)
 
