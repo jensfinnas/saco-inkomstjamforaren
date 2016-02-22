@@ -19,14 +19,11 @@ percentile,profession,publicprivate,income
 20,Personalvetare,private,32400
 21,Personalvetare,private,32500
 22,Personalvetare,private,33000
-23,Personalvetare,private,33000
 24,Personalvetare,private,33600
 25,Personalvetare,private,34000
-26,Personalvetare,private,34000
 27,Personalvetare,private,34500
 28,Personalvetare,private,34750
 29,Personalvetare,private,35000
-30,Personalvetare,private,35000
 31,Personalvetare,private,35500
 32,Personalvetare,private,35990
 33,Personalvetare,private,36083
@@ -42,7 +39,6 @@ percentile,profession,publicprivate,income
 43,Personalvetare,private,39150
 44,Personalvetare,private,39585
 45,Personalvetare,private,40000
-46,Personalvetare,private,40000
 47,Personalvetare,private,40500
 48,Personalvetare,private,41000
 49,Personalvetare,private,41300

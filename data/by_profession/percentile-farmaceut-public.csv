@@ -5,12 +5,10 @@ percentile,profession,publicprivate,income
 6,Farmaceut,public,30500
 7,Farmaceut,public,30700
 8,Farmaceut,public,31000
-9,Farmaceut,public,31000
 10,Farmaceut,public,31100
 11,Farmaceut,public,31301
 12,Farmaceut,public,31600
 13,Farmaceut,public,32000
-14,Farmaceut,public,32000
 15,Farmaceut,public,32100
 16,Farmaceut,public,32300
 17,Farmaceut,public,32500
@@ -21,7 +19,6 @@ percentile,profession,publicprivate,income
 22,Farmaceut,public,33670
 23,Farmaceut,public,33800
 24,Farmaceut,public,34000
-25,Farmaceut,public,34000
 26,Farmaceut,public,34050
 27,Farmaceut,public,34300
 28,Farmaceut,public,34500
@@ -48,11 +45,9 @@ percentile,profession,publicprivate,income
 49,Farmaceut,public,38500
 50,Farmaceut,public,38800
 51,Farmaceut,public,39000
-52,Farmaceut,public,39000
 53,Farmaceut,public,39486
 54,Farmaceut,public,39605
 55,Farmaceut,public,39800
-56,Farmaceut,public,39800
 57,Farmaceut,public,40000
 58,Farmaceut,public,40150
 59,Farmaceut,public,40600

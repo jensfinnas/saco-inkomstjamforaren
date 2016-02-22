@@ -4,8 +4,6 @@ percentile,profession,publicprivate,income
 5,Jurist,private,28600
 6,Jurist,private,29100
 7,Jurist,private,30000
-8,Jurist,private,30000
-9,Jurist,private,30000
 10,Jurist,private,31000
 11,Jurist,private,31350
 12,Jurist,private,32000
@@ -24,12 +22,10 @@ percentile,profession,publicprivate,income
 25,Jurist,private,37000
 26,Jurist,private,37500
 27,Jurist,private,38000
-28,Jurist,private,38000
 29,Jurist,private,38500
 30,Jurist,private,39000
 31,Jurist,private,39400
 32,Jurist,private,40000
-33,Jurist,private,40000
 34,Jurist,private,40500
 35,Jurist,private,41000
 36,Jurist,private,41659

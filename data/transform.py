@@ -67,13 +67,16 @@ def split_by_profession_and_publicprivate(dataset):
 
 def transform_percentile_dataset(dataset):
     _resp = []
+    prev_income = ""
     for row in dataset:
         _row = {}
         _row["profession"] = row["Utbildning"]
         _row["publicprivate"] = "private" if row["Arbsektor"] == "Privat" else "public"
         _row["percentile"] = row["Andel"]
         _row["income"] = row["Lon"]
-        _resp.append(_row)
+        if prev_income != _row["income"]:
+            _resp.append(_row)
+            prev_income = _row["income"]
 
     return _resp
 

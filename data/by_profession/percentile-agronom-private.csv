@@ -7,7 +7,6 @@ percentile,profession,publicprivate,income
 8,Agronom,private,29000
 9,Agronom,private,29645
 10,Agronom,private,30000
-11,Agronom,private,30000
 12,Agronom,private,30195
 13,Agronom,private,30757
 14,Agronom,private,31000
@@ -25,12 +24,10 @@ percentile,profession,publicprivate,income
 26,Agronom,private,34500
 27,Agronom,private,34700
 28,Agronom,private,35000
-29,Agronom,private,35000
 30,Agronom,private,35092
 31,Agronom,private,35300
 32,Agronom,private,35650
 33,Agronom,private,36000
-34,Agronom,private,36000
 35,Agronom,private,36300
 36,Agronom,private,36560
 37,Agronom,private,36900
@@ -49,7 +46,6 @@ percentile,profession,publicprivate,income
 50,Agronom,private,39555
 51,Agronom,private,39720
 52,Agronom,private,40000
-53,Agronom,private,40000
 54,Agronom,private,40027
 55,Agronom,private,40500
 56,Agronom,private,40757
@@ -57,7 +53,6 @@ percentile,profession,publicprivate,income
 58,Agronom,private,41225
 59,Agronom,private,41600
 60,Agronom,private,42000
-61,Agronom,private,42000
 62,Agronom,private,42500
 63,Agronom,private,42821
 64,Agronom,private,43000

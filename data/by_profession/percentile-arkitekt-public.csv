@@ -10,12 +10,10 @@ percentile,profession,publicprivate,income
 11,Arkitekt,public,33000
 12,Arkitekt,public,33500
 13,Arkitekt,public,34000
-14,Arkitekt,public,34000
 15,Arkitekt,public,34200
 16,Arkitekt,public,34575
 17,Arkitekt,public,34800
 18,Arkitekt,public,35000
-19,Arkitekt,public,35000
 20,Arkitekt,public,35100
 21,Arkitekt,public,35500
 22,Arkitekt,public,35650
@@ -41,7 +39,6 @@ percentile,profession,publicprivate,income
 42,Arkitekt,public,39800
 43,Arkitekt,public,39900
 44,Arkitekt,public,40000
-45,Arkitekt,public,40000
 46,Arkitekt,public,40500
 47,Arkitekt,public,40650
 48,Arkitekt,public,40800
@@ -51,7 +48,6 @@ percentile,profession,publicprivate,income
 52,Arkitekt,public,41500
 53,Arkitekt,public,41800
 54,Arkitekt,public,42000
-55,Arkitekt,public,42000
 56,Arkitekt,public,42500
 57,Arkitekt,public,42700
 58,Arkitekt,public,42800
@@ -62,7 +58,6 @@ percentile,profession,publicprivate,income
 63,Arkitekt,public,44500
 64,Arkitekt,public,44750
 65,Arkitekt,public,45000
-66,Arkitekt,public,45000
 67,Arkitekt,public,45200
 68,Arkitekt,public,45400
 69,Arkitekt,public,46000
@@ -76,7 +71,6 @@ percentile,profession,publicprivate,income
 77,Arkitekt,public,48900
 78,Arkitekt,public,49500
 79,Arkitekt,public,50000
-80,Arkitekt,public,50000
 81,Arkitekt,public,50300
 82,Arkitekt,public,50900
 83,Arkitekt,public,51000
