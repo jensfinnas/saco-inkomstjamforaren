@@ -132,5 +132,5 @@ def prepare_incomegroup_data(original_file):
     save_list_of_datasets(incomegroup_dataset, "by_profession", "incomegroup-")    
 
 
-prepare_percentile_data("original/160218 - percentile_data.csv")
-prepare_incomegroup_data("original/160218 - tusental.csv")
+prepare_percentile_data("original/160222 - percentile_data.csv")
+prepare_incomegroup_data("original/160222 - tusental.csv")
