@@ -1,22 +1,44 @@
-<!DOCTYPE html> <html class=no-js> <head> <meta charset=utf-8> <meta name=ROBOTS content="NOINDEX, NOFOLLOW"> <title>Saco: Inkomstjämföraren</title> <meta name=description content=""> <meta name=viewport content="width=device-width"> <link rel="shortcut icon" href=/6df2b309.favicon.ico> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel=stylesheet href=styles/e290c2e6.main.css>  <body> <!--[if lt IE 9]>
+<!DOCTYPE html> <html class=no-js> <head> <meta charset=utf-8> <meta name=ROBOTS content="NOINDEX, NOFOLLOW"> <title>Saco: Inkomstjämföraren</title> <meta name=description content=""> <meta name=viewport content="width=device-width"> <link rel="shortcut icon" href=/fabab481.favicon.ico> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel=stylesheet href=styles/dc9c9310.main.css>  <body> <!--[if lt IE 9]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--> <div class=loading> <div class=spinner> <div class=dot1></div> <div class=dot2></div> </div> </div> <div class="container hidden"> <!-- UI --> <div id=ui class=box> Om du är utbildad <select id=profession> <option value="">Välj yrke </select> och arbetar i <select id=publicprivate> <option value=public>offentlig sektor <option value=private>privat sektor </select> med en månadslön på <input size=6 id=income placeholder="" value="35000"> <span class=percentile-sentence></span> i samma urvalsgrupp. </div> <!-- Chart --> <div id=chart> <div class="error-message not-enough-data-error">Det finns för lite data</div> </div> <!-- Source --> <div id=source> Källa: Sacoförbundens löneenkäter </div> <!-- Helpers for form elements --> <div class="helper tip-top" data-target=#income>Ange din månadslön här</div> <div class="helper tip-top" data-target=#profession>Du måste välja ett yrke här</div> <!-- Promo for Lönesök --> <div id=promo class="box tip-top"> <!--<div class="icon-salary pull-right"></div>--> <div class=content> <h2> <span class=random-sentence></span> <span>Som Sacomedlem får du tillgång till löneuppgifter för över 300 000 akademiker.</span> </h2> <div> <a class=button href="http://www.saco.se/fackligt-arbete/hitta-ditt-sacoforbund/bli-medlem-i-ett-sacoforbund/" target=_top onclick="ga('send', 'event', 'Inkomstjämföraren', 'Click', 'Bli medlem')">Bli medlem i ett Sacoförbund</a> </div> </div> </div> </div> <!-- Saco typography --> <script type=text/javascript src=//use.typekit.net/zxg8sjd.js></script> <script type=text/javascript>try { Typekit.load(); } catch (e) { console.log(e); }</script> <script src=scripts/0638f0a9.vendor.js></script> <script src=scripts/1c8d3092.main.js></script> <script>function generateZeroData(data) {
-      var incomeGroups = d3.set(data.incomeGroupData.map(function(d) { return d.income; }))
-        .values()
-        .sort();
+    <![endif]--> <div class=loading> <div class=spinner> <div class=dot1></div> <div class=dot2></div> </div> </div> <div class="container hidden"> <!-- UI --> <div id=ui class=box> Om du är utbildad <select id=profession> <option value="">Välj yrke </select> och arbetar i <select id=publicprivate> <option value=public>offentlig sektor <option value=private>privat sektor </select> med en månadslön på <input size=6 id=income placeholder="" value="35000"> <span class=percentile-sentence></span> i samma urvalsgrupp. </div> <!-- Chart --> <div id=chart> <div class="error-message not-enough-data-error">Det finns för lite data</div> </div> <!-- Source --> <div id=source> Källa: Sacoförbundens löneenkäter </div> <!-- Helpers for form elements --> <div class="helper tip-top" data-target=#income>Ange din månadslön här</div> <div class="helper tip-top" data-target=#profession>Du måste välja ett yrke här</div> <!-- Promo for Lönesök --> <div id=promo class="box tip-top"> <!--<div class="icon-salary pull-right"></div>--> <div class=content> <h2> <span class=random-sentence></span> <span>Som Sacomedlem får du tillgång till löneuppgifter för över 300 000 akademiker.</span> </h2> <div> <a class=button href="http://www.saco.se/fackligt-arbete/hitta-ditt-sacoforbund/bli-medlem-i-ett-sacoforbund/" target=_top onclick="ga('send', 'event', 'Inkomstjämföraren', 'Click', 'Bli medlem')">Bli medlem i ett Sacoförbund</a> </div> </div> </div> </div> <!-- Saco typography --> <script type=text/javascript src=//use.typekit.net/zxg8sjd.js></script> <script type=text/javascript>try { Typekit.load(); } catch (e) { console.log(e); }</script> <script src=scripts/644976fa.vendor.js></script> <script src=scripts/2fa22e3b.main.js></script> <script>function generateZeroData(data) {
+      var incomeGroupSize = 1000;
 
-      return {
-        percentileData: [],
-        incomeGroupData: incomeGroups.map(function(d) {
-          return {
-            income: d,
-            incomeLower: +d.split("-")[0],
-            incomeUpper: +d.split("-")[1],
+      var values = []
+      data.incomeGroupData.forEach(function(d) {
+        // Get an array of all income values
+        var parts = d.income.split("-")
+          .map(function(d) { return +d; })
+          .filter(function(d) { return d != 0; })
+
+        values.push(parts[0])
+        if (parts.length == 2) {
+          values.push(parts[1])
+        }
+      })
+      values = values.filter(function(d) {
+        // remove zeros
+        return d != 0;
+      })
+      var min = d3.min(values) + 1
+      var max = d3.max(values)
+
+      var incomeGroupData = []
+
+      for (var i = min; i <= max; i += incomeGroupSize ) {
+        incomeGroupData.push({
+            id: i + "-" + (i + incomeGroupSize - 1),
+            incomeLower: i,
+            incomeUpper: i + incomeGroupSize - 1,
             value: 0,
             publicprivate: null,
             profession: null,
-          }
+
         })
+      }
+
+      return {
+        percentileData: [],
+        incomeGroupData: incomeGroupData
       }
     }
     function getCurrentData() {
@@ -29,16 +51,38 @@
       return gData[profession][publicprivate];
     }
     function getSlug(filePath) {
+      /* "by_profession/employee-percentile-biolog-private.csv" => "biolog"
+      */
       var fileParts = filePath.split("-");
       fileParts.pop();
       fileParts.shift();
+      fileParts.shift();
       return fileParts.join("-").replace(".csv","");
+    }
+    function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
     }
     var ui;
     // Global data obejct
     var gData = {};
     var chartSelector = "#chart";
     var elemChart = d3.select(chartSelector);
+    var theme = getParameterByName('theme') || "saco";
+
+    // Default options
+    var employmentStatus = getParameterByName('employmentStatus') || "employee";; // manager|employee
+    var selectedProfession = employmentStatus == "employee" ? "Civilingenjör" : "Högsta chef (VD,GD mfl), Högre chef, Mellanchef (chef över chefer)";
+    var selectedProfessionSlug = employmentStatus == "employee" ? "civilingenjor" : "hogsta-chef-vd-gd-mfl-hogre-chef-mellanchef-chef-over-chefer";
+
+
+    // Apply theme
+    d3.select("body").classed("theme-" + theme, true);
 
     // Enable iframe resonsiveness
     var isIframe = self !== top;
@@ -46,13 +90,13 @@
 
 
     // Get a list of profession
-    getProfessionList("data/percentile-file_list.json", function(professionList) {
+    getProfessionList("data/" + employmentStatus + "-percentile-file_list.json", function(professionList) {
       // Init ui
       ui = new UI("#ui", professionList);
       ui.renderProfessions();
-      ui.select("profession", "Civilingenjör");
-      getData("civilingenjor","public", function(data) {
-        gData["Civilingenjör"] = { "public": data };
+      ui.select("profession", selectedProfession);
+      getData(selectedProfessionSlug, employmentStatus, "public", function(data) {
+        gData[selectedProfession] = { "public": data };
         // Generate "zero" data-targe
         gData.zero = generateZeroData(data);
 
@@ -107,7 +151,7 @@
           var profession = d.profession;
           var publicprivate = d.publicprivate;
 
-          getData(professionSlug, publicprivate, function(data) {
+          getData(professionSlug, employmentStatus,publicprivate, function(data) {
             if (!gData[profession]) {
               gData[profession] = {};
             }

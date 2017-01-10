@@ -38,13 +38,15 @@ def srange(start, stop, step):
         yield r
         r += step
 
-def save_list_of_datasets(def_dict, folder, prefix):
+def save_list_of_datasets(def_dict, folder, prefix, version):
     file_list = [] # A list of saved files for reference
     for key in def_dict:
         dataset = def_dict[key]
         profession = key.split(";")[0]
         publicprivate = key.split(";")[1]
-        file_name = folder + "/" + prefix + slugify(profession) + "-" + publicprivate + ".csv"
+        file_name = "{}/{}-{}-{}-{}.csv"\
+            .format(folder, version, prefix, slugify(profession), publicprivate)
+        #folder + "/" + prefix + slugify(profession) + "-" + publicprivate + ".csv"
         save_csv_file(file_name, dataset)
         file_list.append({ 
             "file_name": file_name, 
@@ -52,7 +54,7 @@ def save_list_of_datasets(def_dict, folder, prefix):
             "publicprivate": publicprivate  
         })
 
-    with open(prefix + 'file_list.json', 'w') as outfile:
+    with open('{}-{}-file_list.json'.format(version, prefix), 'w') as outfile:
         json.dump(file_list, outfile)
 
 def split_by_profession_and_publicprivate(dataset):
@@ -70,8 +72,12 @@ def transform_percentile_dataset(dataset):
     prev_income = ""
     for row in dataset:
         _row = {}
-        _row["profession"] = row["Utbildning"]
-        _row["publicprivate"] = "private" if row["Arbsektor"] == "Privat" else "public"
+        try:
+            _row["profession"] = row["Utbildning"]
+        except KeyError:
+            # Chefer har annan kolumnrubrik
+            _row["profession"] = row["Befattning"]
+        _row["publicprivate"] = "private" if "Privat" in row["Arbsektor"] else "public"
         _row["percentile"] = row["Andel"]
         _row["income"] = row["Lon"]
         if prev_income != _row["income"]:
@@ -84,8 +90,11 @@ def transform_incomegroup_dataset(dataset):
     _resp = []
     for row in dataset:
         _row = {}
-        _row["profession"] = row["Utbildning"]
-        _row["publicprivate"] = "private" if row["Arbsektor"] == "Privat" else "public"
+        try:
+            _row["profession"] = row["Utbildning"]
+        except:
+            _row["profession"] = row["Befattning"]
+        _row["publicprivate"] = "private" if "Privat" in row["Arbsektor"] else "public"
         _row["income"] = row[u"Lön"].replace(" ","")
         if ">=" in _row["income"]:
             _row["income"] = _row["income"].replace(">=","") + "-"
@@ -120,20 +129,31 @@ def sort_datasets(grouped_data):
 
     return grouped_data
 
-def prepare_percentile_data(original_file):
+def prepare_percentile_data(original_file, version):
+    """
+    :param original_file: "XXXX - tusental.csv"
+    :param version: employee|manager
+    """
     percentile_dataset = open_csv_file(original_file)
     percentile_dataset = transform_percentile_dataset(percentile_dataset)
     percentile_dataset = split_by_profession_and_publicprivate(percentile_dataset)
-    save_list_of_datasets(percentile_dataset, "by_profession", "percentile-")    
+    save_list_of_datasets(percentile_dataset, "by_profession", "percentile", version)    
 
-def prepare_incomegroup_data(original_file):
+def prepare_incomegroup_data(original_file, version):
+    """
+    :param original_file: "XXXX - tusental.csv"
+    :param version: employee|manager
+    """
     incomegroup_dataset = open_csv_file(original_file)
     incomegroup_dataset = transform_incomegroup_dataset(incomegroup_dataset)
     incomegroup_dataset = split_by_profession_and_publicprivate(incomegroup_dataset)
     incomegroup_dataset = fill_empty_bins(incomegroup_dataset)
     incomegroup_dataset = sort_datasets(incomegroup_dataset)
-    save_list_of_datasets(incomegroup_dataset, "by_profession", "incomegroup-")    
+    save_list_of_datasets(incomegroup_dataset, "by_profession", "incomegroup", version)    
 
 
-prepare_percentile_data("original/160222 - percentile_data.csv")
-prepare_incomegroup_data("original/160222 - tusental.csv")
+#prepare_percentile_data("original/160222 - percentile_data.csv", "employee")
+#prepare_incomegroup_data("original/160222 - tusental.csv", "employee")
+prepare_percentile_data("original/170110 - percentiler - chefer.csv", "manager")
+#prepare_incomegroup_data("original/170110 - tusental - chefer.csv", "manager")
+
