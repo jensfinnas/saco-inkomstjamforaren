@@ -1,85 +1,80 @@
 percentile,profession,publicprivate,income
-3,Socionom,public,25000
-4,Socionom,public,25500
-5,Socionom,public,25650
-6,Socionom,public,26000
-8,Socionom,public,26300
-9,Socionom,public,26500
-10,Socionom,public,26600
-11,Socionom,public,26800
-12,Socionom,public,27000
-14,Socionom,public,27200
-15,Socionom,public,27350
-16,Socionom,public,27500
-17,Socionom,public,27600
-18,Socionom,public,27800
-19,Socionom,public,27900
-20,Socionom,public,28000
-21,Socionom,public,28050
-22,Socionom,public,28200
-23,Socionom,public,28300
-24,Socionom,public,28500
-26,Socionom,public,28700
-27,Socionom,public,28800
-28,Socionom,public,29000
-30,Socionom,public,29100
-31,Socionom,public,29200
-32,Socionom,public,29300
-33,Socionom,public,29500
-35,Socionom,public,29600
-36,Socionom,public,29750
-37,Socionom,public,29900
-38,Socionom,public,30000
-40,Socionom,public,30100
-41,Socionom,public,30200
-42,Socionom,public,30300
-43,Socionom,public,30500
-45,Socionom,public,30700
-46,Socionom,public,30800
-47,Socionom,public,30900
-48,Socionom,public,31000
-50,Socionom,public,31150
-51,Socionom,public,31300
-52,Socionom,public,31400
-53,Socionom,public,31500
-54,Socionom,public,31600
-55,Socionom,public,31750
-56,Socionom,public,31900
-57,Socionom,public,32000
-59,Socionom,public,32100
-60,Socionom,public,32300
-61,Socionom,public,32500
-62,Socionom,public,32550
-63,Socionom,public,32700
-64,Socionom,public,32807
-65,Socionom,public,33000
-67,Socionom,public,33200
-68,Socionom,public,33340
-69,Socionom,public,33500
-70,Socionom,public,33700
-71,Socionom,public,33900
-72,Socionom,public,34000
-73,Socionom,public,34150
-74,Socionom,public,34400
-75,Socionom,public,34500
-76,Socionom,public,34750
-77,Socionom,public,35000
-79,Socionom,public,35320
-80,Socionom,public,35600
-81,Socionom,public,35900
-82,Socionom,public,36100
-83,Socionom,public,36500
-84,Socionom,public,36800
-85,Socionom,public,37100
-86,Socionom,public,37500
-87,Socionom,public,38000
-88,Socionom,public,38500
-89,Socionom,public,39000
-90,Socionom,public,39800
-91,Socionom,public,40300
-92,Socionom,public,41000
-93,Socionom,public,42000
-94,Socionom,public,42800
-95,Socionom,public,44000
-96,Socionom,public,45200
-97,Socionom,public,47200
+3,Socionom ,public,26200
+4,Socionom ,public,26500
+5,Socionom ,public,26800
+6,Socionom ,public,27000
+7,Socionom ,public,27200
+8,Socionom ,public,27500
+9,Socionom ,public,27600
+10,Socionom ,public,27800
+11,Socionom ,public,28000
+13,Socionom ,public,28298
+14,Socionom ,public,28500
+15,Socionom ,public,28583
+16,Socionom ,public,28700
+17,Socionom ,public,28990
+18,Socionom ,public,29000
+20,Socionom ,public,29200
+21,Socionom ,public,29300
+22,Socionom ,public,29500
+24,Socionom ,public,29700
+25,Socionom ,public,29850
+26,Socionom ,public,30000
+29,Socionom ,public,30100
+30,Socionom ,public,30300
+31,Socionom ,public,30500
+33,Socionom ,public,30676
+34,Socionom ,public,30800
+35,Socionom ,public,31000
+38,Socionom ,public,31140
+39,Socionom ,public,31300
+40,Socionom ,public,31455
+41,Socionom ,public,31500
+42,Socionom ,public,31700
+43,Socionom ,public,31800
+44,Socionom ,public,31950
+45,Socionom ,public,32000
+47,Socionom ,public,32100
+48,Socionom ,public,32237
+49,Socionom ,public,32400
+50,Socionom ,public,32500
+52,Socionom ,public,32675
+53,Socionom ,public,32800
+54,Socionom ,public,33000
+57,Socionom ,public,33200
+58,Socionom ,public,33325
+59,Socionom ,public,33500
+61,Socionom ,public,33700
+62,Socionom ,public,33900
+63,Socionom ,public,34000
+65,Socionom ,public,34200
+66,Socionom ,public,34350
+67,Socionom ,public,34500
+68,Socionom ,public,34600
+69,Socionom ,public,34815
+70,Socionom ,public,35000
+72,Socionom ,public,35200
+73,Socionom ,public,35500
+74,Socionom ,public,35625
+75,Socionom ,public,35900
+76,Socionom ,public,36000
+77,Socionom ,public,36200
+78,Socionom ,public,36500
+79,Socionom ,public,36700
+80,Socionom ,public,37000
+81,Socionom ,public,37200
+82,Socionom ,public,37500
+83,Socionom ,public,38000
+85,Socionom ,public,38500
+86,Socionom ,public,39000
+87,Socionom ,public,39400
+88,Socionom ,public,40000
+89,Socionom ,public,40215
+90,Socionom ,public,41000
+91,Socionom ,public,41500
+92,Socionom ,public,42100
+93,Socionom ,public,43000
+94,Socionom ,public,44000
+95,Socionom ,public,45000
+96,Socionom ,public,46400
+97,Socionom ,public,48500
