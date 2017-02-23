@@ -96,6 +96,14 @@
     d3.select(".verb").text(verb);
 
 
+    // Set start income
+    var startIncomes = {
+      "employee": 35000,
+      "manager": 50000
+    }
+    var startIncome = startIncomes[employmentStatus];
+    d3.select("#income").attr("value", startIncome);
+
     // Get a list of profession
     getProfessionList("data/" + employmentStatus + "-percentile-file_list.json", function(professionList) {
       // Init ui
