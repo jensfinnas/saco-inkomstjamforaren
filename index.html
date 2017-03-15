@@ -147,11 +147,18 @@
 
         initPromo();
 
-
         if (isIframe) {
             var pymChild = new pym.Child();
             pymChild.sendHeight();
+            
+            // Hack: Send height again after short sleep to fix
+            // problem at bottom
+            setTimeout(function(){
+              pymChild.sendHeight()
+            }, 50)
         }
+
+
 
         // Get rest of data
         professionList.forEach(function(d) {
