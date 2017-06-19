@@ -103,7 +103,7 @@
                     "publicprivate": "private"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-percentile-biolog-biokemist-public.csv", 
+                    "file_name": "prepared-data/employee-percentile-biologbiokemist-public.csv", 
                     "profession": "Biolog/biokemist", 
                     "publicprivate": "public"
                 }, 
@@ -118,7 +118,7 @@
                     "publicprivate": "public"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-percentile-civilekonom-ekonom-public.csv", 
+                    "file_name": "prepared-data/employee-percentile-civilekonomekonom-public.csv", 
                     "profession": "Civilekonom/ekonom", 
                     "publicprivate": "public"
                 }, 
@@ -133,12 +133,12 @@
                     "publicprivate": "public"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-percentile-biolog-biokemist-private.csv", 
+                    "file_name": "prepared-data/employee-percentile-biologbiokemist-private.csv", 
                     "profession": "Biolog/biokemist", 
                     "publicprivate": "private"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-percentile-prast-diakon-private.csv", 
+                    "file_name": "prepared-data/employee-percentile-prastdiakon-private.csv", 
                     "profession": "Pr\u00e4st/diakon", 
                     "publicprivate": "private"
                 }, 
@@ -153,7 +153,7 @@
                     "publicprivate": "private"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-percentile-civilekonom-ekonom-private.csv", 
+                    "file_name": "prepared-data/employee-percentile-civilekonomekonom-private.csv", 
                     "profession": "Civilekonom/ekonom", 
                     "publicprivate": "private"
                 }, 
@@ -184,12 +184,12 @@
                     "publicprivate": "private"
                 }, 
                 {
-                    "file_name": "prepared-data/manager-percentile-enhetschef-gruppchef-forsta-linjens-chef-public.csv", 
+                    "file_name": "prepared-data/manager-percentile-enhetschefgruppchef-forsta-linjens-chef-public.csv", 
                     "profession": "Enhetschef/gruppchef/ f\u00f6rsta linjens chef", 
                     "publicprivate": "public"
                 }, 
                 {
-                    "file_name": "prepared-data/manager-percentile-enhetschef-gruppchef-forsta-linjens-chef-private.csv", 
+                    "file_name": "prepared-data/manager-percentile-enhetschefgruppchef-forsta-linjens-chef-private.csv", 
                     "profession": "Enhetschef/gruppchef/ f\u00f6rsta linjens chef", 
                     "publicprivate": "private"
                 }
@@ -198,56 +198,113 @@
             "association": "saco"
         }
     }, 
-    "ssr": {
+    "jusek": {
         "employee": {
             "file_list": [
                 {
-                    "file_name": "prepared-data/employee-percentile-beteendevetare-private.csv", 
-                    "profession": "Beteendevetare", 
+                    "file_name": "prepared-data/employee-incomegroups-jurist-private.csv", 
+                    "profession": "Jurist", 
                     "publicprivate": "private"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-percentile-samhallsvetare-private.csv", 
+                    "file_name": "prepared-data/employee-incomegroups-samhallsvetare-private.csv", 
                     "profession": "Samh\u00e4llsvetare", 
                     "publicprivate": "private"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-percentile-socionom-public.csv", 
+                    "file_name": "prepared-data/employee-incomegroups-personalvetare-public.csv", 
+                    "profession": "Personalvetare", 
+                    "publicprivate": "public"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-incomegroups-ekonom-public.csv", 
+                    "profession": "Ekonom", 
+                    "publicprivate": "public"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-incomegroups-ekonom-private.csv", 
+                    "profession": "Ekonom", 
+                    "publicprivate": "private"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-incomegroups-jurist-public.csv", 
+                    "profession": "Jurist", 
+                    "publicprivate": "public"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-incomegroups-personalvetare-private.csv", 
+                    "profession": "Personalvetare", 
+                    "publicprivate": "private"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-incomegroups-systemvetare-public.csv", 
+                    "profession": "Systemvetare", 
+                    "publicprivate": "public"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-incomegroups-systemvetare-private.csv", 
+                    "profession": "Systemvetare", 
+                    "publicprivate": "private"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-incomegroups-samhallsvetare-public.csv", 
+                    "profession": "Samh\u00e4llsvetare", 
+                    "publicprivate": "public"
+                }
+            ], 
+            "association": "jusek"
+        }
+    }, 
+    "ssr": {
+        "employee": {
+            "file_list": [
+                {
+                    "file_name": "prepared-data/employee-incomegroups-beteendevetare-private.csv", 
+                    "profession": "Beteendevetare", 
+                    "publicprivate": "private"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-incomegroups-samhallsvetare-private.csv", 
+                    "profession": "Samh\u00e4llsvetare", 
+                    "publicprivate": "private"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-incomegroups-socionom-public.csv", 
                     "profession": "Socionom", 
                     "publicprivate": "public"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-percentile-beteendevetare-public.csv", 
+                    "file_name": "prepared-data/employee-incomegroups-beteendevetare-public.csv", 
                     "profession": "Beteendevetare", 
                     "publicprivate": "public"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-percentile-personalvetare-public.csv", 
+                    "file_name": "prepared-data/employee-incomegroups-personalvetare-public.csv", 
                     "profession": "Personalvetare", 
                     "publicprivate": "public"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-percentile-ekonom-public.csv", 
+                    "file_name": "prepared-data/employee-incomegroups-ekonom-public.csv", 
                     "profession": "Ekonom", 
                     "publicprivate": "public"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-percentile-ekonom-private.csv", 
+                    "file_name": "prepared-data/employee-incomegroups-ekonom-private.csv", 
                     "profession": "Ekonom", 
                     "publicprivate": "private"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-percentile-personalvetare-private.csv", 
+                    "file_name": "prepared-data/employee-incomegroups-personalvetare-private.csv", 
                     "profession": "Personalvetare", 
                     "publicprivate": "private"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-percentile-socionom-private.csv", 
+                    "file_name": "prepared-data/employee-incomegroups-socionom-private.csv", 
                     "profession": "Socionom", 
                     "publicprivate": "private"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-percentile-samhallsvetare-public.csv", 
+                    "file_name": "prepared-data/employee-incomegroups-samhallsvetare-public.csv", 
                     "profession": "Samh\u00e4llsvetare", 
                     "publicprivate": "public"
                 }

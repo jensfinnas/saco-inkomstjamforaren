@@ -1,4 +1,12 @@
 {
+	"jusek": {
+		"employee": {
+			"selectedProfession": "Jurist",
+			"selectedProfessionSlug": "jurist",
+			"startIncome": 50000
+		}
+
+	},
 	"saco": {
 		"manager": {
 			"selectedProfession": "Högsta chef, Högre chef, Mellanchef",

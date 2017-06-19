@@ -21,7 +21,7 @@ DATA_FOLDER = "prepared-data"
 
 DATESET_LISTS_FILE = "dataset_lists.json"
 
-ALLOWED_ASSOCIATIONS = ["saco", "ssr"]
+ALLOWED_ASSOCIATIONS = ["saco", "ssr", "jusek"]
 ALLOWED_EMPLOYMENTS = ["manager", "employee"]
 
 PERCENTILE_FILE_KEY = "percentile" # "Percentiler"
@@ -77,10 +77,10 @@ def save_list_of_datasets(def_dict, filekey, employment):
             .format(DATA_FOLDER, employment, filekey, slugify(profession), publicprivate)
         #folder + "/" + prefix + slugify(profession) + "-" + publicprivate + ".csv"
         save_csv_file(file_name, dataset)
-        file_list.append({ 
-            "file_name": file_name, 
+        file_list.append({
+            "file_name": file_name,
             "profession": profession,
-            "publicprivate": publicprivate  
+            "publicprivate": publicprivate
         })
     return file_list
 
@@ -88,7 +88,7 @@ def split_by_profession_and_publicprivate(dataset):
     grouped_data = defaultdict(list)
     for row in dataset:
         key = row["profession"] + ";" + row["publicprivate"]
-        
+
         grouped_data[key].append(row)
 
     return grouped_data
@@ -130,7 +130,7 @@ def transform_incomegroup_dataset(dataset):
         # Transform the first bin (<25000) to 24999
         if "<" in _row["income"]:
             income_upper = parse_int(_row["income"].split("<")[1]) - 1
-            _row["income"] = "-%s" % income_upper            
+            _row["income"] = "-%s" % income_upper
         _row["value"] = float(row["Andel"].replace(",",".")) / 100
         _resp.append(_row)
 
@@ -156,7 +156,7 @@ def sort_datasets(grouped_data):
         grouped_data[key] = sorted(dataset, key=lambda k: k['income'])
 
 
-        
+
         return grouped_data
 
 try:
@@ -167,17 +167,17 @@ except (IOError, ValueError):
 
 for filepath in glob.iglob(FILES_DIR + "/*.csv"):
     filename = filepath.split("/")[-1]
-    
+
     # Validate file name
     validate_filename(filename)
-    
-    # Get association, employment status and filekey 
+
+    # Get association, employment status and filekey
     association, employment, filekey = filename.split("-")
     filekey = filekey.replace(".csv","")
-    
+
     # Open
     dataset = open_csv_file(filepath)
-    
+
     if filekey == PERCENTILE_FILE_KEY:
         dataset = transform_percentile_dataset(dataset)
         dataset = split_by_profession_and_publicprivate(dataset)
@@ -186,18 +186,18 @@ for filepath in glob.iglob(FILES_DIR + "/*.csv"):
         dataset = split_by_profession_and_publicprivate(dataset)
         dataset = fill_empty_bins(dataset)
         dataset = sort_datasets(dataset)
-    
-    file_list = save_list_of_datasets(dataset, filekey, employment) 
-    
+
+    file_list = save_list_of_datasets(dataset, filekey, employment)
+
     if association not in dataset_lists:
         dataset_lists[association] = {}
-    
+
     if employment not in dataset_lists[association]:
         dataset_lists[association][employment] = {}
-    
+
     dataset_lists[association][employment]["association"] = association
     dataset_lists[association][employment]["file_list"] = file_list
-        
+
 
     with open(DATESET_LISTS_FILE, 'w') as f:
-        json.dump(dataset_lists, f, indent=4)     
+        json.dump(dataset_lists, f, indent=4)

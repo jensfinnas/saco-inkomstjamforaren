@@ -1,86 +1,85 @@
 percentile,profession,publicprivate,income
-3,Socionom,private,26000
-4,Socionom,private,26550
-5,Socionom,private,27000
-6,Socionom,private,27500
-7,Socionom,private,28000
-8,Socionom,private,28400
-9,Socionom,private,28600
-10,Socionom,private,29000
-11,Socionom,private,29199
-12,Socionom,private,29500
-13,Socionom,private,29790
-14,Socionom,private,30000
-15,Socionom,private,30150
-16,Socionom,private,30500
-17,Socionom,private,30536
-18,Socionom,private,30774
-19,Socionom,private,31000
-20,Socionom,private,31157
-21,Socionom,private,31400
-22,Socionom,private,31500
-23,Socionom,private,31600
-24,Socionom,private,31850
-25,Socionom,private,32000
-26,Socionom,private,32100
-27,Socionom,private,32400
-28,Socionom,private,32600
-29,Socionom,private,32900
-30,Socionom,private,33000
-32,Socionom,private,33300
-33,Socionom,private,33500
-34,Socionom,private,33600
-35,Socionom,private,33805
-36,Socionom,private,34000
-38,Socionom,private,34180
-39,Socionom,private,34474
-40,Socionom,private,34500
-41,Socionom,private,34708
-42,Socionom,private,35000
-45,Socionom,private,35150
-46,Socionom,private,35350
-47,Socionom,private,35500
-48,Socionom,private,35796
-49,Socionom,private,36000
-52,Socionom,private,36200
-53,Socionom,private,36500
-54,Socionom,private,36600
-55,Socionom,private,36956
-56,Socionom,private,37000
-58,Socionom,private,37200
-59,Socionom,private,37600
-60,Socionom,private,38000
-62,Socionom,private,38100
-63,Socionom,private,38400
-64,Socionom,private,38540
-65,Socionom,private,38934
-66,Socionom,private,39000
-67,Socionom,private,39275
-68,Socionom,private,39600
-69,Socionom,private,39940
-70,Socionom,private,40000
-71,Socionom,private,40142
-72,Socionom,private,40600
-73,Socionom,private,40800
-74,Socionom,private,41000
-75,Socionom,private,41057
-76,Socionom,private,41500
-77,Socionom,private,42000
-79,Socionom,private,42355
-80,Socionom,private,42900
-81,Socionom,private,43000
-82,Socionom,private,43370
-83,Socionom,private,44000
-84,Socionom,private,44120
-85,Socionom,private,45000
-87,Socionom,private,45500
-88,Socionom,private,46000
-89,Socionom,private,47000
-90,Socionom,private,48000
-91,Socionom,private,49500
-92,Socionom,private,50000
-93,Socionom,private,51741
-94,Socionom,private,53500
-95,Socionom,private,55000
-96,Socionom,private,57000
-97,Socionom,private,62000
+3,Socionom ,private,26099
+4,Socionom ,private,26600
+5,Socionom ,private,27000
+6,Socionom ,private,27600
+7,Socionom ,private,28000
+8,Socionom ,private,28400
+9,Socionom ,private,28700
+10,Socionom ,private,29000
+11,Socionom ,private,29199
+12,Socionom ,private,29500
+13,Socionom ,private,29800
+14,Socionom ,private,30000
+15,Socionom ,private,30200
+16,Socionom ,private,30500
+17,Socionom ,private,30600
+18,Socionom ,private,30800
+19,Socionom ,private,31000
+20,Socionom ,private,31190
+21,Socionom ,private,31400
+22,Socionom ,private,31500
+23,Socionom ,private,31610
+24,Socionom ,private,31900
+25,Socionom ,private,32000
+26,Socionom ,private,32130
+27,Socionom ,private,32400
+28,Socionom ,private,32600
+29,Socionom ,private,32936
+30,Socionom ,private,33000
+32,Socionom ,private,33300
+33,Socionom ,private,33500
+34,Socionom ,private,33603
+35,Socionom ,private,33841
+36,Socionom ,private,34000
+38,Socionom ,private,34180
+39,Socionom ,private,34500
+41,Socionom ,private,34748
+42,Socionom ,private,35000
+45,Socionom ,private,35152
+46,Socionom ,private,35400
+47,Socionom ,private,35500
+48,Socionom ,private,35796
+49,Socionom ,private,36000
+52,Socionom ,private,36200
+53,Socionom ,private,36500
+54,Socionom ,private,36600
+55,Socionom ,private,36956
+56,Socionom ,private,37000
+58,Socionom ,private,37200
+59,Socionom ,private,37600
+60,Socionom ,private,38000
+62,Socionom ,private,38100
+63,Socionom ,private,38450
+64,Socionom ,private,38540
+65,Socionom ,private,38934
+66,Socionom ,private,39000
+67,Socionom ,private,39300
+68,Socionom ,private,39600
+69,Socionom ,private,39940
+70,Socionom ,private,40000
+71,Socionom ,private,40142
+72,Socionom ,private,40600
+73,Socionom ,private,40834
+74,Socionom ,private,41000
+75,Socionom ,private,41057
+76,Socionom ,private,41500
+77,Socionom ,private,42000
+79,Socionom ,private,42355
+80,Socionom ,private,42900
+81,Socionom ,private,43000
+82,Socionom ,private,43370
+83,Socionom ,private,44000
+84,Socionom ,private,44152
+85,Socionom ,private,45000
+87,Socionom ,private,45500
+88,Socionom ,private,46000
+89,Socionom ,private,47000
+90,Socionom ,private,48000
+91,Socionom ,private,49500
+92,Socionom ,private,50000
+93,Socionom ,private,51741
+94,Socionom ,private,53500
+95,Socionom ,private,55000
+96,Socionom ,private,57000
+97,Socionom ,private,62000
