@@ -67,20 +67,27 @@ def srange(start, stop, step):
         yield r
         r += step
 
-def save_list_of_datasets(def_dict, filekey, employment):
+def save_list_of_datasets(def_dict, filekey, employment, association):
     file_list = [] # A list of saved files for reference
     for key in def_dict:
         dataset = def_dict[key]
         profession = key.split(";")[0]
         publicprivate = key.split(";")[1]
-        file_name = "{}/{}-{}-{}-{}.csv"\
-            .format(DATA_FOLDER, employment, filekey, slugify(profession), publicprivate)
-        #folder + "/" + prefix + slugify(profession) + "-" + publicprivate + ".csv"
+        file_name = "{}/{}-{}-{}-{}-{}.csv"\
+            .format(
+                DATA_FOLDER,
+                employment,
+                filekey,
+                association,
+                slugify(profession),
+                publicprivate)
+
         save_csv_file(file_name, dataset)
         file_list.append({
-            "file_name": file_name,
+            "file_name": file_name.replace(filekey,"[FILEKEY]"),
             "profession": profession,
-            "publicprivate": publicprivate
+            "publicprivate": publicprivate,
+            "association": association,
         })
     return file_list
 
@@ -187,13 +194,14 @@ for filepath in glob.iglob(FILES_DIR + "/*.csv"):
         dataset = fill_empty_bins(dataset)
         dataset = sort_datasets(dataset)
 
-    file_list = save_list_of_datasets(dataset, filekey, employment)
+    file_list = save_list_of_datasets(dataset, filekey, employment, association)
 
     if association not in dataset_lists:
         dataset_lists[association] = {}
 
     if employment not in dataset_lists[association]:
         dataset_lists[association][employment] = {}
+        dataset_lists[association][employment]["file_list"] = []
 
     dataset_lists[association][employment]["association"] = association
     dataset_lists[association][employment]["file_list"] = file_list

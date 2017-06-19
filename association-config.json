@@ -2,7 +2,6 @@
 	"jusek": {
 		"employee": {
 			"selectedProfession": "Jurist",
-			"selectedProfessionSlug": "jurist",
 			"startIncome": 50000
 		}
 
@@ -10,19 +9,16 @@
 	"saco": {
 		"manager": {
 			"selectedProfession": "Högsta chef, Högre chef, Mellanchef",
-			"selectedProfessionSlug": "hogsta-chef-hogre-chef-mellanchef",
 			"startIncome": 50000
 		},
 		"employee": {
 			"selectedProfession": "Civilingenjör",
-			"selectedProfessionSlug": "civilingenjor",
 			"startIncome": 35000
 		}
 	},
 	"ssr": {
 		"employee": {
 			"selectedProfession": "Socionom",
-			"selectedProfessionSlug": "socionom",
 			"startIncome": 35000
 		}
 	}
