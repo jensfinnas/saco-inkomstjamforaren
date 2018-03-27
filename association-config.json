@@ -8,7 +8,7 @@
 	},
 	"saco": {
 		"manager": {
-			"selectedProfession": "Högsta chef, Högre chef, Mellanchef",
+			"selectedProfession": "Högsta chef, högre chef, mellanchef",
 			"startIncome": 50000
 		},
 		"employee": {

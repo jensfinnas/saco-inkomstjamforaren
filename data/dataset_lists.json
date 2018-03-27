@@ -21,12 +21,6 @@
                     "association": "saco"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-saco-socionom-private.csv", 
-                    "profession": "Socionom ", 
-                    "publicprivate": "private", 
-                    "association": "saco"
-                }, 
-                {
                     "file_name": "prepared-data/employee-[FILEKEY]-saco-hogskoleingenjor-public.csv", 
                     "profession": "H\u00f6gskoleingenj\u00f6r", 
                     "publicprivate": "public", 
@@ -105,6 +99,12 @@
                     "association": "saco"
                 }, 
                 {
+                    "file_name": "prepared-data/employee-[FILEKEY]-saco-jurist-public.csv", 
+                    "profession": "Jurist", 
+                    "publicprivate": "public", 
+                    "association": "saco"
+                }, 
+                {
                     "file_name": "prepared-data/employee-[FILEKEY]-saco-farmaceut-private.csv", 
                     "profession": "Farmaceut", 
                     "publicprivate": "private", 
@@ -123,7 +123,7 @@
                     "association": "saco"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-saco-biologbiokemist-public.csv", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-saco-biolog-biokemist-public.csv", 
                     "profession": "Biolog/biokemist", 
                     "publicprivate": "public", 
                     "association": "saco"
@@ -135,21 +135,15 @@
                     "association": "saco"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-saco-socionom-public.csv", 
-                    "profession": "Socionom ", 
-                    "publicprivate": "public", 
-                    "association": "saco"
-                }, 
-                {
-                    "file_name": "prepared-data/employee-[FILEKEY]-saco-civilekonomekonom-public.csv", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-saco-civilekonom-ekonom-public.csv", 
                     "profession": "Civilekonom/ekonom", 
                     "publicprivate": "public", 
                     "association": "saco"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-saco-jurist-public.csv", 
-                    "profession": "Jurist", 
-                    "publicprivate": "public", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-saco-socionom-private.csv", 
+                    "profession": "Socionom", 
+                    "publicprivate": "private", 
                     "association": "saco"
                 }, 
                 {
@@ -159,13 +153,13 @@
                     "association": "saco"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-saco-biologbiokemist-private.csv", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-saco-biolog-biokemist-private.csv", 
                     "profession": "Biolog/biokemist", 
                     "publicprivate": "private", 
                     "association": "saco"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-saco-prastdiakon-private.csv", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-saco-prast-diakon-private.csv", 
                     "profession": "Pr\u00e4st/diakon", 
                     "publicprivate": "private", 
                     "association": "saco"
@@ -183,7 +177,13 @@
                     "association": "saco"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-saco-civilekonomekonom-private.csv", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-saco-socionom-public.csv", 
+                    "profession": "Socionom", 
+                    "publicprivate": "public", 
+                    "association": "saco"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-[FILEKEY]-saco-civilekonom-ekonom-private.csv", 
                     "profession": "Civilekonom/ekonom", 
                     "publicprivate": "private", 
                     "association": "saco"
@@ -207,26 +207,26 @@
             "file_list": [
                 {
                     "file_name": "prepared-data/manager-[FILEKEY]-saco-hogsta-chef-hogre-chef-mellanchef-public.csv", 
-                    "profession": "H\u00f6gsta chef, H\u00f6gre chef, Mellanchef", 
+                    "profession": "H\u00f6gsta chef, h\u00f6gre chef, mellanchef", 
                     "publicprivate": "public", 
                     "association": "saco"
                 }, 
                 {
                     "file_name": "prepared-data/manager-[FILEKEY]-saco-hogsta-chef-hogre-chef-mellanchef-private.csv", 
-                    "profession": "H\u00f6gsta chef, H\u00f6gre chef, Mellanchef", 
+                    "profession": "H\u00f6gsta chef, h\u00f6gre chef, mellanchef", 
                     "publicprivate": "private", 
                     "association": "saco"
                 }, 
                 {
-                    "file_name": "prepared-data/manager-[FILEKEY]-saco-enhetschefgruppchef-forsta-linjens-chef-public.csv", 
-                    "profession": "Enhetschef/gruppchef/ f\u00f6rsta linjens chef", 
+                    "file_name": "prepared-data/manager-[FILEKEY]-saco-enhetschef-gruppchef-forsta-linjens-chef-private.csv", 
+                    "profession": "Enhetschef/gruppchef/f\u00f6rsta linjens chef", 
+                    "publicprivate": "private", 
+                    "association": "saco"
+                }, 
+                {
+                    "file_name": "prepared-data/manager-[FILEKEY]-saco-enhetschef-gruppchef-forsta-linjens-chef-public.csv", 
+                    "profession": "Enhetschef/gruppchef/f\u00f6rsta linjens chef", 
                     "publicprivate": "public", 
-                    "association": "saco"
-                }, 
-                {
-                    "file_name": "prepared-data/manager-[FILEKEY]-saco-enhetschefgruppchef-forsta-linjens-chef-private.csv", 
-                    "profession": "Enhetschef/gruppchef/ f\u00f6rsta linjens chef", 
-                    "publicprivate": "private", 
                     "association": "saco"
                 }
             ], 

@@ -27,6 +27,11 @@ ALLOWED_EMPLOYMENTS = ["manager", "employee"]
 PERCENTILE_FILE_KEY = "percentile" # "Percentiler"
 INCOMEGROUPS_FILE_KEY = "incomegroups" # "Tusental"
 
+REQUIRED_COLS = {
+    "incomegroups": [u"Utbildning", u"Arbsektor", u"Andel", u"Lön",],
+    "percentile": ["Utbildning", "Arbsektor", "Percentile", "Andel", "Lon", "Tickvalue"]
+}
+
 ALLOWED_FILE_KEYS = [PERCENTILE_FILE_KEY, INCOMEGROUPS_FILE_KEY]
 
 def validate_filename(filename):
@@ -184,6 +189,11 @@ for filepath in glob.iglob(FILES_DIR + "/*.csv"):
 
     # Open
     dataset = open_csv_file(filepath)
+
+    # Make sure all cols are there
+    for col in REQUIRED_COLS[filekey]:
+        assert col in dataset[0], u"'{}' missing in '{}'".format(col, filepath)
+
 
     if filekey == PERCENTILE_FILE_KEY:
         dataset = transform_percentile_dataset(dataset)

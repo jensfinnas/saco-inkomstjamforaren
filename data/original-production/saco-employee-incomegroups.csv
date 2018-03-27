@@ -1,1241 +1,1346 @@
 Utbildning,Arbsektor,Andel,Lön
-Agronom,Privat,2.303262956,<27000
-Agronom,Privat,1.535508637,27000-27999
-Agronom,Privat,2.879078695,28000-28999
-Agronom,Privat,1.535508637,29000-29999
-Agronom,Privat,2.687140115,30000-30999
-Agronom,Privat,3.454894434,31000-31999
-Agronom,Privat,3.454894434,32000-32999
-Agronom,Privat,3.071017274,33000-33999
-Agronom,Privat,5.950095969,34000-34999
-Agronom,Privat,3.454894434,35000-35999
-Agronom,Privat,3.838771593,36000-36999
-Agronom,Privat,3.838771593,37000-37999
-Agronom,Privat,4.222648752,38000-38999
-Agronom,Privat,3.454894434,39000-39999
-Agronom,Privat,3.454894434,40000-40999
-Agronom,Privat,4.030710173,41000-41999
-Agronom,Privat,4.030710173,42000-42999
-Agronom,Privat,4.606525912,43000-43999
-Agronom,Privat,2.879078695,44000-44999
-Agronom,Privat,3.262955854,45000-45999
-Agronom,Privat,2.495201536,46000-46999
-Agronom,Privat,2.303262956,47000-47999
-Agronom,Privat,2.303262956,48000-48999
-Agronom,Privat,1.535508637,49000-49999
-Agronom,Privat,2.303262956,50000-50999
-Agronom,Privat,1.727447217,51000-51999
-Agronom,Privat,1.535508637,52000-52999
-Agronom,Privat,1.919385797,53000-53999
-Agronom,Privat,0.959692898,54000-54999
-Agronom,Privat,1.343570058,55000-55999
-Agronom,Privat,0.383877159,56000-56999
-Agronom,Privat,0.383877159,57000-57999
-Agronom,Privat,1.343570058,58000-58999
-Agronom,Privat,0.575815739,59000-59999
-Agronom,Privat,0.767754319,60000-60999
-Agronom,Privat,0.383877159,61000-61999
-Agronom,Privat,1.151631478,62000-62999
-Agronom,Privat,0.767754319,63000-63999
-Agronom,Privat,0.19193858,64000-64999
-Agronom,Privat,0.383877159,65000-65999
-Agronom,Privat,0.383877159,66000-66999
-Agronom,Privat,0.19193858,67000-67999
-Agronom,Privat,0.383877159,68000-68999
-Agronom,Privat,0.19193858,69000-69999
-Agronom,Privat,0.575815739,70000-70999
-Agronom,Privat,0.19193858,71000-71999
-Agronom,Privat,0.383877159,72000-72999
-Agronom,Privat,0.383877159,74000-74999
-Agronom,Privat,0.19193858,75000-75999
-Agronom,Privat,0.383877159,76000-76999
-Agronom,Privat,0.19193858,78000-78999
-Agronom,Privat,0.19193858,79000-79999
-Agronom,Privat,3.646833013,>=80000
-Agronom,Offentlig,2.977232925,<26000
-Agronom,Offentlig,1.751313485,26000-26999
-Agronom,Offentlig,3.50262697,27000-27999
-Agronom,Offentlig,4.378283713,28000-28999
-Agronom,Offentlig,4.553415061,29000-29999
-Agronom,Offentlig,3.152364273,30000-30999
-Agronom,Offentlig,4.903677758,31000-31999
-Agronom,Offentlig,6.304728546,32000-32999
-Agronom,Offentlig,5.954465849,33000-33999
-Agronom,Offentlig,7.355516637,34000-34999
-Agronom,Offentlig,3.852889667,35000-35999
-Agronom,Offentlig,5.253940455,36000-36999
-Agronom,Offentlig,4.028021016,37000-37999
-Agronom,Offentlig,3.327495622,38000-38999
-Agronom,Offentlig,2.626970228,39000-39999
-Agronom,Offentlig,4.028021016,40000-40999
-Agronom,Offentlig,3.50262697,41000-41999
-Agronom,Offentlig,4.028021016,42000-42999
-Agronom,Offentlig,3.852889667,43000-43999
-Agronom,Offentlig,2.101576182,44000-44999
-Agronom,Offentlig,2.626970228,45000-45999
-Agronom,Offentlig,1.751313485,46000-46999
-Agronom,Offentlig,1.401050788,47000-47999
-Agronom,Offentlig,1.576182137,48000-48999
-Agronom,Offentlig,0.875656743,49000-49999
-Agronom,Offentlig,1.576182137,50000-50999
-Agronom,Offentlig,1.050788091,51000-51999
-Agronom,Offentlig,0.700525394,52000-52999
-Agronom,Offentlig,0.700525394,53000-53999
-Agronom,Offentlig,0.875656743,54000-54999
-Agronom,Offentlig,0.525394046,55000-55999
-Agronom,Offentlig,0.700525394,56000-56999
-Agronom,Offentlig,0.525394046,57000-57999
-Agronom,Offentlig,0.525394046,58000-58999
-Agronom,Offentlig,3.152364273,>=59000
-Arkitekt,Privat,2.975557917,<30000
-Arkitekt,Privat,4.144527099,30000-30999
-Arkitekt,Privat,3.754870705,31000-31999
-Arkitekt,Privat,4.85299327,32000-32999
-Arkitekt,Privat,4.427913567,33000-33999
-Arkitekt,Privat,4.427913567,34000-34999
-Arkitekt,Privat,4.286220333,35000-35999
-Arkitekt,Privat,4.923839887,36000-36999
-Arkitekt,Privat,4.286220333,37000-37999
-Arkitekt,Privat,4.250797024,38000-38999
-Arkitekt,Privat,4.817569961,39000-39999
-Arkitekt,Privat,5.703152674,40000-40999
-Arkitekt,Privat,4.286220333,41000-41999
-Arkitekt,Privat,4.002833865,42000-42999
-Arkitekt,Privat,3.967410556,43000-43999
-Arkitekt,Privat,3.754870705,44000-44999
-Arkitekt,Privat,3.365214311,45000-45999
-Arkitekt,Privat,3.577754162,46000-46999
-Arkitekt,Privat,3.40063762,47000-47999
-Arkitekt,Privat,2.727594757,48000-48999
-Arkitekt,Privat,2.089975204,49000-49999
-Arkitekt,Privat,2.550478215,50000-50999
-Arkitekt,Privat,1.94828197,51000-51999
-Arkitekt,Privat,1.842012044,52000-52999
-Arkitekt,Privat,1.133545873,53000-53999
-Arkitekt,Privat,0.921006022,54000-54999
-Arkitekt,Privat,1.381509033,55000-55999
-Arkitekt,Privat,0.637619554,56000-56999
-Arkitekt,Privat,0.49592632,57000-57999
-Arkitekt,Privat,0.460503011,58000-58999
-Arkitekt,Privat,0.283386468,59000-59999
-Arkitekt,Privat,0.743889479,60000-60999
-Arkitekt,Privat,0.389656394,61000-61999
-Arkitekt,Privat,3.188097768,>=62000
-Arkitekt,Offentlig,2.476780186,<30000
-Arkitekt,Offentlig,2.631578947,30000-30999
-Arkitekt,Offentlig,3.250773994,31000-31999
-Arkitekt,Offentlig,4.179566563,32000-32999
-Arkitekt,Offentlig,4.566563467,33000-33999
-Arkitekt,Offentlig,4.024767802,34000-34999
-Arkitekt,Offentlig,6.424148607,35000-35999
-Arkitekt,Offentlig,5.572755418,36000-36999
-Arkitekt,Offentlig,4.489164087,37000-37999
-Arkitekt,Offentlig,6.656346749,38000-38999
-Arkitekt,Offentlig,4.334365325,39000-39999
-Arkitekt,Offentlig,5.882352941,40000-40999
-Arkitekt,Offentlig,4.256965944,41000-41999
-Arkitekt,Offentlig,4.024767802,42000-42999
-Arkitekt,Offentlig,3.560371517,43000-43999
-Arkitekt,Offentlig,3.095975232,44000-44999
-Arkitekt,Offentlig,3.328173375,45000-45999
-Arkitekt,Offentlig,3.095975232,46000-46999
-Arkitekt,Offentlig,2.708978328,47000-47999
-Arkitekt,Offentlig,2.786377709,48000-48999
-Arkitekt,Offentlig,1.93498452,49000-49999
-Arkitekt,Offentlig,1.547987616,50000-50999
-Arkitekt,Offentlig,1.702786378,51000-51999
-Arkitekt,Offentlig,1.083591331,52000-52999
-Arkitekt,Offentlig,1.238390093,53000-53999
-Arkitekt,Offentlig,0.773993808,54000-54999
-Arkitekt,Offentlig,1.315789474,55000-55999
-Arkitekt,Offentlig,1.083591331,56000-56999
-Arkitekt,Offentlig,1.083591331,57000-57999
-Arkitekt,Offentlig,0.464396285,58000-58999
-Arkitekt,Offentlig,0.696594427,59000-59999
-Arkitekt,Offentlig,0.386996904,60000-60999
-Arkitekt,Offentlig,0.309597523,61000-61999
-Arkitekt,Offentlig,0.464396285,62000-62999
-Arkitekt,Offentlig,0.464396285,63000-63999
-Arkitekt,Offentlig,0.386996904,64000-64999
-Arkitekt,Offentlig,0.154798762,65000-65999
-Arkitekt,Offentlig,0.309597523,66000-66999
-Arkitekt,Offentlig,3.250773994,>=67000
-Civilekonom/ekonom,Privat,1.956997554,<26000
-Civilekonom/ekonom,Privat,1.158748552,26000-26999
-Civilekonom/ekonom,Privat,1.287498391,27000-27999
-Civilekonom/ekonom,Privat,1.493498133,28000-28999
-Civilekonom/ekonom,Privat,1.248873439,29000-29999
-Civilekonom/ekonom,Privat,1.738122827,30000-30999
-Civilekonom/ekonom,Privat,1.660872924,31000-31999
-Civilekonom/ekonom,Privat,1.64799794,32000-32999
-Civilekonom/ekonom,Privat,1.918372602,33000-33999
-Civilekonom/ekonom,Privat,1.866872666,34000-34999
-Civilekonom/ekonom,Privat,2.549246813,35000-35999
-Civilekonom/ekonom,Privat,2.291747135,36000-36999
-Civilekonom/ekonom,Privat,2.265997168,37000-37999
-Civilekonom/ekonom,Privat,2.072872409,38000-38999
-Civilekonom/ekonom,Privat,2.150122312,39000-39999
-Civilekonom/ekonom,Privat,2.922621347,40000-40999
-Civilekonom/ekonom,Privat,2.227372216,41000-41999
-Civilekonom/ekonom,Privat,2.845371443,42000-42999
-Civilekonom/ekonom,Privat,2.549246813,43000-43999
-Civilekonom/ekonom,Privat,2.214497232,44000-44999
-Civilekonom/ekonom,Privat,2.974121282,45000-45999
-Civilekonom/ekonom,Privat,2.150122312,46000-46999
-Civilekonom/ekonom,Privat,2.755246556,47000-47999
-Civilekonom/ekonom,Privat,2.343247071,48000-48999
-Civilekonom/ekonom,Privat,1.802497747,49000-49999
-Civilekonom/ekonom,Privat,2.986996266,50000-50999
-Civilekonom/ekonom,Privat,2.008497489,51000-51999
-Civilekonom/ekonom,Privat,2.150122312,52000-52999
-Civilekonom/ekonom,Privat,1.64799794,53000-53999
-Civilekonom/ekonom,Privat,1.635122956,54000-54999
-Civilekonom/ekonom,Privat,2.17587228,55000-55999
-Civilekonom/ekonom,Privat,1.866872666,56000-56999
-Civilekonom/ekonom,Privat,1.609372988,57000-57999
-Civilekonom/ekonom,Privat,1.364748294,58000-58999
-Civilekonom/ekonom,Privat,1.132998584,59000-59999
-Civilekonom/ekonom,Privat,1.866872666,60000-60999
-Civilekonom/ekonom,Privat,1.145873568,61000-61999
-Civilekonom/ekonom,Privat,1.390498262,62000-62999
-Civilekonom/ekonom,Privat,1.145873568,63000-63999
-Civilekonom/ekonom,Privat,0.952748809,64000-64999
-Civilekonom/ekonom,Privat,1.506373117,65000-65999
-Civilekonom/ekonom,Privat,0.914123857,66000-66999
-Civilekonom/ekonom,Privat,1.029998713,67000-67999
-Civilekonom/ekonom,Privat,0.836873954,68000-68999
-Civilekonom/ekonom,Privat,0.720999099,69000-69999
-Civilekonom/ekonom,Privat,1.454873181,70000-70999
-Civilekonom/ekonom,Privat,0.720999099,71000-71999
-Civilekonom/ekonom,Privat,0.785374018,72000-72999
-Civilekonom/ekonom,Privat,0.617999228,73000-73999
-Civilekonom/ekonom,Privat,0.605124244,74000-74999
-Civilekonom/ekonom,Privat,0.88837389,75000-75999
-Civilekonom/ekonom,Privat,0.52787434,76000-76999
-Civilekonom/ekonom,Privat,0.59224926,77000-77999
-Civilekonom/ekonom,Privat,0.695249131,78000-78999
-Civilekonom/ekonom,Privat,0.424874469,79000-79999
-Civilekonom/ekonom,Privat,10.50598687,>=80000
-Civilekonom/ekonom,Offentlig,2.507565932,<27000
-Civilekonom/ekonom,Offentlig,1.707738867,27000-27999
-Civilekonom/ekonom,Offentlig,2.05361003,28000-28999
-Civilekonom/ekonom,Offentlig,2.161694769,29000-29999
-Civilekonom/ekonom,Offentlig,2.226545612,30000-30999
-Civilekonom/ekonom,Offentlig,2.788586252,31000-31999
-Civilekonom/ekonom,Offentlig,3.350626891,32000-32999
-Civilekonom/ekonom,Offentlig,3.718115002,33000-33999
-Civilekonom/ekonom,Offentlig,3.674881107,34000-34999
-Civilekonom/ekonom,Offentlig,4.172070904,35000-35999
-Civilekonom/ekonom,Offentlig,3.955901427,36000-36999
-Civilekonom/ekonom,Offentlig,4.150453956,37000-37999
-Civilekonom/ekonom,Offentlig,4.712494596,38000-38999
-Civilekonom/ekonom,Offentlig,4.690877648,39000-39999
-Civilekonom/ekonom,Offentlig,4.236921747,40000-40999
-Civilekonom/ekonom,Offentlig,3.934284479,41000-41999
-Civilekonom/ekonom,Offentlig,3.523562473,42000-42999
-Civilekonom/ekonom,Offentlig,3.523562473,43000-43999
-Civilekonom/ekonom,Offentlig,3.415477735,44000-44999
-Civilekonom/ekonom,Offentlig,3.17769131,45000-45999
-Civilekonom/ekonom,Offentlig,2.745352356,46000-46999
-Civilekonom/ekonom,Offentlig,2.464332036,47000-47999
-Civilekonom/ekonom,Offentlig,2.096843926,48000-48999
-Civilekonom/ekonom,Offentlig,2.269779507,49000-49999
-Civilekonom/ekonom,Offentlig,2.658884565,50000-50999
-Civilekonom/ekonom,Offentlig,1.664504972,51000-51999
-Civilekonom/ekonom,Offentlig,1.902291396,52000-52999
-Civilekonom/ekonom,Offentlig,1.534803286,53000-53999
-Civilekonom/ekonom,Offentlig,1.469952443,54000-54999
-Civilekonom/ekonom,Offentlig,1.21054907,55000-55999
-Civilekonom/ekonom,Offentlig,1.080847384,56000-56999
-Civilekonom/ekonom,Offentlig,0.929528751,57000-57999
-Civilekonom/ekonom,Offentlig,0.972762646,58000-58999
-Civilekonom/ekonom,Offentlig,0.648508431,59000-59999
-Civilekonom/ekonom,Offentlig,0.886294855,60000-60999
-Civilekonom/ekonom,Offentlig,0.821444012,61000-61999
-Civilekonom/ekonom,Offentlig,0.605274535,62000-62999
-Civilekonom/ekonom,Offentlig,0.626891483,63000-63999
-Civilekonom/ekonom,Offentlig,0.389105058,64000-64999
-Civilekonom/ekonom,Offentlig,0.302637268,65000-65999
-Civilekonom/ekonom,Offentlig,0.324254215,66000-66999
-Civilekonom/ekonom,Offentlig,0.432338954,67000-67999
-Civilekonom/ekonom,Offentlig,0.324254215,68000-68999
-Civilekonom/ekonom,Offentlig,0.345871163,69000-69999
-Civilekonom/ekonom,Offentlig,0.302637268,70000-70999
-Civilekonom/ekonom,Offentlig,0.237786425,71000-71999
-Civilekonom/ekonom,Offentlig,3.069606572,>=72000
-Arbetsterapeut,Privat,2.595155709,< 25000
-Arbetsterapeut,Privat,2.422145329,25000-25999
-Arbetsterapeut,Privat,5.017301038,26000-26999
-Arbetsterapeut,Privat,10.55363322,27000-27999
-Arbetsterapeut,Privat,10.89965398,28000-28999
-Arbetsterapeut,Privat,12.28373702,29000-29999
-Arbetsterapeut,Privat,11.41868512,30000-30999
-Arbetsterapeut,Privat,9.688581315,31000-31999
-Arbetsterapeut,Privat,6.920415225,32000-32999
-Arbetsterapeut,Privat,6.401384083,33000-33999
-Arbetsterapeut,Privat,4.325259516,34000-34999
-Arbetsterapeut,Privat,3.460207612,35000-35999
-Arbetsterapeut,Privat,2.941176471,36000-36999
-Arbetsterapeut,Privat,2.076124567,37000-37999
-Arbetsterapeut,Privat,1.038062284,38000-38999
-Arbetsterapeut,Privat,1.557093426,39000-39999
-Arbetsterapeut,Privat,1.557093426,40000-40999
-Arbetsterapeut,Privat,0.692041522,41000-41999
-Arbetsterapeut,Privat,0.692041522,42000-42999
-Arbetsterapeut,Privat,3.460207612,>=43000
-Arbetsterapeut,Offentlig,2.351238922,< 25000
-Arbetsterapeut,Offentlig,4.84716947,25000-25999
-Arbetsterapeut,Offentlig,6.167480557,26000-26999
-Arbetsterapeut,Offentlig,9.133658889,27000-27999
-Arbetsterapeut,Offentlig,11.52107072,28000-28999
-Arbetsterapeut,Offentlig,13.09459215,29000-29999
-Arbetsterapeut,Offentlig,14.03508772,30000-30999
-Arbetsterapeut,Offentlig,10.54440224,31000-31999
-Arbetsterapeut,Offentlig,8.102731054,32000-32999
-Arbetsterapeut,Offentlig,5.661059866,33000-33999
-Arbetsterapeut,Offentlig,3.201302225,34000-34999
-Arbetsterapeut,Offentlig,2.043769217,35000-35999
-Arbetsterapeut,Offentlig,1.483089166,36000-36999
-Arbetsterapeut,Offentlig,1.175619461,37000-37999
-Arbetsterapeut,Offentlig,0.868149756,38000-38999
-Arbetsterapeut,Offentlig,0.868149756,39000-39999
-Arbetsterapeut,Offentlig,0.705371677,40000-40999
-Arbetsterapeut,Offentlig,0.560680051,41000-41999
-Arbetsterapeut,Offentlig,3.635377103,>=42000
-Jurist,Privat,2.693125443,<28000
-Jurist,Privat,1.381998583,28000-28999
-Jurist,Privat,1.523742027,29000-29999
-Jurist,Privat,2.303330971,30000-30999
-Jurist,Privat,1.94897236,31000-31999
-Jurist,Privat,2.232459249,32000-32999
-Jurist,Privat,2.019844082,33000-33999
-Jurist,Privat,2.090715804,34000-34999
-Jurist,Privat,3.082919915,35000-35999
-Jurist,Privat,1.984408221,36000-36999
-Jurist,Privat,2.409638554,37000-37999
-Jurist,Privat,2.409638554,38000-38999
-Jurist,Privat,1.94897236,39000-39999
-Jurist,Privat,2.019844082,40000-40999
-Jurist,Privat,2.197023388,41000-41999
-Jurist,Privat,2.515946137,42000-42999
-Jurist,Privat,2.728561304,43000-43999
-Jurist,Privat,2.019844082,44000-44999
-Jurist,Privat,2.374202693,45000-45999
-Jurist,Privat,1.807228916,46000-46999
-Jurist,Privat,1.736357193,47000-47999
-Jurist,Privat,2.374202693,48000-48999
-Jurist,Privat,1.417434444,49000-49999
-Jurist,Privat,2.197023388,50000-50999
-Jurist,Privat,1.807228916,51000-51999
-Jurist,Privat,2.58681786,52000-52999
-Jurist,Privat,1.488306166,53000-53999
-Jurist,Privat,1.594613749,54000-54999
-Jurist,Privat,1.771793055,55000-55999
-Jurist,Privat,1.452870305,56000-56999
-Jurist,Privat,1.346562721,57000-57999
-Jurist,Privat,1.523742027,58000-58999
-Jurist,Privat,0.779588944,59000-59999
-Jurist,Privat,1.700921332,60000-60999
-Jurist,Privat,1.559177888,61000-61999
-Jurist,Privat,1.94897236,62000-62999
-Jurist,Privat,1.027639972,63000-63999
-Jurist,Privat,0.992204111,64000-64999
-Jurist,Privat,1.346562721,65000-65999
-Jurist,Privat,1.098511694,66000-66999
-Jurist,Privat,0.885896527,67000-67999
-Jurist,Privat,1.027639972,68000-68999
-Jurist,Privat,0.815024805,69000-69999
-Jurist,Privat,1.700921332,70000-70999
-Jurist,Privat,0.815024805,71000-71999
-Jurist,Privat,0.779588944,72000-72999
-Jurist,Privat,0.779588944,73000-73999
-Jurist,Privat,0.6378455,74000-74999
-Jurist,Privat,1.240255138,75000-75999
-Jurist,Privat,0.708717222,76000-76999
-Jurist,Privat,0.708717222,77000-77999
-Jurist,Privat,0.602409639,78000-78999
-Jurist,Privat,0.460666194,79000-79999
-Jurist,Privat,13.39475549,>=80000
-Jurist,Offentlig,1.908325538,<26000
-Jurist,Offentlig,1.403180543,26000-26999
-Jurist,Offentlig,2.394761459,27000-27999
-Jurist,Offentlig,4.190832554,28000-28999
-Jurist,Offentlig,2.600561272,29000-29999
-Jurist,Offentlig,2.525724977,30000-30999
-Jurist,Offentlig,2.151543499,31000-31999
-Jurist,Offentlig,3.891487371,32000-32999
-Jurist,Offentlig,2.825070159,33000-33999
-Jurist,Offentlig,3.592142189,34000-34999
-Jurist,Offentlig,3.086997194,35000-35999
-Jurist,Offentlig,3.854069224,36000-36999
-Jurist,Offentlig,3.030869972,37000-37999
-Jurist,Offentlig,3.012160898,38000-38999
-Jurist,Offentlig,3.517305893,39000-39999
-Jurist,Offentlig,3.31150608,40000-40999
-Jurist,Offentlig,2.750233863,41000-41999
-Jurist,Offentlig,2.544434051,42000-42999
-Jurist,Offentlig,3.012160898,43000-43999
-Jurist,Offentlig,2.450888681,44000-44999
-Jurist,Offentlig,3.124415341,45000-45999
-Jurist,Offentlig,2.619270346,46000-46999
-Jurist,Offentlig,2.750233863,47000-47999
-Jurist,Offentlig,2.20767072,48000-48999
-Jurist,Offentlig,2.20767072,49000-49999
-Jurist,Offentlig,1.796071094,50000-50999
-Jurist,Offentlig,1.19738073,51000-51999
-Jurist,Offentlig,1.571562208,52000-52999
-Jurist,Offentlig,1.421889616,53000-53999
-Jurist,Offentlig,1.085126286,54000-54999
-Jurist,Offentlig,1.122544434,55000-55999
-Jurist,Offentlig,1.047708138,56000-56999
-Jurist,Offentlig,0.916744621,57000-57999
-Jurist,Offentlig,0.879326473,58000-58999
-Jurist,Offentlig,1.272217025,59000-59999
-Jurist,Offentlig,1.347053321,60000-60999
-Jurist,Offentlig,1.272217025,61000-61999
-Jurist,Offentlig,1.44059869,62000-62999
-Jurist,Offentlig,1.328344247,63000-63999
-Jurist,Offentlig,1.421889616,64000-64999
-Jurist,Offentlig,1.347053321,65000-65999
-Jurist,Offentlig,0.748362956,66000-66999
-Jurist,Offentlig,0.486435921,67000-67999
-Jurist,Offentlig,0.692235734,68000-68999
-Jurist,Offentlig,0.392890552,69000-69999
-Jurist,Offentlig,0.561272217,70000-70999
-Jurist,Offentlig,0.318054256,71000-71999
-Jurist,Offentlig,0.617399439,72000-72999
-Jurist,Offentlig,0.467726848,73000-73999
-Jurist,Offentlig,0.374181478,74000-74999
-Jurist,Offentlig,0.392890552,75000-75999
-Jurist,Offentlig,0.261927035,76000-76999
-Jurist,Offentlig,0.168381665,77000-77999
-Jurist,Offentlig,3.086997194,>=78000
-Psykolog,Privat,2.61707989,<29000
-Psykolog,Privat,0.964187328,29000-29999
-Psykolog,Privat,1.101928375,30000-30999
-Psykolog,Privat,0.964187328,31000-31999
-Psykolog,Privat,2.479338843,32000-32999
-Psykolog,Privat,1.377410468,33000-33999
-Psykolog,Privat,2.892561983,34000-34999
-Psykolog,Privat,6.198347107,35000-35999
-Psykolog,Privat,8.67768595,36000-36999
-Psykolog,Privat,8.953168044,37000-37999
-Psykolog,Privat,9.228650138,38000-38999
-Psykolog,Privat,9.366391185,39000-39999
-Psykolog,Privat,10.05509642,40000-40999
-Psykolog,Privat,6.060606061,41000-41999
-Psykolog,Privat,5.096418733,42000-42999
-Psykolog,Privat,5.096418733,43000-43999
-Psykolog,Privat,2.61707989,44000-44999
-Psykolog,Privat,2.479338843,45000-45999
-Psykolog,Privat,2.066115702,46000-46999
-Psykolog,Privat,1.652892562,47000-47999
-Psykolog,Privat,1.239669421,48000-48999
-Psykolog,Privat,0.964187328,49000-49999
-Psykolog,Privat,1.515151515,50000-50999
-Psykolog,Privat,1.101928375,51000-51999
-Psykolog,Privat,0.688705234,52000-52999
-Psykolog,Privat,0.137741047,53000-53999
-Psykolog,Privat,0.41322314,54000-54999
-Psykolog,Privat,0.550964187,55000-55999
-Psykolog,Privat,0.137741047,58000-58999
-Psykolog,Privat,0.275482094,60000-60999
-Psykolog,Privat,3.03030303,>=61000
-Psykolog,Offentlig,1.13150616,<26000
-Psykolog,Offentlig,1.961277345,26000-26999
-Psykolog,Offentlig,1.986421926,27000-27999
-Psykolog,Offentlig,0.955494091,28000-28999
-Psykolog,Offentlig,1.659542369,29000-29999
-Psykolog,Offentlig,2.564747297,30000-30999
-Psykolog,Offentlig,1.433241137,31000-31999
-Psykolog,Offentlig,3.74654262,32000-32999
-Psykolog,Offentlig,5.204928338,33000-33999
-Psykolog,Offentlig,6.487301986,34000-34999
-Psykolog,Offentlig,8.448579331,35000-35999
-Psykolog,Offentlig,8.574302238,36000-36999
-Psykolog,Offentlig,8.222278099,37000-37999
-Psykolog,Offentlig,7.593663566,38000-38999
-Psykolog,Offentlig,7.11591652,39000-39999
-Psykolog,Offentlig,7.618808147,40000-40999
-Psykolog,Offentlig,5.531807895,41000-41999
-Psykolog,Offentlig,4.526024642,42000-42999
-Psykolog,Offentlig,3.771687201,43000-43999
-Psykolog,Offentlig,2.564747297,44000-44999
-Psykolog,Offentlig,2.087000251,45000-45999
-Psykolog,Offentlig,1.332662811,46000-46999
-Psykolog,Offentlig,0.955494091,47000-47999
-Psykolog,Offentlig,0.955494091,48000-48999
-Psykolog,Offentlig,3.570530551,>=49000
-Samhällsvetare,Privat,2.325581395,<26000
-Samhällsvetare,Privat,0.88593577,26000-26999
-Samhällsvetare,Privat,2.214839424,27000-27999
-Samhällsvetare,Privat,2.76854928,28000-28999
-Samhällsvetare,Privat,2.990033223,29000-29999
-Samhällsvetare,Privat,3.820598007,30000-30999
-Samhällsvetare,Privat,2.491694352,31000-31999
-Samhällsvetare,Privat,3.100775194,32000-32999
-Samhällsvetare,Privat,3.599114064,33000-33999
-Samhällsvetare,Privat,3.266888151,34000-34999
-Samhällsvetare,Privat,3.931339978,35000-35999
-Samhällsvetare,Privat,3.488372093,36000-36999
-Samhällsvetare,Privat,3.100775194,37000-37999
-Samhällsvetare,Privat,2.934662237,38000-38999
-Samhällsvetare,Privat,3.65448505,39000-39999
-Samhällsvetare,Privat,3.709856035,40000-40999
-Samhällsvetare,Privat,2.713178295,41000-41999
-Samhällsvetare,Privat,2.879291251,42000-42999
-Samhällsvetare,Privat,2.602436323,43000-43999
-Samhällsvetare,Privat,2.491694352,44000-44999
-Samhällsvetare,Privat,3.377630122,45000-45999
-Samhällsvetare,Privat,2.27021041,46000-46999
-Samhällsvetare,Privat,2.27021041,47000-47999
-Samhällsvetare,Privat,2.657807309,48000-48999
-Samhällsvetare,Privat,1.771871539,49000-49999
-Samhällsvetare,Privat,2.713178295,50000-50999
-Samhällsvetare,Privat,1.495016611,51000-51999
-Samhällsvetare,Privat,2.104097453,52000-52999
-Samhällsvetare,Privat,1.38427464,53000-53999
-Samhällsvetare,Privat,1.162790698,54000-54999
-Samhällsvetare,Privat,1.495016611,55000-55999
-Samhällsvetare,Privat,1.273532669,56000-56999
-Samhällsvetare,Privat,0.996677741,57000-57999
-Samhällsvetare,Privat,1.328903654,58000-58999
-Samhällsvetare,Privat,1.107419712,59000-59999
-Samhällsvetare,Privat,1.107419712,60000-60999
-Samhällsvetare,Privat,0.664451827,61000-61999
-Samhällsvetare,Privat,0.830564784,62000-62999
-Samhällsvetare,Privat,0.553709856,63000-63999
-Samhällsvetare,Privat,0.49833887,64000-64999
-Samhällsvetare,Privat,0.775193798,65000-65999
-Samhällsvetare,Privat,0.221483942,66000-66999
-Samhällsvetare,Privat,0.775193798,67000-67999
-Samhällsvetare,Privat,0.719822813,68000-68999
-Samhällsvetare,Privat,0.387596899,69000-69999
-Samhällsvetare,Privat,0.553709856,70000-70999
-Samhällsvetare,Privat,0.332225914,71000-71999
-Samhällsvetare,Privat,0.387596899,72000-72999
-Samhällsvetare,Privat,0.332225914,73000-73999
-Samhällsvetare,Privat,0.49833887,74000-74999
-Samhällsvetare,Privat,0.110741971,75000-75999
-Samhällsvetare,Privat,0.387596899,76000-76999
-Samhällsvetare,Privat,0.332225914,77000-77999
-Samhällsvetare,Privat,0.221483942,78000-78999
-Samhällsvetare,Privat,0.055370986,79000-79999
-Samhällsvetare,Privat,3.875968992,>=80000
-Samhällsvetare,Offentlig,2.424449377,<26000
-Samhällsvetare,Offentlig,2.782994707,26000-26999
-Samhällsvetare,Offentlig,3.875704285,27000-27999
-Samhällsvetare,Offentlig,4.26839679,28000-28999
-Samhällsvetare,Offentlig,4.541574185,29000-29999
-Samhällsvetare,Offentlig,4.575721359,30000-30999
-Samhällsvetare,Offentlig,4.353764726,31000-31999
-Samhällsvetare,Offentlig,4.541574185,32000-32999
-Samhällsvetare,Offentlig,4.14888168,33000-33999
-Samhällsvetare,Offentlig,4.234249616,34000-34999
-Samhällsvetare,Offentlig,4.592794946,35000-35999
-Samhällsvetare,Offentlig,4.729383644,36000-36999
-Samhällsvetare,Offentlig,4.370838313,37000-37999
-Samhällsvetare,Offentlig,4.02936657,38000-38999
-Samhällsvetare,Offentlig,3.585453304,39000-39999
-Samhällsvetare,Offentlig,4.234249616,40000-40999
-Samhällsvetare,Offentlig,3.841557111,41000-41999
-Samhällsvetare,Offentlig,3.295202322,42000-42999
-Samhällsvetare,Offentlig,2.629332423,43000-43999
-Samhällsvetare,Offentlig,2.902509817,44000-44999
-Samhällsvetare,Offentlig,2.441522964,45000-45999
-Samhällsvetare,Offentlig,1.929315349,46000-46999
-Samhällsvetare,Offentlig,1.826873826,47000-47999
-Samhällsvetare,Offentlig,1.587843606,48000-48999
-Samhällsvetare,Offentlig,1.212224688,49000-49999
-Samhällsvetare,Offentlig,1.417107734,50000-50999
-Samhällsvetare,Offentlig,1.178077514,51000-51999
-Samhällsvetare,Offentlig,1.109783165,52000-52999
-Samhällsvetare,Offentlig,0.836605771,53000-53999
-Samhällsvetare,Offentlig,0.700017074,54000-54999
-Samhällsvetare,Offentlig,0.870752945,55000-55999
-Samhällsvetare,Offentlig,0.563428376,56000-56999
-Samhällsvetare,Offentlig,0.751237835,57000-57999
-Samhällsvetare,Offentlig,0.495134028,58000-58999
-Samhällsvetare,Offentlig,0.597575551,59000-59999
-Samhällsvetare,Offentlig,0.631722725,60000-60999
-Samhällsvetare,Offentlig,0.35854533,61000-61999
-Samhällsvetare,Offentlig,0.460986853,62000-62999
-Samhällsvetare,Offentlig,3.073245689,>=63000
-Civilingenjör,Privat,2.168292683,<30000
-Civilingenjör,Privat,1.785365854,30000-30999
-Civilingenjör,Privat,1.819512195,31000-31999
-Civilingenjör,Privat,1.990243902,32000-32999
-Civilingenjör,Privat,2.082926829,33000-33999
-Civilingenjör,Privat,2.063414634,34000-34999
-Civilingenjör,Privat,2.470731707,35000-35999
-Civilingenjör,Privat,2.680487805,36000-36999
-Civilingenjör,Privat,2.546341463,37000-37999
-Civilingenjör,Privat,3.014634146,38000-38999
-Civilingenjör,Privat,2.82195122,39000-39999
-Civilingenjör,Privat,3.197560976,40000-40999
-Civilingenjör,Privat,2.853658537,41000-41999
-Civilingenjör,Privat,3.029268293,42000-42999
-Civilingenjör,Privat,3.163414634,43000-43999
-Civilingenjör,Privat,3.131707317,44000-44999
-Civilingenjör,Privat,3.426829268,45000-45999
-Civilingenjör,Privat,2.907317073,46000-46999
-Civilingenjör,Privat,2.880487805,47000-47999
-Civilingenjör,Privat,3.009756098,48000-48999
-Civilingenjör,Privat,2.66097561,49000-49999
-Civilingenjör,Privat,3.07804878,50000-50999
-Civilingenjör,Privat,2.519512195,51000-51999
-Civilingenjör,Privat,2.52195122,52000-52999
-Civilingenjör,Privat,2.395121951,53000-53999
-Civilingenjör,Privat,2.146341463,54000-54999
-Civilingenjör,Privat,2.346341463,55000-55999
-Civilingenjör,Privat,1.936585366,56000-56999
-Civilingenjör,Privat,1.751219512,57000-57999
-Civilingenjör,Privat,1.563414634,58000-58999
-Civilingenjör,Privat,1.575609756,59000-59999
-Civilingenjör,Privat,1.895121951,60000-60999
-Civilingenjör,Privat,1.231707317,61000-61999
-Civilingenjör,Privat,1.312195122,62000-62999
-Civilingenjör,Privat,1.173170732,63000-63999
-Civilingenjör,Privat,1.107317073,64000-64999
-Civilingenjör,Privat,1.229268293,65000-65999
-Civilingenjör,Privat,0.870731707,66000-66999
-Civilingenjör,Privat,0.856097561,67000-67999
-Civilingenjör,Privat,0.785365854,68000-68999
-Civilingenjör,Privat,0.709756098,69000-69999
-Civilingenjör,Privat,0.851219512,70000-70999
-Civilingenjör,Privat,0.565853659,71000-71999
-Civilingenjör,Privat,0.619512195,72000-72999
-Civilingenjör,Privat,0.541463415,73000-73999
-Civilingenjör,Privat,0.470731707,74000-74999
-Civilingenjör,Privat,0.568292683,75000-75999
-Civilingenjör,Privat,0.407317073,76000-76999
-Civilingenjör,Privat,0.365853659,77000-77999
-Civilingenjör,Privat,0.304878049,78000-78999
-Civilingenjör,Privat,0.27804878,79000-79999
-Civilingenjör,Privat,6.317073171,>=80000
-Civilingenjör,Offentlig,2.619437416,<28000
-Civilingenjör,Offentlig,2.783152255,28000-28999
-Civilingenjör,Offentlig,1.860395892,29000-29999
-Civilingenjör,Offentlig,2.217591904,30000-30999
-Civilingenjör,Offentlig,1.994344396,31000-31999
-Civilingenjör,Offentlig,3.333829439,32000-32999
-Civilingenjör,Offentlig,2.708736419,33000-33999
-Civilingenjör,Offentlig,2.425956243,34000-34999
-Civilingenjör,Offentlig,3.184997768,35000-35999
-Civilingenjör,Offentlig,3.244530436,36000-36999
-Civilingenjör,Offentlig,2.738502753,37000-37999
-Civilingenjör,Offentlig,3.79520762,38000-38999
-Civilingenjör,Offentlig,4.152403631,39000-39999
-Civilingenjör,Offentlig,4.063104629,40000-40999
-Civilingenjör,Offentlig,3.646375949,41000-41999
-Civilingenjör,Offentlig,3.750558119,42000-42999
-Civilingenjör,Offentlig,3.289179937,43000-43999
-Civilingenjör,Offentlig,3.37847894,44000-44999
-Civilingenjör,Offentlig,3.557076946,45000-45999
-Civilingenjör,Offentlig,3.58684328,46000-46999
-Civilingenjör,Offentlig,2.917100759,47000-47999
-Civilingenjör,Offentlig,2.634320583,48000-48999
-Civilingenjör,Offentlig,2.842684923,49000-49999
-Civilingenjör,Offentlig,2.783152255,50000-50999
-Civilingenjör,Offentlig,2.574787915,51000-51999
-Civilingenjör,Offentlig,2.098526566,52000-52999
-Civilingenjör,Offentlig,1.875279059,53000-53999
-Civilingenjör,Offentlig,1.771096889,54000-54999
-Civilingenjör,Offentlig,1.681797887,55000-55999
-Civilingenjör,Offentlig,1.324601875,56000-56999
-Civilingenjör,Offentlig,1.473433547,57000-57999
-Civilingenjör,Offentlig,1.101354368,58000-58999
-Civilingenjör,Offentlig,0.892990028,59000-59999
-Civilingenjör,Offentlig,1.101354368,60000-60999
-Civilingenjör,Offentlig,0.818574193,61000-61999
-Civilingenjör,Offentlig,0.669742521,62000-62999
-Civilingenjör,Offentlig,0.878106861,63000-63999
-Civilingenjör,Offentlig,0.848340527,64000-64999
-Civilingenjör,Offentlig,0.759041524,65000-65999
-Civilingenjör,Offentlig,0.491144516,66000-66999
-Civilingenjör,Offentlig,0.550677184,67000-67999
-Civilingenjör,Offentlig,0.535794017,68000-68999
-Civilingenjör,Offentlig,0.535794017,69000-69999
-Civilingenjör,Offentlig,0.565560351,70000-70999
-Civilingenjör,Offentlig,0.267897008,71000-71999
-Civilingenjör,Offentlig,0.401845513,72000-72999
-Civilingenjör,Offentlig,3.27429677,>=73000
-Fysioterapeut,Privat,2.355250245,< 25000
-Fysioterapeut,Privat,4.121687929,25000-25999
-Fysioterapeut,Privat,6.673209028,26000-26999
-Fysioterapeut,Privat,8.145240432,27000-27999
-Fysioterapeut,Privat,7.752698724,28000-28999
-Fysioterapeut,Privat,7.752698724,29000-29999
-Fysioterapeut,Privat,7.26202159,30000-30999
-Fysioterapeut,Privat,7.752698724,31000-31999
-Fysioterapeut,Privat,9.519136408,32000-32999
-Fysioterapeut,Privat,7.654563297,33000-33999
-Fysioterapeut,Privat,6.673209028,34000-34999
-Fysioterapeut,Privat,7.065750736,35000-35999
-Fysioterapeut,Privat,3.238469087,36000-36999
-Fysioterapeut,Privat,2.649656526,37000-37999
-Fysioterapeut,Privat,2.551521099,38000-38999
-Fysioterapeut,Privat,1.27576055,39000-39999
-Fysioterapeut,Privat,1.57016683,40000-40999
-Fysioterapeut,Privat,0.392541708,41000-41999
-Fysioterapeut,Privat,0.981354269,42000-42999
-Fysioterapeut,Privat,0.294406281,43000-43999
-Fysioterapeut,Privat,0.588812561,44000-44999
-Fysioterapeut,Privat,0.686947988,45000-45999
-Fysioterapeut,Privat,3.042198234,>=46000
-Fysioterapeut,Offentlig,5.843071786,< 25000
-Fysioterapeut,Offentlig,7.783806344,25000-25999
-Fysioterapeut,Offentlig,7.909015025,26000-26999
-Fysioterapeut,Offentlig,7.992487479,27000-27999
-Fysioterapeut,Offentlig,10.22537563,28000-28999
-Fysioterapeut,Offentlig,10.76794658,29000-29999
-Fysioterapeut,Offentlig,11.2687813,30000-30999
-Fysioterapeut,Offentlig,8.994156928,31000-31999
-Fysioterapeut,Offentlig,6.510851419,32000-32999
-Fysioterapeut,Offentlig,5.112687813,33000-33999
-Fysioterapeut,Offentlig,3.338898164,34000-34999
-Fysioterapeut,Offentlig,2.587646077,35000-35999
-Fysioterapeut,Offentlig,1.752921536,36000-36999
-Fysioterapeut,Offentlig,1.41903172,37000-37999
-Fysioterapeut,Offentlig,1.252086811,38000-38999
-Fysioterapeut,Offentlig,1.231218698,39000-39999
-Fysioterapeut,Offentlig,1.001669449,40000-40999
-Fysioterapeut,Offentlig,0.70951586,41000-41999
-Fysioterapeut,Offentlig,0.688647746,42000-42999
-Fysioterapeut,Offentlig,0.563439065,43000-43999
-Fysioterapeut,Offentlig,3.046744574,>=44000
-Socionom,Privat,2.654176425,<26000
-Socionom,Privat,1.483216237,26000-26999
-Socionom,Privat,2.419984387,27000-27999
-Socionom,Privat,3.278688525,28000-28999
-Socionom,Privat,3.356752537,29000-29999
-Socionom,Privat,5.230288837,30000-30999
-Socionom,Privat,5.932864949,31000-31999
-Socionom,Privat,4.839968774,32000-32999
-Socionom,Privat,6.713505074,33000-33999
-Socionom,Privat,5.932864949,34000-34999
-Socionom,Privat,6.713505074,35000-35999
-Socionom,Privat,6.479313037,36000-36999
-Socionom,Privat,4.918032787,37000-37999
-Socionom,Privat,5.230288837,38000-38999
-Socionom,Privat,3.825136612,39000-39999
-Socionom,Privat,4.371584699,40000-40999
-Socionom,Privat,3.590944575,41000-41999
-Socionom,Privat,3.278688525,42000-42999
-Socionom,Privat,2.732240437,43000-43999
-Socionom,Privat,1.8735363,44000-44999
-Socionom,Privat,2.732240437,45000-45999
-Socionom,Privat,1.327088212,46000-46999
-Socionom,Privat,1.014832162,47000-47999
-Socionom,Privat,0.702576112,48000-48999
-Socionom,Privat,0.780640125,49000-49999
-Socionom,Privat,1.170960187,50000-50999
-Socionom,Privat,0.468384075,51000-51999
-Socionom,Privat,0.468384075,52000-52999
-Socionom,Privat,0.780640125,53000-53999
-Socionom,Privat,0.234192037,54000-54999
-Socionom,Privat,0.93676815,55000-55999
-Socionom,Privat,0.468384075,56000-56999
-Socionom,Privat,0.078064012,57000-57999
-Socionom,Privat,0.156128025,58000-58999
-Socionom,Privat,0.468384075,60000-60999
-Socionom,Privat,0.31225605,61000-61999
-Socionom,Privat,3.044496487,>=62000
-Socionom,Offentlig,2.055550837,<26000
-Socionom,Offentlig,3.329652595,26000-26999
-Socionom,Offentlig,4.960502845,27000-27999
-Socionom,Offentlig,6.65930519,28000-28999
-Socionom,Offentlig,8.646903933,29000-29999
-Socionom,Offentlig,9.32642487,30000-30999
-Socionom,Offentlig,9.122568589,31000-31999
-Socionom,Offentlig,9.853053597,32000-32999
-Socionom,Offentlig,8.298649452,33000-33999
-Socionom,Offentlig,7.168945893,34000-34999
-Socionom,Offentlig,5.707975877,35000-35999
-Socionom,Offentlig,4.58676633,36000-36999
-Socionom,Offentlig,3.253206489,37000-37999
-Socionom,Offentlig,2.921940032,38000-38999
-Socionom,Offentlig,2.064044848,39000-39999
-Socionom,Offentlig,2.004586766,40000-40999
-Socionom,Offentlig,1.511934086,41000-41999
-Socionom,Offentlig,1.28259577,42000-42999
-Socionom,Offentlig,1.163679606,43000-43999
-Socionom,Offentlig,0.823919137,44000-44999
-Socionom,Offentlig,0.866389196,45000-45999
-Socionom,Offentlig,0.696508961,46000-46999
-Socionom,Offentlig,0.450182621,47000-47999
-Socionom,Offentlig,3.244712478,>=48000
-Personalvetare,Privat,2.754237288,<26000
-Personalvetare,Privat,1.765536723,26000-26999
-Personalvetare,Privat,1.906779661,27000-27999
-Personalvetare,Privat,2.189265537,28000-28999
-Personalvetare,Privat,2.048022599,29000-29999
-Personalvetare,Privat,3.248587571,30000-30999
-Personalvetare,Privat,3.107344633,31000-31999
-Personalvetare,Privat,3.248587571,32000-32999
-Personalvetare,Privat,3.389830508,33000-33999
-Personalvetare,Privat,2.966101695,34000-34999
-Personalvetare,Privat,3.813559322,35000-35999
-Personalvetare,Privat,2.401129944,36000-36999
-Personalvetare,Privat,3.177966102,37000-37999
-Personalvetare,Privat,3.95480226,38000-38999
-Personalvetare,Privat,2.683615819,39000-39999
-Personalvetare,Privat,3.601694915,40000-40999
-Personalvetare,Privat,2.048022599,41000-41999
-Personalvetare,Privat,3.107344633,42000-42999
-Personalvetare,Privat,2.330508475,43000-43999
-Personalvetare,Privat,1.906779661,44000-44999
-Personalvetare,Privat,3.31920904,45000-45999
-Personalvetare,Privat,2.048022599,46000-46999
-Personalvetare,Privat,2.754237288,47000-47999
-Personalvetare,Privat,3.460451977,48000-48999
-Personalvetare,Privat,1.624293785,49000-49999
-Personalvetare,Privat,2.683615819,50000-50999
-Personalvetare,Privat,1.97740113,51000-51999
-Personalvetare,Privat,1.483050847,52000-52999
-Personalvetare,Privat,1.271186441,53000-53999
-Personalvetare,Privat,0.988700565,54000-54999
-Personalvetare,Privat,1.059322034,55000-55999
-Personalvetare,Privat,1.129943503,56000-56999
-Personalvetare,Privat,1.271186441,57000-57999
-Personalvetare,Privat,1.34180791,58000-58999
-Personalvetare,Privat,1.200564972,59000-59999
-Personalvetare,Privat,0.988700565,60000-60999
-Personalvetare,Privat,1.553672316,61000-61999
-Personalvetare,Privat,0.494350282,62000-62999
-Personalvetare,Privat,0.706214689,63000-63999
-Personalvetare,Privat,0.423728814,64000-64999
-Personalvetare,Privat,0.988700565,65000-65999
-Personalvetare,Privat,0.564971751,66000-66999
-Personalvetare,Privat,0.494350282,67000-67999
-Personalvetare,Privat,0.353107345,68000-68999
-Personalvetare,Privat,0.63559322,69000-69999
-Personalvetare,Privat,0.63559322,70000-70999
-Personalvetare,Privat,0.353107345,71000-71999
-Personalvetare,Privat,0.211864407,72000-72999
-Personalvetare,Privat,0.494350282,73000-73999
-Personalvetare,Privat,0.423728814,74000-74999
-Personalvetare,Privat,0.63559322,75000-75999
-Personalvetare,Privat,0.211864407,76000-76999
-Personalvetare,Privat,0.423728814,77000-77999
-Personalvetare,Privat,0.282485876,78000-78999
-Personalvetare,Privat,0.353107345,79000-79999
-Personalvetare,Privat,5.508474576,>=80000
-Personalvetare,Offentlig,2.337891487,<26000
-Personalvetare,Offentlig,2.734891928,26000-26999
-Personalvetare,Offentlig,4.631671813,27000-27999
-Personalvetare,Offentlig,4.587560653,28000-28999
-Personalvetare,Offentlig,4.278782532,29000-29999
-Personalvetare,Offentlig,4.631671813,30000-30999
-Personalvetare,Offentlig,4.631671813,31000-31999
-Personalvetare,Offentlig,5.161005734,32000-32999
-Personalvetare,Offentlig,5.381561535,33000-33999
-Personalvetare,Offentlig,4.499338333,34000-34999
-Personalvetare,Offentlig,5.734450816,35000-35999
-Personalvetare,Offentlig,4.146449052,36000-36999
-Personalvetare,Offentlig,5.513895015,37000-37999
-Personalvetare,Offentlig,3.70533745,38000-38999
-Personalvetare,Offentlig,3.66122629,39000-39999
-Personalvetare,Offentlig,3.52889281,40000-40999
-Personalvetare,Offentlig,2.911336568,41000-41999
-Personalvetare,Offentlig,3.043670049,42000-42999
-Personalvetare,Offentlig,3.087781209,43000-43999
-Personalvetare,Offentlig,2.382002647,44000-44999
-Personalvetare,Offentlig,2.205558006,45000-45999
-Personalvetare,Offentlig,2.029113366,46000-46999
-Personalvetare,Offentlig,1.455668284,47000-47999
-Personalvetare,Offentlig,1.455668284,48000-48999
-Personalvetare,Offentlig,0.970445523,49000-49999
-Personalvetare,Offentlig,1.543890604,50000-50999
-Personalvetare,Offentlig,0.838112042,51000-51999
-Personalvetare,Offentlig,0.926334363,52000-52999
-Personalvetare,Offentlig,0.794000882,53000-53999
-Personalvetare,Offentlig,0.794000882,54000-54999
-Personalvetare,Offentlig,0.617556242,55000-55999
-Personalvetare,Offentlig,0.264666961,56000-56999
-Personalvetare,Offentlig,0.397000441,57000-57999
-Personalvetare,Offentlig,0.485222761,58000-58999
-Personalvetare,Offentlig,0.308778121,59000-59999
-Personalvetare,Offentlig,0.441111601,60000-60999
-Personalvetare,Offentlig,0.264666961,61000-61999
-Personalvetare,Offentlig,0.441111601,62000-62999
-Personalvetare,Offentlig,3.176003529,>=63000
-Tandhygienist,Privat,3.262642741,< 25000
-Tandhygienist,Privat,2.446982055,25000-25999
-Tandhygienist,Privat,3.752039152,26000-26999
-Tandhygienist,Privat,3.752039152,27000-27999
-Tandhygienist,Privat,4.893964111,28000-28999
-Tandhygienist,Privat,5.872756933,29000-29999
-Tandhygienist,Privat,9.624796085,30000-30999
-Tandhygienist,Privat,8.156606852,31000-31999
-Tandhygienist,Privat,9.787928222,32000-32999
-Tandhygienist,Privat,13.2137031,33000-33999
-Tandhygienist,Privat,9.135399674,34000-34999
-Tandhygienist,Privat,7.830342577,35000-35999
-Tandhygienist,Privat,3.915171289,36000-36999
-Tandhygienist,Privat,4.241435563,37000-37999
-Tandhygienist,Privat,3.425774878,38000-38999
-Tandhygienist,Privat,1.305057096,39000-39999
-Tandhygienist,Privat,0.978792822,40000-40999
-Tandhygienist,Privat,0.489396411,41000-41999
-Tandhygienist,Privat,0.489396411,42000-42999
-Tandhygienist,Privat,3.425774878,>=43000
-Tandhygienist,Offentlig,11.7147708,< 25000
-Tandhygienist,Offentlig,7.979626486,25000-25999
-Tandhygienist,Offentlig,6.536502547,26000-26999
-Tandhygienist,Offentlig,10.10186757,27000-27999
-Tandhygienist,Offentlig,9.847198642,28000-28999
-Tandhygienist,Offentlig,8.743633277,29000-29999
-Tandhygienist,Offentlig,9.083191851,30000-30999
-Tandhygienist,Offentlig,10.27164686,31000-31999
-Tandhygienist,Offentlig,7.300509338,32000-32999
-Tandhygienist,Offentlig,5.857385399,33000-33999
-Tandhygienist,Offentlig,2.886247878,34000-34999
-Tandhygienist,Offentlig,1.782682513,35000-35999
-Tandhygienist,Offentlig,1.188455008,36000-36999
-Tandhygienist,Offentlig,0.764006791,37000-37999
-Tandhygienist,Offentlig,1.188455008,38000-38999
-Tandhygienist,Offentlig,0.679117148,39000-39999
-Tandhygienist,Offentlig,0.424448217,40000-40999
-Tandhygienist,Offentlig,0.509337861,41000-41999
-Tandhygienist,Offentlig,3.140916808,>=42000
-Miljövetare,Privat,2.842809365,<26000
-Miljövetare,Privat,1.170568562,26000-26999
-Miljövetare,Privat,2.006688963,27000-27999
-Miljövetare,Privat,3.511705686,28000-28999
-Miljövetare,Privat,4.013377926,29000-29999
-Miljövetare,Privat,3.846153846,30000-30999
-Miljövetare,Privat,4.347826087,31000-31999
-Miljövetare,Privat,4.682274247,32000-32999
-Miljövetare,Privat,5.685618729,33000-33999
-Miljövetare,Privat,5.351170569,34000-34999
-Miljövetare,Privat,6.52173913,35000-35999
-Miljövetare,Privat,4.682274247,36000-36999
-Miljövetare,Privat,4.180602007,37000-37999
-Miljövetare,Privat,5.183946488,38000-38999
-Miljövetare,Privat,3.344481605,39000-39999
-Miljövetare,Privat,5.685618729,40000-40999
-Miljövetare,Privat,3.511705686,41000-41999
-Miljövetare,Privat,3.010033445,42000-42999
-Miljövetare,Privat,2.842809365,43000-43999
-Miljövetare,Privat,3.678929766,44000-44999
-Miljövetare,Privat,2.341137124,45000-45999
-Miljövetare,Privat,2.006688963,46000-46999
-Miljövetare,Privat,2.341137124,47000-47999
-Miljövetare,Privat,1.672240803,48000-48999
-Miljövetare,Privat,1.505016722,49000-49999
-Miljövetare,Privat,1.003344482,50000-50999
-Miljövetare,Privat,1.003344482,51000-51999
-Miljövetare,Privat,1.505016722,52000-52999
-Miljövetare,Privat,0.501672241,53000-53999
-Miljövetare,Privat,0.668896321,54000-54999
-Miljövetare,Privat,0.836120401,55000-55999
-Miljövetare,Privat,0.668896321,56000-56999
-Miljövetare,Privat,0.16722408,58000-58999
-Miljövetare,Privat,0.501672241,59000-59999
-Miljövetare,Privat,0.16722408,60000-60999
-Miljövetare,Privat,3.010033445,>=61000
-Miljövetare,Offentlig,1.878238342,<26000
-Miljövetare,Offentlig,1.619170984,26000-26999
-Miljövetare,Offentlig,3.238341969,27000-27999
-Miljövetare,Offentlig,4.14507772,28000-28999
-Miljövetare,Offentlig,5.505181347,29000-29999
-Miljövetare,Offentlig,8.031088083,30000-30999
-Miljövetare,Offentlig,8.937823834,31000-31999
-Miljövetare,Offentlig,8.484455959,32000-32999
-Miljövetare,Offentlig,9.002590674,33000-33999
-Miljövetare,Offentlig,8.225388601,34000-34999
-Miljövetare,Offentlig,7.25388601,35000-35999
-Miljövetare,Offentlig,4.080310881,36000-36999
-Miljövetare,Offentlig,3.821243523,37000-37999
-Miljövetare,Offentlig,3.432642487,38000-38999
-Miljövetare,Offentlig,2.849740933,39000-39999
-Miljövetare,Offentlig,2.784974093,40000-40999
-Miljövetare,Offentlig,2.202072539,41000-41999
-Miljövetare,Offentlig,1.813471503,42000-42999
-Miljövetare,Offentlig,1.813471503,43000-43999
-Miljövetare,Offentlig,1.683937824,44000-44999
-Miljövetare,Offentlig,1.101036269,45000-45999
-Miljövetare,Offentlig,1.165803109,46000-46999
-Miljövetare,Offentlig,1.101036269,47000-47999
-Miljövetare,Offentlig,0.518134715,48000-48999
-Miljövetare,Offentlig,0.712435233,49000-49999
-Miljövetare,Offentlig,0.453367876,50000-50999
-Miljövetare,Offentlig,0.518134715,51000-51999
-Miljövetare,Offentlig,3.626943005,>=52000
-Präst/diakon,Privat,2.273803884,<29000
-Präst/diakon,Privat,1.279014685,29000-29999
-Präst/diakon,Privat,3.505447655,30000-30999
-Präst/diakon,Privat,4.594978683,31000-31999
-Präst/diakon,Privat,6.916153482,32000-32999
-Präst/diakon,Privat,6.063477025,33000-33999
-Präst/diakon,Privat,6.584557082,34000-34999
-Präst/diakon,Privat,7.34249171,35000-35999
-Präst/diakon,Privat,7.531975367,36000-36999
-Präst/diakon,Privat,6.442444339,37000-37999
-Präst/diakon,Privat,6.395073425,38000-38999
-Präst/diakon,Privat,4.358124112,39000-39999
-Präst/diakon,Privat,3.979156798,40000-40999
-Präst/diakon,Privat,2.700142113,41000-41999
-Präst/diakon,Privat,2.700142113,42000-42999
-Präst/diakon,Privat,1.705352913,43000-43999
-Präst/diakon,Privat,1.989578399,44000-44999
-Präst/diakon,Privat,1.231643771,45000-45999
-Präst/diakon,Privat,1.042160114,46000-46999
-Präst/diakon,Privat,1.468498342,47000-47999
-Präst/diakon,Privat,1.752723828,48000-48999
-Präst/diakon,Privat,2.273803884,49000-49999
-Präst/diakon,Privat,2.652771198,50000-50999
-Präst/diakon,Privat,1.089531028,51000-51999
-Präst/diakon,Privat,1.421127428,52000-52999
-Präst/diakon,Privat,1.468498342,53000-53999
-Präst/diakon,Privat,1.563240171,54000-54999
-Präst/diakon,Privat,1.563240171,55000-55999
-Präst/diakon,Privat,1.042160114,56000-56999
-Präst/diakon,Privat,0.805305542,57000-57999
-Präst/diakon,Privat,0.757934628,58000-58999
-Präst/diakon,Privat,3.505447655,>=59000
-Högskoleingenjör,Privat,2.930670563,<28000
-Högskoleingenjör,Privat,2.062023056,28000-28999
-Högskoleingenjör,Privat,2.646533528,29000-29999
-Högskoleingenjör,Privat,2.881961357,30000-30999
-Högskoleingenjör,Privat,3.38528982,31000-31999
-Högskoleingenjör,Privat,3.718136061,32000-32999
-Högskoleingenjör,Privat,4.002273096,33000-33999
-Högskoleingenjör,Privat,3.807436272,34000-34999
-Högskoleingenjör,Privat,4.75726579,35000-35999
-Högskoleingenjör,Privat,4.830329599,36000-36999
-Högskoleingenjör,Privat,4.67608378,37000-37999
-Högskoleingenjör,Privat,4.343237539,38000-38999
-Högskoleingenjör,Privat,4.529956162,39000-39999
-Högskoleingenjör,Privat,5.130703036,40000-40999
-Högskoleingenjör,Privat,4.124046111,41000-41999
-Högskoleingenjör,Privat,4.083455106,42000-42999
-Högskoleingenjör,Privat,3.742490664,43000-43999
-Högskoleingenjör,Privat,3.344698815,44000-44999
-Högskoleingenjör,Privat,3.563890242,45000-45999
-Högskoleingenjör,Privat,2.670888131,46000-46999
-Högskoleingenjör,Privat,2.508524111,47000-47999
-Högskoleingenjör,Privat,2.200032473,48000-48999
-Högskoleingenjör,Privat,1.972722845,49000-49999
-Högskoleingenjör,Privat,2.232505277,50000-50999
-Högskoleingenjör,Privat,1.639876603,51000-51999
-Högskoleingenjör,Privat,1.45315798,52000-52999
-Högskoleingenjör,Privat,1.315148563,53000-53999
-Högskoleingenjör,Privat,1.112193538,54000-54999
-Högskoleingenjör,Privat,1.266439357,55000-55999
-Högskoleingenjör,Privat,0.88488391,56000-56999
-Högskoleingenjör,Privat,0.828056503,57000-57999
-Högskoleingenjör,Privat,0.714401689,58000-58999
-Högskoleingenjör,Privat,0.616983277,59000-59999
-Högskoleingenjör,Privat,0.795583699,60000-60999
-Högskoleingenjör,Privat,0.357200844,61000-61999
-Högskoleingenjör,Privat,0.397791849,62000-62999
-Högskoleingenjör,Privat,0.316609839,63000-63999
-Högskoleingenjör,Privat,0.422146452,64000-64999
-Högskoleingenjör,Privat,0.349082643,65000-65999
-Högskoleingenjör,Privat,0.202955025,66000-66999
-Högskoleingenjör,Privat,3.182334795,>=67000
-Högskoleingenjör,Offentlig,2.69758637,<27000
-Högskoleingenjör,Offentlig,1.940369143,27000-27999
-Högskoleingenjör,Offentlig,2.602934217,28000-28999
-Högskoleingenjör,Offentlig,3.218173213,29000-29999
-Högskoleingenjör,Offentlig,4.353999053,30000-30999
-Högskoleingenjör,Offentlig,5.016564127,31000-31999
-Högskoleingenjör,Offentlig,6.53099858,32000-32999
-Högskoleingenjör,Offentlig,5.53715097,33000-33999
-Högskoleingenjör,Offentlig,5.726455277,34000-34999
-Högskoleingenjör,Offentlig,6.767628964,35000-35999
-Högskoleingenjör,Offentlig,5.82110743,36000-36999
-Högskoleingenjör,Offentlig,4.82725982,37000-37999
-Högskoleingenjör,Offentlig,5.205868434,38000-38999
-Högskoleingenjör,Offentlig,4.68528159,39000-39999
-Högskoleingenjör,Offentlig,5.016564127,40000-40999
-Högskoleingenjör,Offentlig,3.028868907,41000-41999
-Högskoleingenjör,Offentlig,4.2593469,42000-42999
-Högskoleingenjör,Offentlig,3.26549929,43000-43999
-Högskoleingenjör,Offentlig,2.886890677,44000-44999
-Högskoleingenjör,Offentlig,2.318977757,45000-45999
-Högskoleingenjör,Offentlig,2.176999527,46000-46999
-Högskoleingenjör,Offentlig,2.27165168,47000-47999
-Högskoleingenjör,Offentlig,1.656412683,48000-48999
-Högskoleingenjör,Offentlig,1.325130147,49000-49999
-Högskoleingenjör,Offentlig,0.99384761,50000-50999
-Högskoleingenjör,Offentlig,0.946521533,51000-51999
-Högskoleingenjör,Offentlig,0.899195457,52000-52999
-Högskoleingenjör,Offentlig,0.615238997,53000-53999
-Högskoleingenjör,Offentlig,3.40747752,>=54000
-Biolog/biokemist,Privat,1.617250674,< 25000
-Biolog/biokemist,Privat,1.67115903,25000-25999
-Biolog/biokemist,Privat,1.401617251,26000-26999
-Biolog/biokemist,Privat,1.509433962,27000-27999
-Biolog/biokemist,Privat,2.156334232,28000-28999
-Biolog/biokemist,Privat,2.587601078,29000-29999
-Biolog/biokemist,Privat,3.827493261,30000-30999
-Biolog/biokemist,Privat,2.749326146,31000-31999
-Biolog/biokemist,Privat,3.989218329,32000-32999
-Biolog/biokemist,Privat,3.827493261,33000-33999
-Biolog/biokemist,Privat,3.665768194,34000-34999
-Biolog/biokemist,Privat,3.827493261,35000-35999
-Biolog/biokemist,Privat,3.611859838,36000-36999
-Biolog/biokemist,Privat,3.665768194,37000-37999
-Biolog/biokemist,Privat,3.989218329,38000-38999
-Biolog/biokemist,Privat,3.126684636,39000-39999
-Biolog/biokemist,Privat,4.420485175,40000-40999
-Biolog/biokemist,Privat,3.180592992,41000-41999
-Biolog/biokemist,Privat,3.665768194,42000-42999
-Biolog/biokemist,Privat,3.288409704,43000-43999
-Biolog/biokemist,Privat,2.641509434,44000-44999
-Biolog/biokemist,Privat,3.342318059,45000-45999
-Biolog/biokemist,Privat,2.156334232,46000-46999
-Biolog/biokemist,Privat,2.156334232,47000-47999
-Biolog/biokemist,Privat,2.210242588,48000-48999
-Biolog/biokemist,Privat,1.778975741,49000-49999
-Biolog/biokemist,Privat,2.371967655,50000-50999
-Biolog/biokemist,Privat,1.778975741,51000-51999
-Biolog/biokemist,Privat,1.347708895,52000-52999
-Biolog/biokemist,Privat,1.509433962,53000-53999
-Biolog/biokemist,Privat,1.293800539,54000-54999
-Biolog/biokemist,Privat,1.563342318,55000-55999
-Biolog/biokemist,Privat,1.239892183,56000-56999
-Biolog/biokemist,Privat,0.592991914,57000-57999
-Biolog/biokemist,Privat,0.862533693,58000-58999
-Biolog/biokemist,Privat,0.754716981,59000-59999
-Biolog/biokemist,Privat,1.401617251,60000-60999
-Biolog/biokemist,Privat,0.431266846,61000-61999
-Biolog/biokemist,Privat,0.539083558,62000-62999
-Biolog/biokemist,Privat,0.592991914,63000-63999
-Biolog/biokemist,Privat,0.862533693,64000-64999
-Biolog/biokemist,Privat,0.64690027,65000-65999
-Biolog/biokemist,Privat,0.323450135,66000-66999
-Biolog/biokemist,Privat,0.431266846,67000-67999
-Biolog/biokemist,Privat,0.539083558,68000-68999
-Biolog/biokemist,Privat,0.215633423,69000-69999
-Biolog/biokemist,Privat,0.377358491,70000-70999
-Biolog/biokemist,Privat,0.215633423,71000-71999
-Biolog/biokemist,Privat,0.107816712,72000-72999
-Biolog/biokemist,Privat,0.431266846,73000-73999
-Biolog/biokemist,Privat,0.323450135,74000-74999
-Biolog/biokemist,Privat,0.161725067,75000-75999
-Biolog/biokemist,Privat,3.018867925,>=76000
-Biolog/biokemist,Offentlig,3.491888919,< 25000
-Biolog/biokemist,Offentlig,3.519384108,25000-25999
-Biolog/biokemist,Offentlig,4.096783063,26000-26999
-Biolog/biokemist,Offentlig,5.526532857,27000-27999
-Biolog/biokemist,Offentlig,5.911465494,28000-28999
-Biolog/biokemist,Offentlig,5.80148474,29000-29999
-Biolog/biokemist,Offentlig,6.571350014,30000-30999
-Biolog/biokemist,Offentlig,6.62634039,31000-31999
-Biolog/biokemist,Offentlig,6.983777839,32000-32999
-Biolog/biokemist,Offentlig,6.103931812,33000-33999
-Biolog/biokemist,Offentlig,5.114105032,34000-34999
-Biolog/biokemist,Offentlig,4.839153148,35000-35999
-Biolog/biokemist,Offentlig,4.069287875,36000-36999
-Biolog/biokemist,Offentlig,3.464393731,37000-37999
-Biolog/biokemist,Offentlig,3.601869673,38000-38999
-Biolog/biokemist,Offentlig,3.024470718,39000-39999
-Biolog/biokemist,Offentlig,3.161946659,40000-40999
-Biolog/biokemist,Offentlig,2.612042892,41000-41999
-Biolog/biokemist,Offentlig,1.814682431,42000-42999
-Biolog/biokemist,Offentlig,1.979653561,43000-43999
-Biolog/biokemist,Offentlig,1.649711301,44000-44999
-Biolog/biokemist,Offentlig,1.347264229,45000-45999
-Biolog/biokemist,Offentlig,1.347264229,46000-46999
-Biolog/biokemist,Offentlig,0.687379709,47000-47999
-Biolog/biokemist,Offentlig,0.687379709,48000-48999
-Biolog/biokemist,Offentlig,0.467418202,49000-49999
-Biolog/biokemist,Offentlig,0.522408578,50000-50999
-Biolog/biokemist,Offentlig,0.549903767,51000-51999
-Biolog/biokemist,Offentlig,0.302447072,52000-52999
-Biolog/biokemist,Offentlig,0.467418202,53000-53999
-Biolog/biokemist,Offentlig,0.302447072,54000-54999
-Biolog/biokemist,Offentlig,0.219961507,55000-55999
-Biolog/biokemist,Offentlig,3.134451471,>=56000
-Farmaceut,Privat,1.175213675,<27000
-Farmaceut,Privat,2.19017094,27000-27999
-Farmaceut,Privat,4.166666667,28000-28999
-Farmaceut,Privat,5.235042735,29000-29999
-Farmaceut,Privat,7.104700855,30000-30999
-Farmaceut,Privat,7.104700855,31000-31999
-Farmaceut,Privat,8.974358974,32000-32999
-Farmaceut,Privat,8.493589744,33000-33999
-Farmaceut,Privat,7.478632479,34000-34999
-Farmaceut,Privat,5.448717949,35000-35999
-Farmaceut,Privat,4.967948718,36000-36999
-Farmaceut,Privat,3.044871795,37000-37999
-Farmaceut,Privat,3.418803419,38000-38999
-Farmaceut,Privat,2.670940171,39000-39999
-Farmaceut,Privat,2.35042735,40000-40999
-Farmaceut,Privat,1.976495726,41000-41999
-Farmaceut,Privat,2.02991453,42000-42999
-Farmaceut,Privat,1.709401709,43000-43999
-Farmaceut,Privat,1.335470085,44000-44999
-Farmaceut,Privat,1.495726496,45000-45999
-Farmaceut,Privat,1.228632479,46000-46999
-Farmaceut,Privat,0.747863248,47000-47999
-Farmaceut,Privat,1.121794872,48000-48999
-Farmaceut,Privat,0.480769231,49000-49999
-Farmaceut,Privat,0.854700855,50000-50999
-Farmaceut,Privat,0.641025641,51000-51999
-Farmaceut,Privat,0.747863248,52000-52999
-Farmaceut,Privat,0.694444444,53000-53999
-Farmaceut,Privat,0.854700855,54000-54999
-Farmaceut,Privat,0.320512821,55000-55999
-Farmaceut,Privat,0.641025641,56000-56999
-Farmaceut,Privat,0.534188034,57000-57999
-Farmaceut,Privat,0.587606838,58000-58999
-Farmaceut,Privat,0.427350427,59000-59999
-Farmaceut,Privat,0.427350427,60000-60999
-Farmaceut,Privat,0.320512821,61000-61999
-Farmaceut,Privat,0.587606838,62000-62999
-Farmaceut,Privat,0.053418803,63000-63999
-Farmaceut,Privat,0.480769231,64000-64999
-Farmaceut,Privat,0.267094017,65000-65999
-Farmaceut,Privat,0.320512821,66000-66999
-Farmaceut,Privat,0.213675214,67000-67999
-Farmaceut,Privat,0.373931624,68000-68999
-Farmaceut,Privat,0.267094017,69000-69999
-Farmaceut,Privat,0.267094017,70000-70999
-Farmaceut,Privat,0.320512821,71000-71999
-Farmaceut,Privat,0.267094017,72000-72999
-Farmaceut,Privat,0.053418803,73000-73999
-Farmaceut,Privat,0.213675214,74000-74999
-Farmaceut,Privat,0.16025641,75000-75999
-Farmaceut,Privat,0.106837607,76000-76999
-Farmaceut,Privat,3.044871795,>=77000
-Farmaceut,Offentlig,2.910602911,<28000
-Farmaceut,Offentlig,0.831600832,28000-28999
-Farmaceut,Offentlig,0.623700624,29000-29999
-Farmaceut,Offentlig,3.326403326,30000-30999
-Farmaceut,Offentlig,3.118503119,31000-31999
-Farmaceut,Offentlig,2.702702703,32000-32999
-Farmaceut,Offentlig,4.158004158,33000-33999
-Farmaceut,Offentlig,6.237006237,34000-34999
-Farmaceut,Offentlig,6.444906445,35000-35999
-Farmaceut,Offentlig,5.197505198,36000-36999
-Farmaceut,Offentlig,4.781704782,37000-37999
-Farmaceut,Offentlig,6.237006237,38000-38999
-Farmaceut,Offentlig,6.652806653,39000-39999
-Farmaceut,Offentlig,5.197505198,40000-40999
-Farmaceut,Offentlig,3.118503119,41000-41999
-Farmaceut,Offentlig,4.781704782,42000-42999
-Farmaceut,Offentlig,3.95010395,43000-43999
-Farmaceut,Offentlig,3.534303534,44000-44999
-Farmaceut,Offentlig,3.534303534,45000-45999
-Farmaceut,Offentlig,3.742203742,46000-46999
-Farmaceut,Offentlig,2.286902287,47000-47999
-Farmaceut,Offentlig,1.455301455,48000-48999
-Farmaceut,Offentlig,2.079002079,49000-49999
-Farmaceut,Offentlig,1.871101871,50000-50999
-Farmaceut,Offentlig,1.247401247,51000-51999
-Farmaceut,Offentlig,1.663201663,52000-52999
-Farmaceut,Offentlig,0.623700624,53000-53999
-Farmaceut,Offentlig,0.623700624,54000-54999
-Farmaceut,Offentlig,0.415800416,55000-55999
-Farmaceut,Offentlig,0.415800416,56000-56999
-Farmaceut,Offentlig,0.831600832,57000-57999
-Farmaceut,Offentlig,0.415800416,58000-58999
-Farmaceut,Offentlig,0.831600832,59000-59999
-Farmaceut,Offentlig,0.623700624,60000-60999
-Farmaceut,Offentlig,0.415800416,61000-61999
-Farmaceut,Offentlig,3.118503119,>=63000
+Agronom,Privat sektor,2.92397660818713,<28000
+Agronom,Privat sektor,2.72904483430799,28000-28999
+Agronom,Privat sektor,1.364522417154,29000-29999
+Agronom,Privat sektor,2.92397660818713,30000-30999
+Agronom,Privat sektor,3.7037037037037,31000-31999
+Agronom,Privat sektor,2.33918128654971,32000-32999
+Agronom,Privat sektor,3.31384015594542,33000-33999
+Agronom,Privat sektor,3.7037037037037,34000-34999
+Agronom,Privat sektor,5.84795321637427,35000-35999
+Agronom,Privat sektor,4.09356725146199,36000-36999
+Agronom,Privat sektor,2.72904483430799,37000-37999
+Agronom,Privat sektor,3.31384015594542,38000-38999
+Agronom,Privat sektor,4.28849902534113,39000-39999
+Agronom,Privat sektor,5.0682261208577,40000-40999
+Agronom,Privat sektor,3.7037037037037,41000-41999
+Agronom,Privat sektor,4.67836257309941,42000-42999
+Agronom,Privat sektor,2.72904483430799,43000-43999
+Agronom,Privat sektor,2.33918128654971,44000-44999
+Agronom,Privat sektor,2.72904483430799,45000-45999
+Agronom,Privat sektor,2.92397660818713,46000-46999
+Agronom,Privat sektor,2.33918128654971,47000-47999
+Agronom,Privat sektor,3.50877192982456,48000-48999
+Agronom,Privat sektor,0.779727095516569,49000-49999
+Agronom,Privat sektor,1.16959064327485,50000-50999
+Agronom,Privat sektor,1.75438596491228,51000-51999
+Agronom,Privat sektor,0.974658869395711,52000-52999
+Agronom,Privat sektor,1.94931773879142,53000-53999
+Agronom,Privat sektor,2.14424951267057,54000-54999
+Agronom,Privat sektor,2.72904483430799,55000-55999
+Agronom,Privat sektor,0.584795321637427,56000-56999
+Agronom,Privat sektor,0.974658869395711,57000-57999
+Agronom,Privat sektor,1.16959064327485,58000-58999
+Agronom,Privat sektor,0.584795321637427,59000-59999
+Agronom,Privat sektor,0.194931773879142,60000-60999
+Agronom,Privat sektor,0.584795321637427,61000-61999
+Agronom,Privat sektor,1.55945419103314,62000-62999
+Agronom,Privat sektor,0.194931773879142,63000-63999
+Agronom,Privat sektor,0.194931773879142,64000-64999
+Agronom,Privat sektor,0.779727095516569,65000-65999
+Agronom,Privat sektor,0.584795321637427,66000-66999
+Agronom,Privat sektor,0.779727095516569,67000-67999
+Agronom,Privat sektor,0.389863547758285,68000-68999
+Agronom,Privat sektor,0.194931773879142,69000-69999
+Agronom,Privat sektor,0.194931773879142,72000-72999
+Agronom,Privat sektor,0.389863547758285,73000-73999
+Agronom,Privat sektor,0.194931773879142,74000-74999
+Agronom,Privat sektor,0.389863547758285,75000-75999
+Agronom,Privat sektor,0.389863547758285,76000-76999
+Agronom,Privat sektor,0.194931773879142,77000-77999
+Agronom,Privat sektor,0.194931773879142,79000-79999
+Agronom,Privat sektor,0.194931773879142,81000-81999
+Agronom,Privat sektor,0.584795321637427,83000-83999
+Agronom,Privat sektor,0.194931773879142,85000-85999
+Agronom,Privat sektor,0.194931773879142,90000-90999
+Agronom,Privat sektor,0.194931773879142,91000-91999
+Agronom,Privat sektor,3.11890838206628,>=93000
+Agronom,Offentlig sektor,1.97486535008977,<26000
+Agronom,Offentlig sektor,1.61579892280072,26000-26999
+Agronom,Offentlig sektor,1.97486535008977,27000-27999
+Agronom,Offentlig sektor,4.48833034111311,28000-28999
+Agronom,Offentlig sektor,4.84739676840215,29000-29999
+Agronom,Offentlig sektor,3.41113105924596,30000-30999
+Agronom,Offentlig sektor,3.59066427289048,31000-31999
+Agronom,Offentlig sektor,5.38599640933573,32000-32999
+Agronom,Offentlig sektor,5.02692998204668,33000-33999
+Agronom,Offentlig sektor,7.36086175942549,34000-34999
+Agronom,Offentlig sektor,5.9245960502693,35000-35999
+Agronom,Offentlig sektor,4.66786355475763,36000-36999
+Agronom,Offentlig sektor,4.12926391382406,37000-37999
+Agronom,Offentlig sektor,3.41113105924596,38000-38999
+Agronom,Offentlig sektor,3.23159784560144,39000-39999
+Agronom,Offentlig sektor,3.94973070017953,40000-40999
+Agronom,Offentlig sektor,3.23159784560144,41000-41999
+Agronom,Offentlig sektor,2.69299820466786,42000-42999
+Agronom,Offentlig sektor,5.02692998204668,43000-43999
+Agronom,Offentlig sektor,2.87253141831239,44000-44999
+Agronom,Offentlig sektor,3.41113105924596,45000-45999
+Agronom,Offentlig sektor,1.79533213644524,46000-46999
+Agronom,Offentlig sektor,2.15439856373429,47000-47999
+Agronom,Offentlig sektor,2.15439856373429,48000-48999
+Agronom,Offentlig sektor,0.897666068222621,49000-49999
+Agronom,Offentlig sektor,1.25673249551167,50000-50999
+Agronom,Offentlig sektor,0.359066427289048,51000-51999
+Agronom,Offentlig sektor,0.897666068222621,52000-52999
+Agronom,Offentlig sektor,0.359066427289048,53000-53999
+Agronom,Offentlig sektor,0.897666068222621,54000-54999
+Agronom,Offentlig sektor,1.43626570915619,55000-55999
+Agronom,Offentlig sektor,0.718132854578097,56000-56999
+Agronom,Offentlig sektor,0.538599640933573,57000-57999
+Agronom,Offentlig sektor,0.538599640933573,58000-58999
+Agronom,Offentlig sektor,3.77019748653501,>=60000
+Arkitekt,Privat sektor,2.71790065604499,<30000
+Arkitekt,Privat sektor,1.81193377069666,30000-30999
+Arkitekt,Privat sektor,3.81130896594814,31000-31999
+Arkitekt,Privat sektor,4.31115276476101,32000-32999
+Arkitekt,Privat sektor,4.27991252733521,33000-33999
+Arkitekt,Privat sektor,5.71696344892221,34000-34999
+Arkitekt,Privat sektor,4.65479537644486,35000-35999
+Arkitekt,Privat sektor,4.49859418931584,36000-36999
+Arkitekt,Privat sektor,3.87378944079975,37000-37999
+Arkitekt,Privat sektor,4.31115276476101,38000-38999
+Arkitekt,Privat sektor,3.68634801624492,39000-39999
+Arkitekt,Privat sektor,4.52983442674164,40000-40999
+Arkitekt,Privat sektor,4.2486722899094,41000-41999
+Arkitekt,Privat sektor,4.49859418931584,42000-42999
+Arkitekt,Privat sektor,3.81130896594814,43000-43999
+Arkitekt,Privat sektor,3.68634801624492,44000-44999
+Arkitekt,Privat sektor,3.74882849109653,45000-45999
+Arkitekt,Privat sektor,3.59262730396751,46000-46999
+Arkitekt,Privat sektor,2.65542018119338,47000-47999
+Arkitekt,Privat sektor,3.59262730396751,48000-48999
+Arkitekt,Privat sektor,1.93689472039988,49000-49999
+Arkitekt,Privat sektor,2.8428616057482,50000-50999
+Arkitekt,Privat sektor,1.93689472039988,51000-51999
+Arkitekt,Privat sektor,2.06185567010309,52000-52999
+Arkitekt,Privat sektor,1.65573258356764,53000-53999
+Arkitekt,Privat sektor,1.68697282099344,54000-54999
+Arkitekt,Privat sektor,1.78069353327085,55000-55999
+Arkitekt,Privat sektor,0.999687597625742,56000-56999
+Arkitekt,Privat sektor,0.531084036238675,57000-57999
+Arkitekt,Privat sektor,0.656044985941893,58000-58999
+Arkitekt,Privat sektor,0.437363323961262,59000-59999
+Arkitekt,Privat sektor,0.781005935645111,60000-60999
+Arkitekt,Privat sektor,0.687285223367698,61000-61999
+Arkitekt,Privat sektor,0.312402374258044,62000-62999
+Arkitekt,Privat sektor,0.468603561387067,63000-63999
+Arkitekt,Privat sektor,3.18650421743205,>=64000
+Arkitekt,Offentlig sektor,2.25330225330225,<31000
+Arkitekt,Offentlig sektor,1.78710178710179,31000-31999
+Arkitekt,Offentlig sektor,3.72960372960373,32000-32999
+Arkitekt,Offentlig sektor,3.57420357420357,33000-33999
+Arkitekt,Offentlig sektor,3.26340326340326,34000-34999
+Arkitekt,Offentlig sektor,5.05050505050505,35000-35999
+Arkitekt,Offentlig sektor,5.51670551670552,36000-36999
+Arkitekt,Offentlig sektor,5.20590520590521,37000-37999
+Arkitekt,Offentlig sektor,5.36130536130536,38000-38999
+Arkitekt,Offentlig sektor,5.28360528360528,39000-39999
+Arkitekt,Offentlig sektor,6.99300699300699,40000-40999
+Arkitekt,Offentlig sektor,5.12820512820513,41000-41999
+Arkitekt,Offentlig sektor,5.05050505050505,42000-42999
+Arkitekt,Offentlig sektor,4.11810411810412,43000-43999
+Arkitekt,Offentlig sektor,4.1958041958042,44000-44999
+Arkitekt,Offentlig sektor,3.65190365190365,45000-45999
+Arkitekt,Offentlig sektor,3.26340326340326,46000-46999
+Arkitekt,Offentlig sektor,2.48640248640249,47000-47999
+Arkitekt,Offentlig sektor,2.02020202020202,48000-48999
+Arkitekt,Offentlig sektor,1.86480186480186,49000-49999
+Arkitekt,Offentlig sektor,2.95260295260295,50000-50999
+Arkitekt,Offentlig sektor,1.24320124320124,51000-51999
+Arkitekt,Offentlig sektor,1.63170163170163,52000-52999
+Arkitekt,Offentlig sektor,1.16550116550117,53000-53999
+Arkitekt,Offentlig sektor,1.55400155400155,54000-54999
+Arkitekt,Offentlig sektor,1.08780108780109,55000-55999
+Arkitekt,Offentlig sektor,0.777000777000777,56000-56999
+Arkitekt,Offentlig sektor,1.32090132090132,57000-57999
+Arkitekt,Offentlig sektor,1.16550116550117,58000-58999
+Arkitekt,Offentlig sektor,1.08780108780109,59000-59999
+Arkitekt,Offentlig sektor,0.699300699300699,60000-60999
+Arkitekt,Offentlig sektor,0.466200466200466,61000-61999
+Arkitekt,Offentlig sektor,0.310800310800311,62000-62999
+Arkitekt,Offentlig sektor,0.388500388500388,63000-63999
+Arkitekt,Offentlig sektor,0.310800310800311,64000-64999
+Arkitekt,Offentlig sektor,0.543900543900544,65000-65999
+Arkitekt,Offentlig sektor,0.155400155400155,66000-66999
+Arkitekt,Offentlig sektor,0.155400155400155,67000-67999
+Arkitekt,Offentlig sektor,3.18570318570319,>=68000
+Civilekonom/ekonom,Privat sektor,2.69601100412655,<27000
+Civilekonom/ekonom,Privat sektor,1.10041265474553,27000-27999
+Civilekonom/ekonom,Privat sektor,1.32049518569464,28000-28999
+Civilekonom/ekonom,Privat sektor,1.2242090784044,29000-29999
+Civilekonom/ekonom,Privat sektor,1.66437414030261,30000-30999
+Civilekonom/ekonom,Privat sektor,1.66437414030261,31000-31999
+Civilekonom/ekonom,Privat sektor,1.5818431911967,32000-32999
+Civilekonom/ekonom,Privat sektor,1.62310866574966,33000-33999
+Civilekonom/ekonom,Privat sektor,1.92572214580468,34000-34999
+Civilekonom/ekonom,Privat sektor,2.32462173314993,35000-35999
+Civilekonom/ekonom,Privat sektor,2.00825309491059,36000-36999
+Civilekonom/ekonom,Privat sektor,2.2283356258597,37000-37999
+Civilekonom/ekonom,Privat sektor,2.35213204951857,38000-38999
+Civilekonom/ekonom,Privat sektor,2.04951856946355,39000-39999
+Civilekonom/ekonom,Privat sektor,3.01237964236589,40000-40999
+Civilekonom/ekonom,Privat sektor,2.09078404401651,41000-41999
+Civilekonom/ekonom,Privat sektor,2.33837689133425,42000-42999
+Civilekonom/ekonom,Privat sektor,2.20082530949106,43000-43999
+Civilekonom/ekonom,Privat sektor,2.09078404401651,44000-44999
+Civilekonom/ekonom,Privat sektor,2.55845942228336,45000-45999
+Civilekonom/ekonom,Privat sektor,2.24209078404402,46000-46999
+Civilekonom/ekonom,Privat sektor,2.33837689133425,47000-47999
+Civilekonom/ekonom,Privat sektor,2.50343878954608,48000-48999
+Civilekonom/ekonom,Privat sektor,2.24209078404402,49000-49999
+Civilekonom/ekonom,Privat sektor,2.76478679504814,50000-50999
+Civilekonom/ekonom,Privat sektor,2.21458046767538,51000-51999
+Civilekonom/ekonom,Privat sektor,2.33837689133425,52000-52999
+Civilekonom/ekonom,Privat sektor,1.85694635488308,53000-53999
+Civilekonom/ekonom,Privat sektor,1.62310866574966,54000-54999
+Civilekonom/ekonom,Privat sektor,2.39339752407153,55000-55999
+Civilekonom/ekonom,Privat sektor,1.62310866574966,56000-56999
+Civilekonom/ekonom,Privat sektor,1.5818431911967,57000-57999
+Civilekonom/ekonom,Privat sektor,1.34800550206327,58000-58999
+Civilekonom/ekonom,Privat sektor,1.33425034387895,59000-59999
+Civilekonom/ekonom,Privat sektor,1.92572214580468,60000-60999
+Civilekonom/ekonom,Privat sektor,1.41678129298487,61000-61999
+Civilekonom/ekonom,Privat sektor,1.48555708390646,62000-62999
+Civilekonom/ekonom,Privat sektor,1.26547455295736,63000-63999
+Civilekonom/ekonom,Privat sektor,1.07290233837689,64000-64999
+Civilekonom/ekonom,Privat sektor,1.54057771664374,65000-65999
+Civilekonom/ekonom,Privat sektor,0.797799174690509,66000-66999
+Civilekonom/ekonom,Privat sektor,0.921595598349381,67000-67999
+Civilekonom/ekonom,Privat sektor,1.07290233837689,68000-68999
+Civilekonom/ekonom,Privat sektor,0.907840440165062,69000-69999
+Civilekonom/ekonom,Privat sektor,1.27922971114168,70000-70999
+Civilekonom/ekonom,Privat sektor,0.63273727647868,71000-71999
+Civilekonom/ekonom,Privat sektor,0.742778541953232,72000-72999
+Civilekonom/ekonom,Privat sektor,0.78404401650619,73000-73999
+Civilekonom/ekonom,Privat sektor,0.591471801925722,74000-74999
+Civilekonom/ekonom,Privat sektor,0.811554332874828,75000-75999
+Civilekonom/ekonom,Privat sektor,0.550206327372765,76000-76999
+Civilekonom/ekonom,Privat sektor,0.756533700137552,77000-77999
+Civilekonom/ekonom,Privat sektor,0.63273727647868,78000-78999
+Civilekonom/ekonom,Privat sektor,0.440165061898212,79000-79999
+Civilekonom/ekonom,Privat sektor,0.715268225584594,80000-80999
+Civilekonom/ekonom,Privat sektor,0.495185694635488,81000-81999
+Civilekonom/ekonom,Privat sektor,0.63273727647868,82000-82999
+Civilekonom/ekonom,Privat sektor,0.440165061898212,83000-83999
+Civilekonom/ekonom,Privat sektor,0.398899587345254,84000-84999
+Civilekonom/ekonom,Privat sektor,0.591471801925722,85000-85999
+Civilekonom/ekonom,Privat sektor,0.343878954607978,86000-86999
+Civilekonom/ekonom,Privat sektor,0.288858321870701,87000-87999
+Civilekonom/ekonom,Privat sektor,0.233837689133425,88000-88999
+Civilekonom/ekonom,Privat sektor,0.288858321870701,89000-89999
+Civilekonom/ekonom,Privat sektor,0.481430536451169,90000-90999
+Civilekonom/ekonom,Privat sektor,0.233837689133425,91000-91999
+Civilekonom/ekonom,Privat sektor,0.247592847317744,92000-92999
+Civilekonom/ekonom,Privat sektor,0.110041265474553,93000-93999
+Civilekonom/ekonom,Privat sektor,0.206327372764787,94000-94999
+Civilekonom/ekonom,Privat sektor,0.330123796423659,95000-95999
+Civilekonom/ekonom,Privat sektor,0.178817056396149,96000-96999
+Civilekonom/ekonom,Privat sektor,0.206327372764787,97000-97999
+Civilekonom/ekonom,Privat sektor,0.137551581843191,98000-98999
+Civilekonom/ekonom,Privat sektor,0.178817056396149,99000-99999
+Civilekonom/ekonom,Privat sektor,5.17193947730399,>=100000
+Civilekonom/ekonom,Offentlig sektor,1.78691087781997,<27000
+Civilekonom/ekonom,Offentlig sektor,1.34018315836498,27000-27999
+Civilekonom/ekonom,Offentlig sektor,1.56354701809247,28000-28999
+Civilekonom/ekonom,Offentlig sektor,2.05494750949296,29000-29999
+Civilekonom/ekonom,Offentlig sektor,2.54634800089346,30000-30999
+Civilekonom/ekonom,Offentlig sektor,2.09962028143846,31000-31999
+Civilekonom/ekonom,Offentlig sektor,2.68036631672995,32000-32999
+Civilekonom/ekonom,Offentlig sektor,3.12709403618495,33000-33999
+Civilekonom/ekonom,Offentlig sektor,3.39513066785794,34000-34999
+Civilekonom/ekonom,Offentlig sektor,3.75251284342193,35000-35999
+Civilekonom/ekonom,Offentlig sektor,4.26624972079518,36000-36999
+Civilekonom/ekonom,Offentlig sektor,3.75251284342193,37000-37999
+Civilekonom/ekonom,Offentlig sektor,4.04288586106768,38000-38999
+Civilekonom/ekonom,Offentlig sektor,4.02054947509493,39000-39999
+Civilekonom/ekonom,Offentlig sektor,4.75765021219567,40000-40999
+Civilekonom/ekonom,Offentlig sektor,4.17690417690418,41000-41999
+Civilekonom/ekonom,Offentlig sektor,4.13223140495868,42000-42999
+Civilekonom/ekonom,Offentlig sektor,3.61849452758544,43000-43999
+Civilekonom/ekonom,Offentlig sektor,3.43980343980344,44000-44999
+Civilekonom/ekonom,Offentlig sektor,3.52914898369444,45000-45999
+Civilekonom/ekonom,Offentlig sektor,2.76971186062095,46000-46999
+Civilekonom/ekonom,Offentlig sektor,2.99307572034845,47000-47999
+Civilekonom/ekonom,Offentlig sektor,2.43466607102971,48000-48999
+Civilekonom/ekonom,Offentlig sektor,2.12195666741121,49000-49999
+Civilekonom/ekonom,Offentlig sektor,2.52401161492071,50000-50999
+Civilekonom/ekonom,Offentlig sektor,1.76457449184722,51000-51999
+Civilekonom/ekonom,Offentlig sektor,1.87625642171097,52000-52999
+Civilekonom/ekonom,Offentlig sektor,1.49653786017422,53000-53999
+Civilekonom/ekonom,Offentlig sektor,1.56354701809247,54000-54999
+Civilekonom/ekonom,Offentlig sektor,1.71990171990172,55000-55999
+Civilekonom/ekonom,Offentlig sektor,1.20616484252848,56000-56999
+Civilekonom/ekonom,Offentlig sektor,0.982800982800983,57000-57999
+Civilekonom/ekonom,Offentlig sektor,0.804109895018986,58000-58999
+Civilekonom/ekonom,Offentlig sektor,1.00513736877373,59000-59999
+Civilekonom/ekonom,Offentlig sektor,0.982800982800983,60000-60999
+Civilekonom/ekonom,Offentlig sektor,0.737100737100737,61000-61999
+Civilekonom/ekonom,Offentlig sektor,0.759437123073487,62000-62999
+Civilekonom/ekonom,Offentlig sektor,0.714764351127988,63000-63999
+Civilekonom/ekonom,Offentlig sektor,0.60308242126424,64000-64999
+Civilekonom/ekonom,Offentlig sektor,0.55840964931874,65000-65999
+Civilekonom/ekonom,Offentlig sektor,0.491400491400491,66000-66999
+Civilekonom/ekonom,Offentlig sektor,0.469064105427742,67000-67999
+Civilekonom/ekonom,Offentlig sektor,0.446727719454992,68000-68999
+Civilekonom/ekonom,Offentlig sektor,0.245700245700246,69000-69999
+Civilekonom/ekonom,Offentlig sektor,0.446727719454992,70000-70999
+Civilekonom/ekonom,Offentlig sektor,0.223363859727496,71000-71999
+Civilekonom/ekonom,Offentlig sektor,0.312709403618495,72000-72999
+Civilekonom/ekonom,Offentlig sektor,0.268036631672995,73000-73999
+Civilekonom/ekonom,Offentlig sektor,0.201027473754747,74000-74999
+Civilekonom/ekonom,Offentlig sektor,3.19410319410319,>=75000
+Arbetsterapeut,Privat sektor,2.79441117764471,<26000
+Arbetsterapeut,Privat sektor,1.59680638722555,26000-26999
+Arbetsterapeut,Privat sektor,3.99201596806387,27000-27999
+Arbetsterapeut,Privat sektor,6.187624750499,28000-28999
+Arbetsterapeut,Privat sektor,10.9780439121756,29000-29999
+Arbetsterapeut,Privat sektor,12.7744510978044,30000-30999
+Arbetsterapeut,Privat sektor,9.78043912175649,31000-31999
+Arbetsterapeut,Privat sektor,11.7764471057884,32000-32999
+Arbetsterapeut,Privat sektor,7.38522954091816,33000-33999
+Arbetsterapeut,Privat sektor,8.98203592814371,34000-34999
+Arbetsterapeut,Privat sektor,5.98802395209581,35000-35999
+Arbetsterapeut,Privat sektor,2.9940119760479,36000-36999
+Arbetsterapeut,Privat sektor,2.19560878243513,37000-37999
+Arbetsterapeut,Privat sektor,3.1936127744511,38000-38999
+Arbetsterapeut,Privat sektor,0.598802395209581,39000-39999
+Arbetsterapeut,Privat sektor,1.19760479041916,40000-40999
+Arbetsterapeut,Privat sektor,1.19760479041916,41000-41999
+Arbetsterapeut,Privat sektor,0.798403193612774,42000-42999
+Arbetsterapeut,Privat sektor,1.19760479041916,43000-43999
+Arbetsterapeut,Privat sektor,0.199600798403194,44000-44999
+Arbetsterapeut,Privat sektor,0.998003992015968,45000-45999
+Arbetsterapeut,Privat sektor,3.1936127744511,>=46000
+Arbetsterapeut,Offentlig sektor,0.78593588417787,< 25000
+Arbetsterapeut,Offentlig sektor,2.79214064115822,25000-25999
+Arbetsterapeut,Offentlig sektor,4.67425025853154,26000-26999
+Arbetsterapeut,Offentlig sektor,5.85315408479835,27000-27999
+Arbetsterapeut,Offentlig sektor,8.72802481902792,28000-28999
+Arbetsterapeut,Offentlig sektor,11.4994829369183,29000-29999
+Arbetsterapeut,Offentlig sektor,12.8645294725957,30000-30999
+Arbetsterapeut,Offentlig sektor,12.2440537745605,31000-31999
+Arbetsterapeut,Offentlig sektor,10.6101344364012,32000-32999
+Arbetsterapeut,Offentlig sektor,8.10754912099276,33000-33999
+Arbetsterapeut,Offentlig sektor,6.03929679420889,34000-34999
+Arbetsterapeut,Offentlig sektor,3.24715615305067,35000-35999
+Arbetsterapeut,Offentlig sektor,2.54395036194416,36000-36999
+Arbetsterapeut,Offentlig sektor,1.84074457083764,37000-37999
+Arbetsterapeut,Offentlig sektor,1.19958634953464,38000-38999
+Arbetsterapeut,Offentlig sektor,0.972078593588418,39000-39999
+Arbetsterapeut,Offentlig sektor,0.62047569803516,40000-40999
+Arbetsterapeut,Offentlig sektor,0.910031023784902,41000-41999
+Arbetsterapeut,Offentlig sektor,0.951396070320579,42000-42999
+Arbetsterapeut,Offentlig sektor,0.413650465356774,43000-43999
+Arbetsterapeut,Offentlig sektor,3.1023784901758,>=44000
+Jurist,Privat sektor,2.04081632653061,<27000
+Jurist,Privat sektor,1.52251376741173,27000-27999
+Jurist,Privat sektor,1.58730158730159,28000-28999
+Jurist,Privat sektor,1.52251376741173,29000-29999
+Jurist,Privat sektor,2.23517978620019,30000-30999
+Jurist,Privat sektor,2.10560414642047,31000-31999
+Jurist,Privat sektor,2.00842241658568,32000-32999
+Jurist,Privat sektor,2.04081632653061,33000-33999
+Jurist,Privat sektor,1.87884677680596,34000-34999
+Jurist,Privat sektor,2.65630061548429,35000-35999
+Jurist,Privat sektor,2.52672497570457,36000-36999
+Jurist,Privat sektor,2.00842241658568,37000-37999
+Jurist,Privat sektor,2.39714933592485,38000-38999
+Jurist,Privat sektor,1.4901198574668,39000-39999
+Jurist,Privat sektor,2.94784580498866,40000-40999
+Jurist,Privat sektor,1.8140589569161,41000-41999
+Jurist,Privat sektor,1.8140589569161,42000-42999
+Jurist,Privat sektor,1.65208940719145,43000-43999
+Jurist,Privat sektor,1.8140589569161,44000-44999
+Jurist,Privat sektor,3.14220926465824,45000-45999
+Jurist,Privat sektor,1.8140589569161,46000-46999
+Jurist,Privat sektor,2.00842241658568,47000-47999
+Jurist,Privat sektor,1.45772594752187,48000-48999
+Jurist,Privat sektor,1.91124068675089,49000-49999
+Jurist,Privat sektor,2.23517978620019,50000-50999
+Jurist,Privat sektor,1.42533203757694,51000-51999
+Jurist,Privat sektor,1.87884677680596,52000-52999
+Jurist,Privat sektor,1.52251376741173,53000-53999
+Jurist,Privat sektor,1.42533203757694,54000-54999
+Jurist,Privat sektor,2.49433106575964,55000-55999
+Jurist,Privat sektor,1.19857466796242,56000-56999
+Jurist,Privat sektor,1.68448331713638,57000-57999
+Jurist,Privat sektor,1.68448331713638,58000-58999
+Jurist,Privat sektor,0.971817298347911,59000-59999
+Jurist,Privat sektor,1.71687722708131,60000-60999
+Jurist,Privat sektor,1.13378684807256,61000-61999
+Jurist,Privat sektor,1.36054421768708,62000-62999
+Jurist,Privat sektor,1.10139293812763,63000-63999
+Jurist,Privat sektor,0.93942338840298,64000-64999
+Jurist,Privat sektor,1.58730158730159,65000-65999
+Jurist,Privat sektor,0.971817298347911,66000-66999
+Jurist,Privat sektor,1.10139293812763,67000-67999
+Jurist,Privat sektor,1.19857466796242,68000-68999
+Jurist,Privat sektor,0.680272108843538,69000-69999
+Jurist,Privat sektor,1.58730158730159,70000-70999
+Jurist,Privat sektor,1.00421120829284,71000-71999
+Jurist,Privat sektor,1.00421120829284,72000-72999
+Jurist,Privat sektor,1.00421120829284,73000-73999
+Jurist,Privat sektor,0.647878198898607,74000-74999
+Jurist,Privat sektor,1.10139293812763,75000-75999
+Jurist,Privat sektor,0.453514739229025,76000-76999
+Jurist,Privat sektor,0.87463556851312,77000-77999
+Jurist,Privat sektor,0.842241658568189,78000-78999
+Jurist,Privat sektor,0.680272108843538,79000-79999
+Jurist,Privat sektor,0.842241658568189,80000-80999
+Jurist,Privat sektor,0.777453838678329,81000-81999
+Jurist,Privat sektor,0.291545189504373,82000-82999
+Jurist,Privat sektor,0.421120829284095,83000-83999
+Jurist,Privat sektor,0.388726919339164,84000-84999
+Jurist,Privat sektor,0.647878198898607,85000-85999
+Jurist,Privat sektor,0.226757369614512,86000-86999
+Jurist,Privat sektor,0.485908649173955,87000-87999
+Jurist,Privat sektor,0.323939099449304,88000-88999
+Jurist,Privat sektor,0.453514739229025,89000-89999
+Jurist,Privat sektor,0.842241658568189,90000-90999
+Jurist,Privat sektor,0.453514739229025,91000-91999
+Jurist,Privat sektor,0.485908649173955,92000-92999
+Jurist,Privat sektor,0.194363459669582,93000-93999
+Jurist,Privat sektor,0.194363459669582,94000-94999
+Jurist,Privat sektor,0.485908649173955,95000-95999
+Jurist,Privat sektor,0.226757369614512,96000-96999
+Jurist,Privat sektor,0.194363459669582,97000-97999
+Jurist,Privat sektor,0.259151279559443,98000-98999
+Jurist,Privat sektor,0.097181729834791,99000-99999
+Jurist,Privat sektor,5.79850988014253,>=100000
+Jurist,Offentlig sektor,1.0108435949274,<26000
+Jurist,Offentlig sektor,2.44440360227899,26000-26999
+Jurist,Offentlig sektor,2.00330821540158,27000-27999
+Jurist,Offentlig sektor,3.76768976291123,28000-28999
+Jurist,Offentlig sektor,2.68333027017092,29000-29999
+Jurist,Offentlig sektor,2.51791950009189,30000-30999
+Jurist,Offentlig sektor,2.11358206212093,31000-31999
+Jurist,Offentlig sektor,2.35250873001287,32000-32999
+Jurist,Offentlig sektor,3.47362617165962,33000-33999
+Jurist,Offentlig sektor,2.97739386142253,34000-34999
+Jurist,Offentlig sektor,3.34497335048704,35000-35999
+Jurist,Offentlig sektor,3.62065796728543,36000-36999
+Jurist,Offentlig sektor,3.40011027384672,37000-37999
+Jurist,Offentlig sektor,3.32659437603382,38000-38999
+Jurist,Offentlig sektor,3.08766770814189,39000-39999
+Jurist,Offentlig sektor,3.34497335048704,40000-40999
+Jurist,Offentlig sektor,2.97739386142253,41000-41999
+Jurist,Offentlig sektor,2.86712001470318,42000-42999
+Jurist,Offentlig sektor,3.10604668259511,43000-43999
+Jurist,Offentlig sektor,2.77522514243705,44000-44999
+Jurist,Offentlig sektor,2.46278257673222,45000-45999
+Jurist,Offentlig sektor,2.97739386142253,46000-46999
+Jurist,Offentlig sektor,2.51791950009189,47000-47999
+Jurist,Offentlig sektor,2.86712001470318,48000-48999
+Jurist,Offentlig sektor,2.07682411321448,49000-49999
+Jurist,Offentlig sektor,2.27899283219996,50000-50999
+Jurist,Offentlig sektor,1.63572872633707,51000-51999
+Jurist,Offentlig sektor,1.45193898180482,52000-52999
+Jurist,Offentlig sektor,1.37842308399191,53000-53999
+Jurist,Offentlig sektor,1.26814923727256,54000-54999
+Jurist,Offentlig sektor,1.30490718617901,55000-55999
+Jurist,Offentlig sektor,0.992464620474177,56000-56999
+Jurist,Offentlig sektor,0.90056974820805,57000-57999
+Jurist,Offentlig sektor,0.771916927035471,58000-58999
+Jurist,Offentlig sektor,0.974085646020952,59000-59999
+Jurist,Offentlig sektor,1.26814923727256,60000-60999
+Jurist,Offentlig sektor,1.34166513508546,61000-61999
+Jurist,Offentlig sektor,1.15787539055321,62000-62999
+Jurist,Offentlig sektor,1.41518103289836,63000-63999
+Jurist,Offentlig sektor,1.45193898180482,64000-64999
+Jurist,Offentlig sektor,1.41518103289836,65000-65999
+Jurist,Offentlig sektor,1.12111744164676,66000-66999
+Jurist,Offentlig sektor,0.808674875941922,67000-67999
+Jurist,Offentlig sektor,0.422716412424187,68000-68999
+Jurist,Offentlig sektor,0.477853335783863,69000-69999
+Jurist,Offentlig sektor,0.459474361330638,70000-70999
+Jurist,Offentlig sektor,0.385958463517736,71000-71999
+Jurist,Offentlig sektor,0.441095386877412,72000-72999
+Jurist,Offentlig sektor,0.294063591251608,73000-73999
+Jurist,Offentlig sektor,0.477853335783863,74000-74999
+Jurist,Offentlig sektor,0.36757948906451,75000-75999
+Jurist,Offentlig sektor,0.257305642345157,76000-76999
+Jurist,Offentlig sektor,0.220547693438706,77000-77999
+Jurist,Offentlig sektor,3.16118360595479,>=78000
+Psykolog,Privat sektor,2.68199233716475,<29000
+Psykolog,Privat sektor,1.02171136653895,29000-29999
+Psykolog,Privat sektor,1.53256704980843,30000-30999
+Psykolog,Privat sektor,0.893997445721584,31000-31999
+Psykolog,Privat sektor,1.53256704980843,32000-32999
+Psykolog,Privat sektor,1.91570881226054,33000-33999
+Psykolog,Privat sektor,2.42656449553001,34000-34999
+Psykolog,Privat sektor,3.44827586206897,35000-35999
+Psykolog,Privat sektor,5.23627075351213,36000-36999
+Psykolog,Privat sektor,8.6845466155811,37000-37999
+Psykolog,Privat sektor,8.42911877394636,38000-38999
+Psykolog,Privat sektor,9.32311621966794,39000-39999
+Psykolog,Privat sektor,11.1111111111111,40000-40999
+Psykolog,Privat sektor,7.66283524904215,41000-41999
+Psykolog,Privat sektor,7.15197956577267,42000-42999
+Psykolog,Privat sektor,4.46998722860792,43000-43999
+Psykolog,Privat sektor,3.3205619412516,44000-44999
+Psykolog,Privat sektor,4.08684546615581,45000-45999
+Psykolog,Privat sektor,1.91570881226054,46000-46999
+Psykolog,Privat sektor,2.04342273307791,47000-47999
+Psykolog,Privat sektor,1.78799489144317,48000-48999
+Psykolog,Privat sektor,0.766283524904215,49000-49999
+Psykolog,Privat sektor,2.29885057471264,50000-50999
+Psykolog,Privat sektor,0.638569604086845,51000-51999
+Psykolog,Privat sektor,0.638569604086845,52000-52999
+Psykolog,Privat sektor,1.02171136653895,53000-53999
+Psykolog,Privat sektor,0.383141762452107,54000-54999
+Psykolog,Privat sektor,3.57598978288633,>=55000
+Psykolog,Offentlig sektor,2.78355879292404,<27000
+Psykolog,Offentlig sektor,1.45681581685744,27000-27999
+Psykolog,Offentlig sektor,1.45681581685744,28000-28999
+Psykolog,Offentlig sektor,0.858480749219563,29000-29999
+Psykolog,Offentlig sektor,2.2372528616025,30000-30999
+Psykolog,Offentlig sektor,0.988553590010406,31000-31999
+Psykolog,Offentlig sektor,2.08116545265349,32000-32999
+Psykolog,Offentlig sektor,4.24037460978148,33000-33999
+Psykolog,Offentlig sektor,5.07284079084287,34000-34999
+Psykolog,Offentlig sektor,7.54422476586889,35000-35999
+Psykolog,Offentlig sektor,7.80437044745057,36000-36999
+Psykolog,Offentlig sektor,8.06451612903226,37000-37999
+Psykolog,Offentlig sektor,8.42872008324662,38000-38999
+Psykolog,Offentlig sektor,7.02393340270551,39000-39999
+Psykolog,Offentlig sektor,7.64828303850156,40000-40999
+Psykolog,Offentlig sektor,6.45161290322581,41000-41999
+Psykolog,Offentlig sektor,5.59313215400624,42000-42999
+Psykolog,Offentlig sektor,4.18834547346514,43000-43999
+Psykolog,Offentlig sektor,3.82414151925078,44000-44999
+Psykolog,Offentlig sektor,3.09573361082206,45000-45999
+Psykolog,Offentlig sektor,1.97710718002081,46000-46999
+Psykolog,Offentlig sektor,1.58688865764828,47000-47999
+Psykolog,Offentlig sektor,1.24869927159209,48000-48999
+Psykolog,Offentlig sektor,0.988553590010406,49000-49999
+Psykolog,Offentlig sektor,3.35587929240375,>=50000
+Samhällsvetare,Privat sektor,2.24780701754386,<26000
+Samhällsvetare,Privat sektor,1.09649122807018,26000-26999
+Samhällsvetare,Privat sektor,1.53508771929825,27000-27999
+Samhällsvetare,Privat sektor,1.91885964912281,28000-28999
+Samhällsvetare,Privat sektor,2.35745614035088,29000-29999
+Samhällsvetare,Privat sektor,3.39912280701754,30000-30999
+Samhällsvetare,Privat sektor,2.90570175438596,31000-31999
+Samhällsvetare,Privat sektor,2.5219298245614,32000-32999
+Samhällsvetare,Privat sektor,3.28947368421053,33000-33999
+Samhällsvetare,Privat sektor,2.96052631578947,34000-34999
+Samhällsvetare,Privat sektor,3.67324561403509,35000-35999
+Samhällsvetare,Privat sektor,3.61842105263158,36000-36999
+Samhällsvetare,Privat sektor,3.50877192982456,37000-37999
+Samhällsvetare,Privat sektor,3.50877192982456,38000-38999
+Samhällsvetare,Privat sektor,2.68640350877193,39000-39999
+Samhällsvetare,Privat sektor,3.28947368421053,40000-40999
+Samhällsvetare,Privat sektor,2.90570175438596,41000-41999
+Samhällsvetare,Privat sektor,3.01535087719298,42000-42999
+Samhällsvetare,Privat sektor,2.90570175438596,43000-43999
+Samhällsvetare,Privat sektor,1.8640350877193,44000-44999
+Samhällsvetare,Privat sektor,3.17982456140351,45000-45999
+Samhällsvetare,Privat sektor,2.46710526315789,46000-46999
+Samhällsvetare,Privat sektor,2.90570175438596,47000-47999
+Samhällsvetare,Privat sektor,1.91885964912281,48000-48999
+Samhällsvetare,Privat sektor,2.5219298245614,49000-49999
+Samhällsvetare,Privat sektor,2.96052631578947,50000-50999
+Samhällsvetare,Privat sektor,2.13815789473684,51000-51999
+Samhällsvetare,Privat sektor,1.37061403508772,52000-52999
+Samhällsvetare,Privat sektor,1.69956140350877,53000-53999
+Samhällsvetare,Privat sektor,1.48026315789474,54000-54999
+Samhällsvetare,Privat sektor,1.53508771929825,55000-55999
+Samhällsvetare,Privat sektor,1.48026315789474,56000-56999
+Samhällsvetare,Privat sektor,1.31578947368421,57000-57999
+Samhällsvetare,Privat sektor,1.04166666666667,58000-58999
+Samhällsvetare,Privat sektor,0.603070175438596,59000-59999
+Samhällsvetare,Privat sektor,1.15131578947368,60000-60999
+Samhällsvetare,Privat sektor,0.767543859649123,61000-61999
+Samhällsvetare,Privat sektor,1.09649122807018,62000-62999
+Samhällsvetare,Privat sektor,0.712719298245614,63000-63999
+Samhällsvetare,Privat sektor,0.493421052631579,64000-64999
+Samhällsvetare,Privat sektor,0.767543859649123,65000-65999
+Samhällsvetare,Privat sektor,0.493421052631579,66000-66999
+Samhällsvetare,Privat sektor,0.87719298245614,67000-67999
+Samhällsvetare,Privat sektor,0.712719298245614,68000-68999
+Samhällsvetare,Privat sektor,0.657894736842105,69000-69999
+Samhällsvetare,Privat sektor,0.932017543859649,70000-70999
+Samhällsvetare,Privat sektor,0.383771929824561,71000-71999
+Samhällsvetare,Privat sektor,0.274122807017544,72000-72999
+Samhällsvetare,Privat sektor,0.603070175438596,73000-73999
+Samhällsvetare,Privat sektor,0.274122807017544,74000-74999
+Samhällsvetare,Privat sektor,0.493421052631579,75000-75999
+Samhällsvetare,Privat sektor,0.493421052631579,76000-76999
+Samhällsvetare,Privat sektor,0.328947368421053,77000-77999
+Samhällsvetare,Privat sektor,0.164473684210526,78000-78999
+Samhällsvetare,Privat sektor,0.328947368421053,79000-79999
+Samhällsvetare,Privat sektor,0.274122807017544,80000-80999
+Samhällsvetare,Privat sektor,0.164473684210526,81000-81999
+Samhällsvetare,Privat sektor,0.164473684210526,82000-82999
+Samhällsvetare,Privat sektor,0.054824561403509,83000-83999
+Samhällsvetare,Privat sektor,0.164473684210526,84000-84999
+Samhällsvetare,Privat sektor,0.274122807017544,85000-85999
+Samhällsvetare,Privat sektor,3.07017543859649,>=86000
+Samhällsvetare,Offentlig sektor,1.55379158925857,<26000
+Samhällsvetare,Offentlig sektor,1.68890390136801,26000-26999
+Samhällsvetare,Offentlig sektor,3.3102516466813,27000-27999
+Samhällsvetare,Offentlig sektor,4.01959128525587,28000-28999
+Samhällsvetare,Offentlig sektor,3.71558858300963,29000-29999
+Samhällsvetare,Offentlig sektor,4.32359398750211,30000-30999
+Samhällsvetare,Offentlig sektor,3.66492146596859,31000-31999
+Samhällsvetare,Offentlig sektor,3.95203512920115,32000-32999
+Samhällsvetare,Offentlig sektor,3.78314473906435,33000-33999
+Samhällsvetare,Offentlig sektor,4.22225975342003,34000-34999
+Samhällsvetare,Offentlig sektor,4.79648707988515,35000-35999
+Samhällsvetare,Offentlig sektor,4.54315149467995,36000-36999
+Samhällsvetare,Offentlig sektor,4.72893092383043,37000-37999
+Samhällsvetare,Offentlig sektor,4.10403648032427,38000-38999
+Samhällsvetare,Offentlig sektor,4.12092551933795,39000-39999
+Samhällsvetare,Offentlig sektor,3.95203512920115,40000-40999
+Samhällsvetare,Offentlig sektor,4.05336936328323,41000-41999
+Samhällsvetare,Offentlig sektor,4.12092551933795,42000-42999
+Samhällsvetare,Offentlig sektor,2.83735855429826,43000-43999
+Samhällsvetare,Offentlig sektor,2.93869278838034,44000-44999
+Samhällsvetare,Offentlig sektor,2.90491471035298,45000-45999
+Samhällsvetare,Offentlig sektor,2.16179699375106,46000-46999
+Samhällsvetare,Offentlig sektor,2.14490795473738,47000-47999
+Samhällsvetare,Offentlig sektor,2.06046275966897,48000-48999
+Samhällsvetare,Offentlig sektor,1.65512582334065,49000-49999
+Samhällsvetare,Offentlig sektor,1.31734504306705,50000-50999
+Samhällsvetare,Offentlig sektor,1.03023137983449,51000-51999
+Samhällsvetare,Offentlig sektor,1.26667792602601,52000-52999
+Samhällsvetare,Offentlig sektor,1.08089849687553,53000-53999
+Samhällsvetare,Offentlig sektor,1.01334234082081,54000-54999
+Samhällsvetare,Offentlig sektor,0.827562911670326,55000-55999
+Samhällsvetare,Offentlig sektor,0.641783482519845,56000-56999
+Samhällsvetare,Offentlig sektor,0.422225975342003,57000-57999
+Samhällsvetare,Offentlig sektor,0.726228677588245,58000-58999
+Samhällsvetare,Offentlig sektor,0.557338287451444,59000-59999
+Samhällsvetare,Offentlig sektor,0.692450599560885,60000-60999
+Samhällsvetare,Offentlig sektor,0.388447897314643,61000-61999
+Samhällsvetare,Offentlig sektor,0.540449248437764,62000-62999
+Samhällsvetare,Offentlig sektor,0.371558858300963,63000-63999
+Samhällsvetare,Offentlig sektor,0.439115014355683,64000-64999
+Samhällsvetare,Offentlig sektor,0.320891741259922,65000-65999
+Samhällsvetare,Offentlig sektor,3.00624894443506,>=66000
+Civilingenjör,Privat sektor,2.59972456449781,<31000
+Civilingenjör,Privat sektor,1.54388847278262,31000-31999
+Civilingenjör,Privat sektor,1.9642900287516,32000-32999
+Civilingenjör,Privat sektor,2.0367730556428,33000-33999
+Civilingenjör,Privat sektor,2.06576626639928,34000-34999
+Civilingenjör,Privat sektor,2.37985938292783,35000-35999
+Civilingenjör,Privat sektor,2.39677208920244,36000-36999
+Civilingenjör,Privat sektor,2.62146947256517,37000-37999
+Civilingenjör,Privat sektor,2.76160332455483,38000-38999
+Civilingenjör,Privat sektor,2.510328831332,39000-39999
+Civilingenjör,Privat sektor,3.31730653072072,40000-40999
+Civilingenjör,Privat sektor,2.71569740752374,41000-41999
+Civilingenjör,Privat sektor,3.15301166976733,42000-42999
+Civilingenjör,Privat sektor,2.95489139626471,43000-43999
+Civilingenjör,Privat sektor,2.80026093889681,44000-44999
+Civilingenjör,Privat sektor,3.33421923699534,45000-45999
+Civilingenjör,Privat sektor,3.03945492763778,46000-46999
+Civilingenjör,Privat sektor,2.91864988281911,47000-47999
+Civilingenjör,Privat sektor,2.89448887385537,48000-48999
+Civilingenjör,Privat sektor,2.5828118582232,49000-49999
+Civilingenjör,Privat sektor,3.01529391867404,50000-50999
+Civilingenjör,Privat sektor,2.66012708690715,51000-51999
+Civilingenjör,Privat sektor,2.64321438063254,52000-52999
+Civilingenjör,Privat sektor,2.42093309816618,53000-53999
+Civilingenjör,Privat sektor,2.25663823721279,54000-54999
+Civilingenjör,Privat sektor,2.44992630892266,55000-55999
+Civilingenjör,Privat sektor,1.95704172606248,56000-56999
+Civilingenjör,Privat sektor,2.0005315421972,57000-57999
+Civilingenjör,Privat sektor,1.83865278214018,58000-58999
+Civilingenjör,Privat sektor,1.38442581362198,59000-59999
+Civilingenjör,Privat sektor,2.04885356012467,60000-60999
+Civilingenjör,Privat sektor,1.48106984947691,61000-61999
+Civilingenjör,Privat sektor,1.4641571432023,62000-62999
+Civilingenjör,Privat sektor,1.22979535625408,63000-63999
+Civilingenjör,Privat sektor,1.0727487979898,64000-64999
+Civilingenjör,Privat sektor,1.40375462079296,65000-65999
+Civilingenjör,Privat sektor,0.930198845103771,66000-66999
+Civilingenjör,Privat sektor,0.939863248689265,67000-67999
+Civilingenjör,Privat sektor,0.833554809248834,68000-68999
+Civilingenjör,Privat sektor,0.758655681461258,69000-69999
+Civilingenjör,Privat sektor,0.872212423590809,70000-70999
+Civilingenjör,Privat sektor,0.669259948295441,71000-71999
+Civilingenjör,Privat sektor,0.57019981154413,72000-72999
+Civilingenjör,Privat sektor,0.55570320616589,73000-73999
+Civilingenjör,Privat sektor,0.507381188238421,74000-74999
+Civilingenjör,Privat sektor,0.662011645606321,75000-75999
+Civilingenjör,Privat sektor,0.417985455072604,76000-76999
+Civilingenjör,Privat sektor,0.451810867621832,77000-77999
+Civilingenjör,Privat sektor,0.398656647901616,78000-78999
+Civilingenjör,Privat sektor,0.318925318321293,79000-79999
+Civilingenjör,Privat sektor,0.49288458286018,80000-80999
+Civilingenjör,Privat sektor,0.340670226388654,81000-81999
+Civilingenjör,Privat sektor,0.302012612046679,82000-82999
+Civilingenjör,Privat sektor,0.277851603082945,83000-83999
+Civilingenjör,Privat sektor,0.297180410253932,84000-84999
+Civilingenjör,Privat sektor,0.277851603082945,85000-85999
+Civilingenjör,Privat sektor,0.234361786948223,86000-86999
+Civilingenjör,Privat sektor,0.224697383362729,87000-87999
+Civilingenjör,Privat sektor,0.202952475295368,88000-88999
+Civilingenjör,Privat sektor,0.176375365435261,89000-89999
+Civilingenjör,Privat sektor,0.256106695015584,90000-90999
+Civilingenjör,Privat sektor,0.142549952886033,91000-91999
+Civilingenjör,Privat sektor,0.164294860953393,92000-92999
+Civilingenjör,Privat sektor,0.16187876005702,93000-93999
+Civilingenjör,Privat sektor,0.144966053782406,94000-94999
+Civilingenjör,Privat sektor,0.217449080673609,95000-95999
+Civilingenjör,Privat sektor,0.147382154678779,96000-96999
+Civilingenjör,Privat sektor,0.103892338544058,97000-97999
+Civilingenjör,Privat sektor,3.02979052405228,>=98000
+Civilingenjör,Offentlig sektor,2.81041600508098,<29000
+Civilingenjör,Offentlig sektor,2.58812321371864,29000-29999
+Civilingenjör,Offentlig sektor,1.73070816132105,30000-30999
+Civilingenjör,Offentlig sektor,1.88948872657987,31000-31999
+Civilingenjör,Offentlig sektor,2.46109876151159,32000-32999
+Civilingenjör,Offentlig sektor,3.66783105747856,33000-33999
+Civilingenjör,Offentlig sektor,2.6198793267704,34000-34999
+Civilingenjör,Offentlig sektor,2.76278183550333,35000-35999
+Civilingenjör,Offentlig sektor,2.90568434423627,36000-36999
+Civilingenjör,Offentlig sektor,3.1279771355986,37000-37999
+Civilingenjör,Offentlig sektor,3.28675770085741,38000-38999
+Civilingenjör,Offentlig sektor,3.5566846617974,39000-39999
+Civilingenjör,Offentlig sektor,4.23944109241029,40000-40999
+Civilingenjör,Offentlig sektor,3.60431883137504,41000-41999
+Civilingenjör,Offentlig sektor,3.50905049221975,42000-42999
+Civilingenjör,Offentlig sektor,3.39790409653858,43000-43999
+Civilingenjör,Offentlig sektor,3.96951413147031,44000-44999
+Civilingenjör,Offentlig sektor,3.35026992696094,45000-45999
+Civilingenjör,Offentlig sektor,3.23912353127977,46000-46999
+Civilingenjör,Offentlig sektor,3.41378215306447,47000-47999
+Civilingenjör,Offentlig sektor,2.82629406160686,48000-48999
+Civilingenjör,Offentlig sektor,2.3658304223563,49000-49999
+Civilingenjör,Offentlig sektor,3.42966020959035,50000-50999
+Civilingenjör,Offentlig sektor,2.42934264845983,51000-51999
+Civilingenjör,Offentlig sektor,2.76278183550333,52000-52999
+Civilingenjör,Offentlig sektor,2.14353763099397,53000-53999
+Civilingenjör,Offentlig sektor,1.92124483963163,54000-54999
+Civilingenjör,Offentlig sektor,1.76246427437282,55000-55999
+Civilingenjör,Offentlig sektor,1.5242934264846,56000-56999
+Civilingenjör,Offentlig sektor,1.39726897427755,57000-57999
+Civilingenjör,Offentlig sektor,1.57192759606224,58000-58999
+Civilingenjör,Offentlig sektor,0.873293108923468,59000-59999
+Civilingenjör,Offentlig sektor,1.28612257859638,60000-60999
+Civilingenjör,Offentlig sektor,0.825658939345824,61000-61999
+Civilingenjör,Offentlig sektor,0.825658939345824,62000-62999
+Civilingenjör,Offentlig sektor,0.619244204509368,63000-63999
+Civilingenjör,Offentlig sektor,0.571610034931724,64000-64999
+Civilingenjör,Offentlig sektor,0.936805335026993,65000-65999
+Civilingenjör,Offentlig sektor,0.825658939345824,66000-66999
+Civilingenjör,Offentlig sektor,0.523975865354081,67000-67999
+Civilingenjör,Offentlig sektor,0.603366147983487,68000-68999
+Civilingenjör,Offentlig sektor,0.428707526198793,69000-69999
+Civilingenjör,Offentlig sektor,0.714512543664655,70000-70999
+Civilingenjör,Offentlig sektor,0.38107335662115,71000-71999
+Civilingenjör,Offentlig sektor,0.38107335662115,72000-72999
+Civilingenjör,Offentlig sektor,0.349317243569387,73000-73999
+Civilingenjör,Offentlig sektor,0.285805017465862,74000-74999
+Civilingenjör,Offentlig sektor,3.3026357573833,>=75000
+Fysioterapeut,Privat sektor,1.62107396149949,< 25000
+Fysioterapeut,Privat sektor,2.02634245187437,25000-25999
+Fysioterapeut,Privat sektor,4.66058763931104,26000-26999
+Fysioterapeut,Privat sektor,7.193515704154,27000-27999
+Fysioterapeut,Privat sektor,5.36980749746707,28000-28999
+Fysioterapeut,Privat sektor,7.09219858156028,29000-29999
+Fysioterapeut,Privat sektor,7.193515704154,30000-30999
+Fysioterapeut,Privat sektor,8.3080040526849,31000-31999
+Fysioterapeut,Privat sektor,7.39614994934144,32000-32999
+Fysioterapeut,Privat sektor,7.49746707193516,33000-33999
+Fysioterapeut,Privat sektor,8.51063829787234,34000-34999
+Fysioterapeut,Privat sektor,8.00405268490375,35000-35999
+Fysioterapeut,Privat sektor,5.97771023302938,36000-36999
+Fysioterapeut,Privat sektor,3.54609929078014,37000-37999
+Fysioterapeut,Privat sektor,3.44478216818642,38000-38999
+Fysioterapeut,Privat sektor,2.63424518743668,39000-39999
+Fysioterapeut,Privat sektor,1.62107396149949,40000-40999
+Fysioterapeut,Privat sektor,0.506585612968592,41000-41999
+Fysioterapeut,Privat sektor,1.21580547112462,42000-42999
+Fysioterapeut,Privat sektor,1.1144883485309,43000-43999
+Fysioterapeut,Privat sektor,0.506585612968592,44000-44999
+Fysioterapeut,Privat sektor,0.709219858156028,45000-45999
+Fysioterapeut,Privat sektor,0.303951367781155,46000-46999
+Fysioterapeut,Privat sektor,0.405268490374873,47000-47999
+Fysioterapeut,Privat sektor,3.14083080040527,>=48000
+Fysioterapeut,Offentlig sektor,2.11327134404057,< 25000
+Fysioterapeut,Offentlig sektor,5.49450549450549,25000-25999
+Fysioterapeut,Offentlig sektor,7.48098055790364,26000-26999
+Fysioterapeut,Offentlig sektor,7.92476754015216,27000-27999
+Fysioterapeut,Offentlig sektor,7.7345731191885,28000-28999
+Fysioterapeut,Offentlig sektor,9.27726120033812,29000-29999
+Fysioterapeut,Offentlig sektor,11.0101437024514,30000-30999
+Fysioterapeut,Offentlig sektor,10.0803043110735,31000-31999
+Fysioterapeut,Offentlig sektor,9.27726120033812,32000-32999
+Fysioterapeut,Offentlig sektor,6.9737954353339,33000-33999
+Fysioterapeut,Offentlig sektor,5.09298393913779,34000-34999
+Fysioterapeut,Offentlig sektor,3.69822485207101,35000-35999
+Fysioterapeut,Offentlig sektor,2.62045646661031,36000-36999
+Fysioterapeut,Offentlig sektor,1.52155536770921,37000-37999
+Fysioterapeut,Offentlig sektor,1.31022823330516,38000-38999
+Fysioterapeut,Offentlig sektor,1.37362637362637,39000-39999
+Fysioterapeut,Offentlig sektor,1.24683009298394,40000-40999
+Fysioterapeut,Offentlig sektor,0.760777683854607,41000-41999
+Fysioterapeut,Offentlig sektor,0.803043110735418,42000-42999
+Fysioterapeut,Offentlig sektor,0.507185122569738,43000-43999
+Fysioterapeut,Offentlig sektor,0.655114116652578,44000-44999
+Fysioterapeut,Offentlig sektor,3.04311073541843,>=45000
+Socionom,Privat sektor,1.99479618386817,<27000
+Socionom,Privat sektor,1.040763226366,27000-27999
+Socionom,Privat sektor,1.8213356461405,28000-28999
+Socionom,Privat sektor,3.29575021682567,29000-29999
+Socionom,Privat sektor,4.16305290546401,30000-30999
+Socionom,Privat sektor,4.50997398091934,31000-31999
+Socionom,Privat sektor,4.68343451864701,32000-32999
+Socionom,Privat sektor,5.03035559410234,33000-33999
+Socionom,Privat sektor,4.94362532523851,34000-34999
+Socionom,Privat sektor,6.33130962705984,35000-35999
+Socionom,Privat sektor,7.45880312228968,36000-36999
+Socionom,Privat sektor,4.94362532523851,37000-37999
+Socionom,Privat sektor,6.76496097137901,38000-38999
+Socionom,Privat sektor,3.98959236773634,39000-39999
+Socionom,Privat sektor,4.94362532523851,40000-40999
+Socionom,Privat sektor,2.94882914137034,41000-41999
+Socionom,Privat sektor,4.07632263660017,42000-42999
+Socionom,Privat sektor,3.12228967909801,43000-43999
+Socionom,Privat sektor,3.29575021682567,44000-44999
+Socionom,Privat sektor,3.12228967909801,45000-45999
+Socionom,Privat sektor,0.954032957502168,46000-46999
+Socionom,Privat sektor,1.90806591500434,47000-47999
+Socionom,Privat sektor,1.8213356461405,48000-48999
+Socionom,Privat sektor,1.21422376409367,49000-49999
+Socionom,Privat sektor,2.25498699045967,50000-50999
+Socionom,Privat sektor,0.693842150910668,51000-51999
+Socionom,Privat sektor,0.433651344319167,52000-52999
+Socionom,Privat sektor,1.561144839549,53000-53999
+Socionom,Privat sektor,0.954032957502168,54000-54999
+Socionom,Privat sektor,1.21422376409367,55000-55999
+Socionom,Privat sektor,0.433651344319167,56000-56999
+Socionom,Privat sektor,0.607111882046834,57000-57999
+Socionom,Privat sektor,0.2601908065915,58000-58999
+Socionom,Privat sektor,0.173460537727667,59000-59999
+Socionom,Privat sektor,3.03555941023417,>=60000
+Socionom,Offentlig sektor,2.04592155811668,<27000
+Socionom,Offentlig sektor,3.22523005449835,27000-27999
+Socionom,Offentlig sektor,4.55641919056553,28000-28999
+Socionom,Offentlig sektor,5.70892522112034,29000-29999
+Socionom,Offentlig sektor,8.45171089073528,30000-30999
+Socionom,Offentlig sektor,8.39810595908157,31000-31999
+Socionom,Offentlig sektor,8.85374787813812,32000-32999
+Socionom,Offentlig sektor,9.67569016349504,33000-33999
+Socionom,Offentlig sektor,8.67506477262575,34000-34999
+Socionom,Offentlig sektor,7.69230769230769,35000-35999
+Socionom,Offentlig sektor,5.90547663718395,36000-36999
+Socionom,Offentlig sektor,4.94952202269275,37000-37999
+Socionom,Offentlig sektor,3.67193781827928,38000-38999
+Socionom,Offentlig sektor,2.76065398016618,39000-39999
+Socionom,Offentlig sektor,2.56410256410256,40000-40999
+Socionom,Offentlig sektor,1.80469936567498,41000-41999
+Socionom,Offentlig sektor,1.74216027874564,42000-42999
+Socionom,Offentlig sektor,1.32225498079157,43000-43999
+Socionom,Offentlig sektor,1.07209863307424,44000-44999
+Socionom,Offentlig sektor,1.16144018583043,45000-45999
+Socionom,Offentlig sektor,0.857678906459394,46000-46999
+Socionom,Offentlig sektor,0.589654248190834,47000-47999
+Socionom,Offentlig sektor,0.562851782363977,48000-48999
+Socionom,Offentlig sektor,0.482444384883409,49000-49999
+Socionom,Offentlig sektor,3.26990083087644,>=50000
+Personalvetare,Privat sektor,2.89752650176678,<27000
+Personalvetare,Privat sektor,1.90812720848057,27000-27999
+Personalvetare,Privat sektor,3.18021201413428,28000-28999
+Personalvetare,Privat sektor,2.04946996466431,29000-29999
+Personalvetare,Privat sektor,3.74558303886926,30000-30999
+Personalvetare,Privat sektor,2.82685512367491,31000-31999
+Personalvetare,Privat sektor,2.61484098939929,32000-32999
+Personalvetare,Privat sektor,2.89752650176678,33000-33999
+Personalvetare,Privat sektor,3.46289752650177,34000-34999
+Personalvetare,Privat sektor,4.09893992932862,35000-35999
+Personalvetare,Privat sektor,3.39222614840989,36000-36999
+Personalvetare,Privat sektor,3.25088339222615,37000-37999
+Personalvetare,Privat sektor,2.61484098939929,38000-38999
+Personalvetare,Privat sektor,2.54416961130742,39000-39999
+Personalvetare,Privat sektor,3.74558303886926,40000-40999
+Personalvetare,Privat sektor,1.62544169611307,41000-41999
+Personalvetare,Privat sektor,2.61484098939929,42000-42999
+Personalvetare,Privat sektor,2.26148409893993,43000-43999
+Personalvetare,Privat sektor,1.5547703180212,44000-44999
+Personalvetare,Privat sektor,2.26148409893993,45000-45999
+Personalvetare,Privat sektor,2.68551236749117,46000-46999
+Personalvetare,Privat sektor,2.54416961130742,47000-47999
+Personalvetare,Privat sektor,2.54416961130742,48000-48999
+Personalvetare,Privat sektor,2.40282685512368,49000-49999
+Personalvetare,Privat sektor,2.3321554770318,50000-50999
+Personalvetare,Privat sektor,1.48409893992933,51000-51999
+Personalvetare,Privat sektor,2.12014134275618,52000-52999
+Personalvetare,Privat sektor,1.83745583038869,53000-53999
+Personalvetare,Privat sektor,1.06007067137809,54000-54999
+Personalvetare,Privat sektor,1.62544169611307,55000-55999
+Personalvetare,Privat sektor,1.34275618374558,56000-56999
+Personalvetare,Privat sektor,1.27208480565371,57000-57999
+Personalvetare,Privat sektor,0.706713780918728,58000-58999
+Personalvetare,Privat sektor,1.5547703180212,59000-59999
+Personalvetare,Privat sektor,1.27208480565371,60000-60999
+Personalvetare,Privat sektor,0.848056537102474,61000-61999
+Personalvetare,Privat sektor,0.918727915194346,62000-62999
+Personalvetare,Privat sektor,1.13074204946996,63000-63999
+Personalvetare,Privat sektor,0.424028268551237,64000-64999
+Personalvetare,Privat sektor,0.989399293286219,65000-65999
+Personalvetare,Privat sektor,1.34275618374558,66000-66999
+Personalvetare,Privat sektor,0.565371024734982,67000-67999
+Personalvetare,Privat sektor,0.706713780918728,68000-68999
+Personalvetare,Privat sektor,0.353356890459364,69000-69999
+Personalvetare,Privat sektor,0.777385159010601,70000-70999
+Personalvetare,Privat sektor,0.353356890459364,71000-71999
+Personalvetare,Privat sektor,0.424028268551237,72000-72999
+Personalvetare,Privat sektor,0.282685512367491,73000-73999
+Personalvetare,Privat sektor,0.353356890459364,74000-74999
+Personalvetare,Privat sektor,0.424028268551237,75000-75999
+Personalvetare,Privat sektor,0.424028268551237,76000-76999
+Personalvetare,Privat sektor,0.353356890459364,77000-77999
+Personalvetare,Privat sektor,0.353356890459364,78000-78999
+Personalvetare,Privat sektor,0.49469964664311,79000-79999
+Personalvetare,Privat sektor,0.424028268551237,80000-80999
+Personalvetare,Privat sektor,0.424028268551237,81000-81999
+Personalvetare,Privat sektor,0.424028268551237,82000-82999
+Personalvetare,Privat sektor,0.353356890459364,83000-83999
+Personalvetare,Privat sektor,0.141342756183746,84000-84999
+Personalvetare,Privat sektor,0.070671378091873,85000-85999
+Personalvetare,Privat sektor,0.212014134275618,86000-86999
+Personalvetare,Privat sektor,0.141342756183746,87000-87999
+Personalvetare,Privat sektor,0.070671378091873,88000-88999
+Personalvetare,Privat sektor,0.141342756183746,89000-89999
+Personalvetare,Privat sektor,0.282685512367491,90000-90999
+Personalvetare,Privat sektor,0.070671378091873,91000-91999
+Personalvetare,Privat sektor,0.141342756183746,93000-93999
+Personalvetare,Privat sektor,0.070671378091873,94000-94999
+Personalvetare,Privat sektor,3.18021201413428,>=96000
+Personalvetare,Offentlig sektor,2.44221543829045,<27000
+Personalvetare,Offentlig sektor,2.87832533798517,27000-27999
+Personalvetare,Offentlig sektor,4.05582206716092,28000-28999
+Personalvetare,Offentlig sektor,4.27387701700829,29000-29999
+Personalvetare,Offentlig sektor,4.27387701700829,30000-30999
+Personalvetare,Offentlig sektor,4.0994330571304,31000-31999
+Personalvetare,Offentlig sektor,5.1897078063672,32000-32999
+Personalvetare,Offentlig sektor,4.62276493676406,33000-33999
+Personalvetare,Offentlig sektor,4.53554295682512,34000-34999
+Personalvetare,Offentlig sektor,5.05887483645879,35000-35999
+Personalvetare,Offentlig sektor,4.49193196685565,36000-36999
+Personalvetare,Offentlig sektor,5.14609681639773,37000-37999
+Personalvetare,Offentlig sektor,4.62276493676406,38000-38999
+Personalvetare,Offentlig sektor,4.66637592673354,39000-39999
+Personalvetare,Offentlig sektor,4.05582206716092,40000-40999
+Personalvetare,Offentlig sektor,3.22721325774095,41000-41999
+Personalvetare,Offentlig sektor,3.31443523767989,42000-42999
+Personalvetare,Offentlig sektor,3.09638028783253,43000-43999
+Personalvetare,Offentlig sektor,2.79110335804623,44000-44999
+Personalvetare,Offentlig sektor,2.39860444832098,45000-45999
+Personalvetare,Offentlig sektor,2.44221543829045,46000-46999
+Personalvetare,Offentlig sektor,1.43916266899259,47000-47999
+Personalvetare,Offentlig sektor,1.61360662887048,48000-48999
+Personalvetare,Offentlig sektor,1.61360662887048,49000-49999
+Personalvetare,Offentlig sektor,1.52638464893153,50000-50999
+Personalvetare,Offentlig sektor,1.13388573920628,51000-51999
+Personalvetare,Offentlig sektor,0.828608809419974,52000-52999
+Personalvetare,Offentlig sektor,1.04666375926734,53000-53999
+Personalvetare,Offentlig sektor,0.828608809419974,54000-54999
+Personalvetare,Offentlig sektor,1.00305276929786,55000-55999
+Personalvetare,Offentlig sektor,0.654164849542085,56000-56999
+Personalvetare,Offentlig sektor,0.436109899694723,57000-57999
+Personalvetare,Offentlig sektor,0.610553859572612,58000-58999
+Personalvetare,Offentlig sektor,0.479720889664195,59000-59999
+Personalvetare,Offentlig sektor,0.348887919755778,60000-60999
+Personalvetare,Offentlig sektor,0.348887919755778,61000-61999
+Personalvetare,Offentlig sektor,0.348887919755778,62000-62999
+Personalvetare,Offentlig sektor,0.348887919755778,63000-63999
+Personalvetare,Offentlig sektor,0.436109899694723,64000-64999
+Personalvetare,Offentlig sektor,3.27082424771042,>=65000
+Tandhygienist,Privat sektor,1.28205128205128,<26000
+Tandhygienist,Privat sektor,2.01465201465201,26000-26999
+Tandhygienist,Privat sektor,2.56410256410256,27000-27999
+Tandhygienist,Privat sektor,2.74725274725275,28000-28999
+Tandhygienist,Privat sektor,3.47985347985348,29000-29999
+Tandhygienist,Privat sektor,6.22710622710623,30000-30999
+Tandhygienist,Privat sektor,6.77655677655678,31000-31999
+Tandhygienist,Privat sektor,11.5384615384615,32000-32999
+Tandhygienist,Privat sektor,13.003663003663,33000-33999
+Tandhygienist,Privat sektor,12.0879120879121,34000-34999
+Tandhygienist,Privat sektor,11.5384615384615,35000-35999
+Tandhygienist,Privat sektor,5.12820512820513,36000-36999
+Tandhygienist,Privat sektor,5.67765567765568,37000-37999
+Tandhygienist,Privat sektor,5.49450549450549,38000-38999
+Tandhygienist,Privat sektor,1.46520146520147,39000-39999
+Tandhygienist,Privat sektor,2.38095238095238,40000-40999
+Tandhygienist,Privat sektor,0.915750915750916,41000-41999
+Tandhygienist,Privat sektor,1.46520146520147,42000-42999
+Tandhygienist,Privat sektor,0.549450549450549,43000-43999
+Tandhygienist,Privat sektor,0.366300366300366,44000-44999
+Tandhygienist,Privat sektor,3.2967032967033,>=45000
+Tandhygienist,Offentlig sektor,6.98051948051948,< 25000
+Tandhygienist,Offentlig sektor,6.08766233766234,25000-25999
+Tandhygienist,Offentlig sektor,5.60064935064935,26000-26999
+Tandhygienist,Offentlig sektor,7.46753246753247,27000-27999
+Tandhygienist,Offentlig sektor,8.92857142857143,28000-28999
+Tandhygienist,Offentlig sektor,8.27922077922078,29000-29999
+Tandhygienist,Offentlig sektor,10.0649350649351,30000-30999
+Tandhygienist,Offentlig sektor,9.65909090909091,31000-31999
+Tandhygienist,Offentlig sektor,8.92857142857143,32000-32999
+Tandhygienist,Offentlig sektor,6.33116883116883,33000-33999
+Tandhygienist,Offentlig sektor,5.60064935064935,34000-34999
+Tandhygienist,Offentlig sektor,3.73376623376623,35000-35999
+Tandhygienist,Offentlig sektor,2.19155844155844,36000-36999
+Tandhygienist,Offentlig sektor,1.94805194805195,37000-37999
+Tandhygienist,Offentlig sektor,1.86688311688312,38000-38999
+Tandhygienist,Offentlig sektor,0.892857142857143,39000-39999
+Tandhygienist,Offentlig sektor,1.13636363636364,40000-40999
+Tandhygienist,Offentlig sektor,0.405844155844156,41000-41999
+Tandhygienist,Offentlig sektor,0.243506493506494,42000-42999
+Tandhygienist,Offentlig sektor,0.162337662337662,43000-43999
+Tandhygienist,Offentlig sektor,3.49025974025974,>=44000
+Miljövetare,Privat sektor,2.38500851788756,<26000
+Miljövetare,Privat sektor,1.0221465076661,26000-26999
+Miljövetare,Privat sektor,0.851788756388416,27000-27999
+Miljövetare,Privat sektor,2.72572402044293,28000-28999
+Miljövetare,Privat sektor,4.25894378194208,29000-29999
+Miljövetare,Privat sektor,3.40715502555366,30000-30999
+Miljövetare,Privat sektor,4.25894378194208,31000-31999
+Miljövetare,Privat sektor,3.74787052810903,32000-32999
+Miljövetare,Privat sektor,4.94037478705281,33000-33999
+Miljövetare,Privat sektor,5.62180579216354,34000-34999
+Miljövetare,Privat sektor,5.79216354344123,35000-35999
+Miljövetare,Privat sektor,5.79216354344123,36000-36999
+Miljövetare,Privat sektor,3.57751277683135,37000-37999
+Miljövetare,Privat sektor,5.11073253833049,38000-38999
+Miljövetare,Privat sektor,4.25894378194208,39000-39999
+Miljövetare,Privat sektor,4.94037478705281,40000-40999
+Miljövetare,Privat sektor,3.40715502555366,41000-41999
+Miljövetare,Privat sektor,3.91822827938671,42000-42999
+Miljövetare,Privat sektor,3.57751277683135,43000-43999
+Miljövetare,Privat sektor,3.0664395229983,44000-44999
+Miljövetare,Privat sektor,3.0664395229983,45000-45999
+Miljövetare,Privat sektor,2.0442930153322,46000-46999
+Miljövetare,Privat sektor,1.87393526405451,47000-47999
+Miljövetare,Privat sektor,2.21465076660988,48000-48999
+Miljövetare,Privat sektor,2.0442930153322,49000-49999
+Miljövetare,Privat sektor,1.36286201022147,50000-50999
+Miljövetare,Privat sektor,0.851788756388416,51000-51999
+Miljövetare,Privat sektor,1.36286201022147,52000-52999
+Miljövetare,Privat sektor,1.36286201022147,53000-53999
+Miljövetare,Privat sektor,0.851788756388416,54000-54999
+Miljövetare,Privat sektor,0.851788756388416,55000-55999
+Miljövetare,Privat sektor,0.511073253833049,56000-56999
+Miljövetare,Privat sektor,0.851788756388416,57000-57999
+Miljövetare,Privat sektor,0.511073253833049,58000-58999
+Miljövetare,Privat sektor,0.511073253833049,59000-59999
+Miljövetare,Privat sektor,3.0664395229983,>=60000
+Miljövetare,Offentlig sektor,2.02702702702703,<27000
+Miljövetare,Offentlig sektor,1.62162162162162,27000-27999
+Miljövetare,Offentlig sektor,3.24324324324324,28000-28999
+Miljövetare,Offentlig sektor,4.7972972972973,29000-29999
+Miljövetare,Offentlig sektor,6.08108108108108,30000-30999
+Miljövetare,Offentlig sektor,7.2972972972973,31000-31999
+Miljövetare,Offentlig sektor,7.63513513513514,32000-32999
+Miljövetare,Offentlig sektor,8.37837837837838,33000-33999
+Miljövetare,Offentlig sektor,9.18918918918919,34000-34999
+Miljövetare,Offentlig sektor,9.12162162162162,35000-35999
+Miljövetare,Offentlig sektor,5.2027027027027,36000-36999
+Miljövetare,Offentlig sektor,4.39189189189189,37000-37999
+Miljövetare,Offentlig sektor,4.66216216216216,38000-38999
+Miljövetare,Offentlig sektor,3.31081081081081,39000-39999
+Miljövetare,Offentlig sektor,3.37837837837838,40000-40999
+Miljövetare,Offentlig sektor,2.63513513513514,41000-41999
+Miljövetare,Offentlig sektor,2.16216216216216,42000-42999
+Miljövetare,Offentlig sektor,1.89189189189189,43000-43999
+Miljövetare,Offentlig sektor,2.16216216216216,44000-44999
+Miljövetare,Offentlig sektor,1.55405405405405,45000-45999
+Miljövetare,Offentlig sektor,1.08108108108108,46000-46999
+Miljövetare,Offentlig sektor,0.608108108108108,47000-47999
+Miljövetare,Offentlig sektor,0.743243243243243,48000-48999
+Miljövetare,Offentlig sektor,0.540540540540541,49000-49999
+Miljövetare,Offentlig sektor,0.945945945945946,50000-50999
+Miljövetare,Offentlig sektor,0.743243243243243,51000-51999
+Miljövetare,Offentlig sektor,0.810810810810811,52000-52999
+Miljövetare,Offentlig sektor,0.675675675675676,53000-53999
+Miljövetare,Offentlig sektor,3.10810810810811,>=54000
+Präst/diakon,Privat sektor,2.32815964523282,<29000
+Präst/diakon,Privat sektor,1.21951219512195,29000-29999
+Präst/diakon,Privat sektor,2.16186252771619,30000-30999
+Präst/diakon,Privat sektor,4.04656319290466,31000-31999
+Präst/diakon,Privat sektor,5.04434589800444,32000-32999
+Präst/diakon,Privat sektor,5.93126385809313,33000-33999
+Präst/diakon,Privat sektor,6.87361419068736,34000-34999
+Präst/diakon,Privat sektor,7.42793791574279,35000-35999
+Präst/diakon,Privat sektor,9.09090909090909,36000-36999
+Präst/diakon,Privat sektor,5.98669623059867,37000-37999
+Präst/diakon,Privat sektor,6.92904656319291,38000-38999
+Präst/diakon,Privat sektor,5.82039911308204,39000-39999
+Präst/diakon,Privat sektor,3.93569844789357,40000-40999
+Präst/diakon,Privat sektor,2.93791574279379,41000-41999
+Präst/diakon,Privat sektor,2.71618625277162,42000-42999
+Präst/diakon,Privat sektor,2.10643015521064,43000-43999
+Präst/diakon,Privat sektor,2.10643015521064,44000-44999
+Präst/diakon,Privat sektor,1.82926829268293,45000-45999
+Präst/diakon,Privat sektor,0.831485587583149,46000-46999
+Präst/diakon,Privat sektor,1.05321507760532,47000-47999
+Präst/diakon,Privat sektor,0.942350332594235,48000-48999
+Präst/diakon,Privat sektor,1.71840354767184,49000-49999
+Präst/diakon,Privat sektor,2.38359201773836,50000-50999
+Präst/diakon,Privat sektor,1.82926829268293,51000-51999
+Präst/diakon,Privat sektor,1.88470066518847,52000-52999
+Präst/diakon,Privat sektor,1.33037694013304,53000-53999
+Präst/diakon,Privat sektor,1.21951219512195,54000-54999
+Präst/diakon,Privat sektor,1.77383592017738,55000-55999
+Präst/diakon,Privat sektor,1.16407982261641,56000-56999
+Präst/diakon,Privat sektor,1.05321507760532,57000-57999
+Präst/diakon,Privat sektor,0.665188470066519,58000-58999
+Präst/diakon,Privat sektor,0.554323725055432,59000-59999
+Präst/diakon,Privat sektor,3.10421286031042,>=60000
+Högskoleingenjör,Privat sektor,1.85917721518987,<28000
+Högskoleingenjör,Privat sektor,1.6376582278481,28000-28999
+Högskoleingenjör,Privat sektor,2.01740506329114,29000-29999
+Högskoleingenjör,Privat sektor,2.84018987341772,30000-30999
+Högskoleingenjör,Privat sektor,2.61867088607595,31000-31999
+Högskoleingenjör,Privat sektor,3.34651898734177,32000-32999
+Högskoleingenjör,Privat sektor,3.54430379746835,33000-33999
+Högskoleingenjör,Privat sektor,3.61550632911392,34000-34999
+Högskoleingenjör,Privat sektor,4.1376582278481,35000-35999
+Högskoleingenjör,Privat sektor,4.16139240506329,36000-36999
+Högskoleingenjör,Privat sektor,4.42246835443038,37000-37999
+Högskoleingenjör,Privat sektor,4.42246835443038,38000-38999
+Högskoleingenjör,Privat sektor,4.18512658227848,39000-39999
+Högskoleingenjör,Privat sektor,5.03164556962025,40000-40999
+Högskoleingenjör,Privat sektor,3.94778481012658,41000-41999
+Högskoleingenjör,Privat sektor,4.31170886075949,42000-42999
+Högskoleingenjör,Privat sektor,3.67879746835443,43000-43999
+Högskoleingenjör,Privat sektor,3.4493670886076,44000-44999
+Högskoleingenjör,Privat sektor,4.05063291139241,45000-45999
+Högskoleingenjör,Privat sektor,3.40189873417722,46000-46999
+Högskoleingenjör,Privat sektor,2.85601265822785,47000-47999
+Högskoleingenjör,Privat sektor,2.61867088607595,48000-48999
+Högskoleingenjör,Privat sektor,2.23892405063291,49000-49999
+Högskoleingenjör,Privat sektor,2.50791139240506,50000-50999
+Högskoleingenjör,Privat sektor,1.79588607594937,51000-51999
+Högskoleingenjör,Privat sektor,1.76424050632911,52000-52999
+Högskoleingenjör,Privat sektor,1.43987341772152,53000-53999
+Högskoleingenjör,Privat sektor,1.23417721518987,54000-54999
+Högskoleingenjör,Privat sektor,1.46360759493671,55000-55999
+Högskoleingenjör,Privat sektor,1.20253164556962,56000-56999
+Högskoleingenjör,Privat sektor,0.933544303797468,57000-57999
+Högskoleingenjör,Privat sektor,0.799050632911392,58000-58999
+Högskoleingenjör,Privat sektor,0.862341772151899,59000-59999
+Högskoleingenjör,Privat sektor,0.830696202531646,60000-60999
+Högskoleingenjör,Privat sektor,0.57753164556962,61000-61999
+Högskoleingenjör,Privat sektor,0.57753164556962,62000-62999
+Högskoleingenjör,Privat sektor,0.55379746835443,63000-63999
+Högskoleingenjör,Privat sektor,0.300632911392405,64000-64999
+Högskoleingenjör,Privat sektor,0.450949367088608,65000-65999
+Högskoleingenjör,Privat sektor,0.348101265822785,66000-66999
+Högskoleingenjör,Privat sektor,0.340189873417722,67000-67999
+Högskoleingenjör,Privat sektor,0.284810126582279,68000-68999
+Högskoleingenjör,Privat sektor,0.300632911392405,69000-69999
+Högskoleingenjör,Privat sektor,3.0379746835443,>=70000
+Högskoleingenjör,Offentlig sektor,2.32666356444858,<28000
+Högskoleingenjör,Offentlig sektor,2.51279664960447,28000-28999
+Högskoleingenjör,Offentlig sektor,2.55932992089344,29000-29999
+Högskoleingenjör,Offentlig sektor,3.16426244765007,30000-30999
+Högskoleingenjör,Offentlig sektor,3.7691949744067,31000-31999
+Högskoleingenjör,Offentlig sektor,4.88599348534202,32000-32999
+Högskoleingenjör,Offentlig sektor,5.72359236854351,33000-33999
+Högskoleingenjör,Offentlig sektor,6.04932526756631,34000-34999
+Högskoleingenjör,Offentlig sektor,7.2126570497906,35000-35999
+Högskoleingenjör,Offentlig sektor,5.86319218241042,36000-36999
+Högskoleingenjör,Offentlig sektor,5.53745928338762,37000-37999
+Högskoleingenjör,Offentlig sektor,4.83946021405305,38000-38999
+Högskoleingenjör,Offentlig sektor,5.25825965565379,39000-39999
+Högskoleingenjör,Offentlig sektor,4.83946021405305,40000-40999
+Högskoleingenjör,Offentlig sektor,4.51372731503025,41000-41999
+Högskoleingenjör,Offentlig sektor,2.97812936249418,42000-42999
+Högskoleingenjör,Offentlig sektor,4.46719404374127,43000-43999
+Högskoleingenjör,Offentlig sektor,3.48999534667287,44000-44999
+Högskoleingenjör,Offentlig sektor,2.69892973476035,45000-45999
+Högskoleingenjör,Offentlig sektor,2.69892973476035,46000-46999
+Högskoleingenjör,Offentlig sektor,2.32666356444858,47000-47999
+Högskoleingenjör,Offentlig sektor,1.90786412284784,48000-48999
+Högskoleingenjör,Offentlig sektor,1.72173103769195,49000-49999
+Högskoleingenjör,Offentlig sektor,1.44253140995812,50000-50999
+Högskoleingenjör,Offentlig sektor,0.884132154490461,51000-51999
+Högskoleingenjör,Offentlig sektor,1.02373196835738,52000-52999
+Högskoleingenjör,Offentlig sektor,0.837598883201489,53000-53999
+Högskoleingenjör,Offentlig sektor,0.791065611912517,54000-54999
+Högskoleingenjör,Offentlig sektor,3.67612843182876,>=55000
+Biolog/biokemist,Privat sektor,2.88888888888889,<27000
+Biolog/biokemist,Privat sektor,1.5,27000-27999
+Biolog/biokemist,Privat sektor,2,28000-28999
+Biolog/biokemist,Privat sektor,1.88888888888889,29000-29999
+Biolog/biokemist,Privat sektor,3.5,30000-30999
+Biolog/biokemist,Privat sektor,2.61111111111111,31000-31999
+Biolog/biokemist,Privat sektor,3.11111111111111,32000-32999
+Biolog/biokemist,Privat sektor,3.44444444444444,33000-33999
+Biolog/biokemist,Privat sektor,3.44444444444444,34000-34999
+Biolog/biokemist,Privat sektor,4.66666666666667,35000-35999
+Biolog/biokemist,Privat sektor,3.44444444444444,36000-36999
+Biolog/biokemist,Privat sektor,4.22222222222222,37000-37999
+Biolog/biokemist,Privat sektor,4.05555555555556,38000-38999
+Biolog/biokemist,Privat sektor,2.94444444444444,39000-39999
+Biolog/biokemist,Privat sektor,4,40000-40999
+Biolog/biokemist,Privat sektor,2.72222222222222,41000-41999
+Biolog/biokemist,Privat sektor,4.94444444444444,42000-42999
+Biolog/biokemist,Privat sektor,2.83333333333333,43000-43999
+Biolog/biokemist,Privat sektor,3.33333333333333,44000-44999
+Biolog/biokemist,Privat sektor,3.66666666666667,45000-45999
+Biolog/biokemist,Privat sektor,2.16666666666667,46000-46999
+Biolog/biokemist,Privat sektor,2.27777777777778,47000-47999
+Biolog/biokemist,Privat sektor,2.16666666666667,48000-48999
+Biolog/biokemist,Privat sektor,1.94444444444444,49000-49999
+Biolog/biokemist,Privat sektor,3,50000-50999
+Biolog/biokemist,Privat sektor,1.16666666666667,51000-51999
+Biolog/biokemist,Privat sektor,2.11111111111111,52000-52999
+Biolog/biokemist,Privat sektor,1.83333333333333,53000-53999
+Biolog/biokemist,Privat sektor,0.833333333333333,54000-54999
+Biolog/biokemist,Privat sektor,1.61111111111111,55000-55999
+Biolog/biokemist,Privat sektor,1.22222222222222,56000-56999
+Biolog/biokemist,Privat sektor,1.05555555555556,57000-57999
+Biolog/biokemist,Privat sektor,1.05555555555556,58000-58999
+Biolog/biokemist,Privat sektor,0.722222222222222,59000-59999
+Biolog/biokemist,Privat sektor,1.16666666666667,60000-60999
+Biolog/biokemist,Privat sektor,0.777777777777778,61000-61999
+Biolog/biokemist,Privat sektor,0.611111111111111,62000-62999
+Biolog/biokemist,Privat sektor,0.444444444444444,63000-63999
+Biolog/biokemist,Privat sektor,0.833333333333333,64000-64999
+Biolog/biokemist,Privat sektor,0.611111111111111,65000-65999
+Biolog/biokemist,Privat sektor,0.388888888888889,66000-66999
+Biolog/biokemist,Privat sektor,0.555555555555556,67000-67999
+Biolog/biokemist,Privat sektor,0.277777777777778,68000-68999
+Biolog/biokemist,Privat sektor,0.277777777777778,69000-69999
+Biolog/biokemist,Privat sektor,0.444444444444444,70000-70999
+Biolog/biokemist,Privat sektor,0.222222222222222,71000-71999
+Biolog/biokemist,Privat sektor,0.277777777777778,72000-72999
+Biolog/biokemist,Privat sektor,0.388888888888889,73000-73999
+Biolog/biokemist,Privat sektor,0.111111111111111,74000-74999
+Biolog/biokemist,Privat sektor,0.388888888888889,75000-75999
+Biolog/biokemist,Privat sektor,0.277777777777778,76000-76999
+Biolog/biokemist,Privat sektor,0.277777777777778,78000-78999
+Biolog/biokemist,Privat sektor,3.27777777777778,>=79000
+Biolog/biokemist,Offentlig sektor,2.0681619574716,< 25000
+Biolog/biokemist,Offentlig sektor,2.09729099912613,25000-25999
+Biolog/biokemist,Offentlig sektor,3.43722691523449,26000-26999
+Biolog/biokemist,Offentlig sektor,4.57325953976114,27000-27999
+Biolog/biokemist,Offentlig sektor,4.34022720652491,28000-28999
+Biolog/biokemist,Offentlig sektor,4.77716283134285,29000-29999
+Biolog/biokemist,Offentlig sektor,6.02971162248762,30000-30999
+Biolog/biokemist,Offentlig sektor,5.38887270608797,31000-31999
+Biolog/biokemist,Offentlig sektor,7.13661520535974,32000-32999
+Biolog/biokemist,Offentlig sektor,7.80658316341392,33000-33999
+Biolog/biokemist,Offentlig sektor,5.82580833090591,34000-34999
+Biolog/biokemist,Offentlig sektor,4.80629187299738,35000-35999
+Biolog/biokemist,Offentlig sektor,4.45674337314302,36000-36999
+Biolog/biokemist,Offentlig sektor,4.48587241479755,37000-37999
+Biolog/biokemist,Offentlig sektor,3.61200116516167,38000-38999
+Biolog/biokemist,Offentlig sektor,3.52461404019808,39000-39999
+Biolog/biokemist,Offentlig sektor,3.14593649868919,40000-40999
+Biolog/biokemist,Offentlig sektor,2.82551704048937,41000-41999
+Biolog/biokemist,Offentlig sektor,2.73812991552578,42000-42999
+Biolog/biokemist,Offentlig sektor,1.86425866588989,43000-43999
+Biolog/biokemist,Offentlig sektor,1.80600058258083,44000-44999
+Biolog/biokemist,Offentlig sektor,2.03903291581707,45000-45999
+Biolog/biokemist,Offentlig sektor,1.2816778327993,46000-46999
+Biolog/biokemist,Offentlig sektor,1.42732304107195,47000-47999
+Biolog/biokemist,Offentlig sektor,1.31080687445383,48000-48999
+Biolog/biokemist,Offentlig sektor,0.524322749781532,49000-49999
+Biolog/biokemist,Offentlig sektor,0.66996795805418,50000-50999
+Biolog/biokemist,Offentlig sektor,0.495193708127003,51000-51999
+Biolog/biokemist,Offentlig sektor,0.553451791436062,52000-52999
+Biolog/biokemist,Offentlig sektor,0.378677541508884,53000-53999
+Biolog/biokemist,Offentlig sektor,0.407806583163414,54000-54999
+Biolog/biokemist,Offentlig sektor,0.495193708127003,55000-55999
+Biolog/biokemist,Offentlig sektor,0.320419458199825,56000-56999
+Biolog/biokemist,Offentlig sektor,0.174774249927177,57000-57999
+Biolog/biokemist,Offentlig sektor,0.174774249927177,58000-58999
+Biolog/biokemist,Offentlig sektor,3.00029129041655,>=59000
+Farmaceut,Privat sektor,1.85004868549172,<28000
+Farmaceut,Privat sektor,2.19084712755599,28000-28999
+Farmaceut,Privat sektor,4.38169425511198,29000-29999
+Farmaceut,Privat sektor,5.69620253164557,30000-30999
+Farmaceut,Privat sektor,5.98831548198637,31000-31999
+Farmaceut,Privat sektor,7.93573515092502,32000-32999
+Farmaceut,Privat sektor,7.93573515092502,33000-33999
+Farmaceut,Privat sektor,7.59493670886076,34000-34999
+Farmaceut,Privat sektor,6.3777994157741,35000-35999
+Farmaceut,Privat sektor,5.5014605647517,36000-36999
+Farmaceut,Privat sektor,3.70009737098345,37000-37999
+Farmaceut,Privat sektor,2.82375851996105,38000-38999
+Farmaceut,Privat sektor,2.92112950340798,39000-39999
+Farmaceut,Privat sektor,3.21324245374878,40000-40999
+Farmaceut,Privat sektor,2.28821811100292,41000-41999
+Farmaceut,Privat sektor,2.23953261927945,42000-42999
+Farmaceut,Privat sektor,2.48296007789679,43000-43999
+Farmaceut,Privat sektor,0.827653359298929,44000-44999
+Farmaceut,Privat sektor,1.60662122687439,45000-45999
+Farmaceut,Privat sektor,1.85004868549172,46000-46999
+Farmaceut,Privat sektor,1.60662122687439,47000-47999
+Farmaceut,Privat sektor,1.41187925998053,48000-48999
+Farmaceut,Privat sektor,0.973709834469328,49000-49999
+Farmaceut,Privat sektor,1.02239532619279,50000-50999
+Farmaceut,Privat sektor,1.02239532619279,51000-51999
+Farmaceut,Privat sektor,1.16845180136319,52000-52999
+Farmaceut,Privat sektor,0.584225900681597,53000-53999
+Farmaceut,Privat sektor,0.632911392405063,54000-54999
+Farmaceut,Privat sektor,1.07108081791626,55000-55999
+Farmaceut,Privat sektor,0.827653359298929,56000-56999
+Farmaceut,Privat sektor,0.438169425511198,57000-57999
+Farmaceut,Privat sektor,0.584225900681597,58000-58999
+Farmaceut,Privat sektor,0.438169425511198,59000-59999
+Farmaceut,Privat sektor,0.778967867575463,60000-60999
+Farmaceut,Privat sektor,0.243427458617332,61000-61999
+Farmaceut,Privat sektor,0.632911392405063,62000-62999
+Farmaceut,Privat sektor,0.292112950340798,63000-63999
+Farmaceut,Privat sektor,0.194741966893866,64000-64999
+Farmaceut,Privat sektor,0.486854917234664,65000-65999
+Farmaceut,Privat sektor,0.243427458617332,66000-66999
+Farmaceut,Privat sektor,0.438169425511198,67000-67999
+Farmaceut,Privat sektor,0.340798442064265,68000-68999
+Farmaceut,Privat sektor,0.194741966893866,69000-69999
+Farmaceut,Privat sektor,0.243427458617332,70000-70999
+Farmaceut,Privat sektor,0.146056475170399,71000-71999
+Farmaceut,Privat sektor,0.194741966893866,72000-72999
+Farmaceut,Privat sektor,0.243427458617332,73000-73999
+Farmaceut,Privat sektor,0.243427458617332,74000-74999
+Farmaceut,Privat sektor,0.340798442064265,75000-75999
+Farmaceut,Privat sektor,0.243427458617332,76000-76999
+Farmaceut,Privat sektor,0.048685491723466,77000-77999
+Farmaceut,Privat sektor,0.146056475170399,78000-78999
+Farmaceut,Privat sektor,3.11587147030185,>=80000
+Farmaceut,Offentlig sektor,2.64900662251656,<29000
+Farmaceut,Offentlig sektor,0.496688741721854,29000-29999
+Farmaceut,Offentlig sektor,1.82119205298013,30000-30999
+Farmaceut,Offentlig sektor,2.48344370860927,31000-31999
+Farmaceut,Offentlig sektor,3.80794701986755,32000-32999
+Farmaceut,Offentlig sektor,3.3112582781457,33000-33999
+Farmaceut,Offentlig sektor,5.79470198675497,34000-34999
+Farmaceut,Offentlig sektor,6.29139072847682,35000-35999
+Farmaceut,Offentlig sektor,6.29139072847682,36000-36999
+Farmaceut,Offentlig sektor,6.78807947019868,37000-37999
+Farmaceut,Offentlig sektor,4.80132450331126,38000-38999
+Farmaceut,Offentlig sektor,4.80132450331126,39000-39999
+Farmaceut,Offentlig sektor,4.96688741721854,40000-40999
+Farmaceut,Offentlig sektor,4.47019867549669,41000-41999
+Farmaceut,Offentlig sektor,4.96688741721854,42000-42999
+Farmaceut,Offentlig sektor,2.1523178807947,43000-43999
+Farmaceut,Offentlig sektor,4.96688741721854,44000-44999
+Farmaceut,Offentlig sektor,2.98013245033113,45000-45999
+Farmaceut,Offentlig sektor,1.98675496688742,46000-46999
+Farmaceut,Offentlig sektor,4.80132450331126,47000-47999
+Farmaceut,Offentlig sektor,2.1523178807947,48000-48999
+Farmaceut,Offentlig sektor,2.1523178807947,49000-49999
+Farmaceut,Offentlig sektor,2.48344370860927,50000-50999
+Farmaceut,Offentlig sektor,1.32450331125828,51000-51999
+Farmaceut,Offentlig sektor,0.993377483443709,52000-52999
+Farmaceut,Offentlig sektor,0.993377483443709,53000-53999
+Farmaceut,Offentlig sektor,1.15894039735099,54000-54999
+Farmaceut,Offentlig sektor,1.15894039735099,55000-55999
+Farmaceut,Offentlig sektor,0.33112582781457,56000-56999
+Farmaceut,Offentlig sektor,0.496688741721854,57000-57999
+Farmaceut,Offentlig sektor,0.827814569536424,58000-58999
+Farmaceut,Offentlig sektor,0.662251655629139,59000-59999
+Farmaceut,Offentlig sektor,0.662251655629139,60000-60999
+Farmaceut,Offentlig sektor,0.33112582781457,61000-61999
+Farmaceut,Offentlig sektor,0.165562913907285,62000-62999
+Farmaceut,Offentlig sektor,0.33112582781457,63000-63999
+Farmaceut,Offentlig sektor,3.14569536423841,>=65000
