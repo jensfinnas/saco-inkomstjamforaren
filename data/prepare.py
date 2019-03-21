@@ -29,7 +29,7 @@ INCOMEGROUPS_FILE_KEY = "incomegroups" # "Tusental"
 
 REQUIRED_COLS = {
     "incomegroups": [u"Utbildning", u"Arbsektor", u"Andel", u"Lön",],
-    "percentile": ["Utbildning", "Arbsektor", "Percentile", "Andel", "Lon", "Tickvalue"]
+    "percentile": ["Utbildning", "Arbsektor", "Percentile", "Andel", "Lon"]
 }
 
 ALLOWED_FILE_KEYS = [PERCENTILE_FILE_KEY, INCOMEGROUPS_FILE_KEY]
@@ -192,7 +192,8 @@ for filepath in glob.iglob(FILES_DIR + "/*.csv"):
 
     # Make sure all cols are there
     for col in REQUIRED_COLS[filekey]:
-        assert col in dataset[0], u"'{}' missing in '{}'".format(col, filepath)
+        if col not in dataset[0]:
+            raise Exception(u"'{}' missing in '{}'".format(col, filepath).encode("utf-8"))
 
 
     if filekey == PERCENTILE_FILE_KEY:

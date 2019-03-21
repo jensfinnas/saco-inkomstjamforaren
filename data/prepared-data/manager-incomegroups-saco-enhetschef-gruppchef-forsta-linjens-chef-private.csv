@@ -1,58 +1,72 @@
 profession,publicprivate,value,income
-Enhetschef/gruppchef/första linjens chef,private,0.0254929296953,-35999
-Enhetschef/gruppchef/första linjens chef,private,0.00736904999004,36000-36999
-Enhetschef/gruppchef/första linjens chef,private,0.0111531567417,37000-37999
-Enhetschef/gruppchef/första linjens chef,private,0.0137422824139,38000-38999
-Enhetschef/gruppchef/första linjens chef,private,0.0155347540331,39000-39999
-Enhetschef/gruppchef/första linjens chef,private,0.0197171878112,40000-40999
-Enhetschef/gruppchef/första linjens chef,private,0.0177255526787,41000-41999
-Enhetschef/gruppchef/första linjens chef,private,0.0246962756423,42000-42999
-Enhetschef/gruppchef/första linjens chef,private,0.0238996215893,43000-43999
-Enhetschef/gruppchef/första linjens chef,private,0.017924716192,44000-44999
-Enhetschef/gruppchef/första linjens chef,private,0.0312686715794,45000-45999
-Enhetschef/gruppchef/första linjens chef,private,0.0310695080661,46000-46999
-Enhetschef/gruppchef/första linjens chef,private,0.0346544513045,47000-47999
-Enhetschef/gruppchef/första linjens chef,private,0.0322644891456,48000-48999
-Enhetschef/gruppchef/första linjens chef,private,0.026090420235,49000-49999
-Enhetschef/gruppchef/första linjens chef,private,0.0322644891456,50000-50999
-Enhetschef/gruppchef/första linjens chef,private,0.0328619796853,51000-51999
-Enhetschef/gruppchef/första linjens chef,private,0.0370444134635,52000-52999
-Enhetschef/gruppchef/första linjens chef,private,0.0344552877913,53000-53999
-Enhetschef/gruppchef/första linjens chef,private,0.0274845648277,54000-54999
-Enhetschef/gruppchef/första linjens chef,private,0.0384385580562,55000-55999
-Enhetschef/gruppchef/första linjens chef,private,0.0274845648277,56000-56999
-Enhetschef/gruppchef/första linjens chef,private,0.0320653256323,57000-57999
-Enhetschef/gruppchef/första linjens chef,private,0.0270862378012,58000-58999
-Enhetschef/gruppchef/första linjens chef,private,0.0229038040231,59000-59999
-Enhetschef/gruppchef/första linjens chef,private,0.0334594702251,60000-60999
-Enhetschef/gruppchef/första linjens chef,private,0.0237004580761,61000-61999
-Enhetschef/gruppchef/första linjens chef,private,0.0264887472615,62000-62999
-Enhetschef/gruppchef/första linjens chef,private,0.0195180242979,63000-63999
-Enhetschef/gruppchef/första linjens chef,private,0.0145389364668,64000-64999
-Enhetschef/gruppchef/första linjens chef,private,0.0229038040231,65000-65999
-Enhetschef/gruppchef/första linjens chef,private,0.0137422824139,66000-66999
-Enhetschef/gruppchef/första linjens chef,private,0.0159330810595,67000-67999
-Enhetschef/gruppchef/första linjens chef,private,0.0157339175463,68000-68999
-Enhetschef/gruppchef/första linjens chef,private,0.0113523202549,69000-69999
-Enhetschef/gruppchef/första linjens chef,private,0.0165305715993,70000-70999
-Enhetschef/gruppchef/första linjens chef,private,0.00876319458275,71000-71999
-Enhetschef/gruppchef/första linjens chef,private,0.0121489743079,72000-72999
-Enhetschef/gruppchef/första linjens chef,private,0.00916152160924,73000-73999
-Enhetschef/gruppchef/första linjens chef,private,0.0071698864768,74000-74999
-Enhetschef/gruppchef/första linjens chef,private,0.00776737701653,75000-75999
-Enhetschef/gruppchef/första linjens chef,private,0.00637323242382,76000-76999
-Enhetschef/gruppchef/första linjens chef,private,0.00836486755626,77000-77999
-Enhetschef/gruppchef/första linjens chef,private,0.00577574188409,78000-78999
-Enhetschef/gruppchef/första linjens chef,private,0.00497908783111,79000-79999
-Enhetschef/gruppchef/första linjens chef,private,0.00637323242382,80000-80999
-Enhetschef/gruppchef/första linjens chef,private,0.0053774148576,81000-81999
-Enhetschef/gruppchef/första linjens chef,private,0.00617406891058,82000-82999
-Enhetschef/gruppchef/första linjens chef,private,0.0035849432384,83000-83999
-Enhetschef/gruppchef/första linjens chef,private,0.00398327026489,84000-84999
-Enhetschef/gruppchef/första linjens chef,private,0.00378410675164,85000-85999
-Enhetschef/gruppchef/första linjens chef,private,0.00278828918542,86000-86999
-Enhetschef/gruppchef/första linjens chef,private,0.00258912567218,87000-87999
-Enhetschef/gruppchef/första linjens chef,private,0.00159330810595,88000-88999
-Enhetschef/gruppchef/första linjens chef,private,0.00219079864569,89000-89999
-Enhetschef/gruppchef/första linjens chef,private,0.0017924716192,90000-90999
-Enhetschef/gruppchef/första linjens chef,private,0.0306711810396,91000-
+"Enhetschef, gruppchef, första linjens chef",private,0.000393894633186,25000-25999
+"Enhetschef, gruppchef, första linjens chef",private,0.000295420974889,26000-26999
+"Enhetschef, gruppchef, första linjens chef",private,0.000689315608075,27000-27999
+"Enhetschef, gruppchef, första linjens chef",private,0.00177252584934,28000-28999
+"Enhetschef, gruppchef, första linjens chef",private,0.00256031511571,29000-29999
+"Enhetschef, gruppchef, första linjens chef",private,0.00433284096504,30000-30999
+"Enhetschef, gruppchef, första linjens chef",private,0.00384047267356,31000-31999
+"Enhetschef, gruppchef, första linjens chef",private,0.00374199901526,32000-32999
+"Enhetschef, gruppchef, första linjens chef",private,0.00433284096504,33000-33999
+"Enhetschef, gruppchef, första linjens chef",private,0.00512063023141,34000-34999
+"Enhetschef, gruppchef, första linjens chef",private,0.00689315608075,35000-35999
+"Enhetschef, gruppchef, första linjens chef",private,0.00580994583949,36000-36999
+"Enhetschef, gruppchef, första linjens chef",private,0.0082717872969,37000-37999
+"Enhetschef, gruppchef, första linjens chef",private,0.0115214180207,38000-38999
+"Enhetschef, gruppchef, första linjens chef",private,0.0103397341211,39000-39999
+"Enhetschef, gruppchef, första linjens chef",private,0.0206794682422,40000-40999
+"Enhetschef, gruppchef, första linjens chef",private,0.0153618906942,41000-41999
+"Enhetschef, gruppchef, första linjens chef",private,0.0197932053176,42000-42999
+"Enhetschef, gruppchef, första linjens chef",private,0.0193008370261,43000-43999
+"Enhetschef, gruppchef, första linjens chef",private,0.0201870999508,44000-44999
+"Enhetschef, gruppchef, första linjens chef",private,0.0260955194485,45000-45999
+"Enhetschef, gruppchef, första linjens chef",private,0.0257016248154,46000-46999
+"Enhetschef, gruppchef, första linjens chef",private,0.0281634662728,47000-47999
+"Enhetschef, gruppchef, första linjens chef",private,0.0318069916297,48000-48999
+"Enhetschef, gruppchef, första linjens chef",private,0.0283604135894,49000-49999
+"Enhetschef, gruppchef, första linjens chef",private,0.0368291482029,50000-50999
+"Enhetschef, gruppchef, första linjens chef",private,0.0288527818808,51000-51999
+"Enhetschef, gruppchef, första linjens chef",private,0.0299359921221,52000-52999
+"Enhetschef, gruppchef, första linjens chef",private,0.03121614968,53000-53999
+"Enhetschef, gruppchef, första linjens chef",private,0.0268833087149,54000-54999
+"Enhetschef, gruppchef, första linjens chef",private,0.0377154111275,55000-55999
+"Enhetschef, gruppchef, första linjens chef",private,0.0344657804037,56000-56999
+"Enhetschef, gruppchef, första linjens chef",private,0.028557360906,57000-57999
+"Enhetschef, gruppchef, första linjens chef",private,0.0315115706548,58000-58999
+"Enhetschef, gruppchef, första linjens chef",private,0.0266863613983,59000-59999
+"Enhetschef, gruppchef, första linjens chef",private,0.0361398325948,60000-60999
+"Enhetschef, gruppchef, första linjens chef",private,0.0224519940916,61000-61999
+"Enhetschef, gruppchef, första linjens chef",private,0.0250123092073,62000-62999
+"Enhetschef, gruppchef, första linjens chef",private,0.0233382570162,63000-63999
+"Enhetschef, gruppchef, första linjens chef",private,0.0175283111768,64000-64999
+"Enhetschef, gruppchef, första linjens chef",private,0.0238306253077,65000-65999
+"Enhetschef, gruppchef, första linjens chef",private,0.0188084687346,66000-66999
+"Enhetschef, gruppchef, första linjens chef",private,0.0179222058099,67000-67999
+"Enhetschef, gruppchef, första linjens chef",private,0.0155588380108,68000-68999
+"Enhetschef, gruppchef, första linjens chef",private,0.0139832594781,69000-69999
+"Enhetschef, gruppchef, första linjens chef",private,0.0177252584934,70000-70999
+"Enhetschef, gruppchef, första linjens chef",private,0.0117183653373,71000-71999
+"Enhetschef, gruppchef, första linjens chef",private,0.0124076809453,72000-72999
+"Enhetschef, gruppchef, första linjens chef",private,0.00965041851305,73000-73999
+"Enhetschef, gruppchef, första linjens chef",private,0.00945347119645,74000-74999
+"Enhetschef, gruppchef, första linjens chef",private,0.0107336287543,75000-75999
+"Enhetschef, gruppchef, första linjens chef",private,0.00768094534712,76000-76999
+"Enhetschef, gruppchef, första linjens chef",private,0.00600689315608,77000-77999
+"Enhetschef, gruppchef, första linjens chef",private,0.00571147218119,78000-78999
+"Enhetschef, gruppchef, första linjens chef",private,0.00472673559823,79000-79999
+"Enhetschef, gruppchef, första linjens chef",private,0.00787789266371,80000-80999
+"Enhetschef, gruppchef, första linjens chef",private,0.00344657804037,81000-81999
+"Enhetschef, gruppchef, första linjens chef",private,0.0055145248646,82000-82999
+"Enhetschef, gruppchef, första linjens chef",private,0.00433284096504,83000-83999
+"Enhetschef, gruppchef, första linjens chef",private,0.0027572624323,84000-84999
+"Enhetschef, gruppchef, första linjens chef",private,0.00433284096504,85000-85999
+"Enhetschef, gruppchef, första linjens chef",private,0.00384047267356,86000-86999
+"Enhetschef, gruppchef, första linjens chef",private,0.00305268340719,87000-87999
+"Enhetschef, gruppchef, första linjens chef",private,0.00216642048252,88000-88999
+"Enhetschef, gruppchef, första linjens chef",private,0.00147710487445,89000-89999
+"Enhetschef, gruppchef, första linjens chef",private,0.00226489414082,90000-90999
+"Enhetschef, gruppchef, första linjens chef",private,0.00216642048252,91000-91999
+"Enhetschef, gruppchef, första linjens chef",private,0.00137863121615,92000-92999
+"Enhetschef, gruppchef, första linjens chef",private,0.00177252584934,93000-93999
+"Enhetschef, gruppchef, första linjens chef",private,0.00118168389956,94000-94999
+"Enhetschef, gruppchef, första linjens chef",private,0.0240275726243,95000-

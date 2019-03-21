@@ -3,15 +3,9 @@
         "employee": {
             "file_list": [
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-saco-farmaceut-public.csv", 
-                    "profession": "Farmaceut", 
-                    "publicprivate": "public", 
-                    "association": "saco"
-                }, 
-                {
-                    "file_name": "prepared-data/employee-[FILEKEY]-saco-psykolog-public.csv", 
-                    "profession": "Psykolog", 
-                    "publicprivate": "public", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-saco-farmaceuter-private.csv", 
+                    "profession": "Farmaceuter", 
+                    "publicprivate": "private", 
                     "association": "saco"
                 }, 
                 {
@@ -23,6 +17,12 @@
                 {
                     "file_name": "prepared-data/employee-[FILEKEY]-saco-hogskoleingenjor-public.csv", 
                     "profession": "H\u00f6gskoleingenj\u00f6r", 
+                    "publicprivate": "public", 
+                    "association": "saco"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-[FILEKEY]-saco-farmaceuter-public.csv", 
+                    "profession": "Farmaceuter", 
                     "publicprivate": "public", 
                     "association": "saco"
                 }, 
@@ -39,12 +39,6 @@
                     "association": "saco"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-saco-psykolog-private.csv", 
-                    "profession": "Psykolog", 
-                    "publicprivate": "private", 
-                    "association": "saco"
-                }, 
-                {
                     "file_name": "prepared-data/employee-[FILEKEY]-saco-samhallsvetare-private.csv", 
                     "profession": "Samh\u00e4llsvetare", 
                     "publicprivate": "private", 
@@ -57,15 +51,21 @@
                     "association": "saco"
                 }, 
                 {
+                    "file_name": "prepared-data/employee-[FILEKEY]-saco-fysioterapeut-sjukgymnast-public.csv", 
+                    "profession": "Fysioterapeut/Sjukgymnast", 
+                    "publicprivate": "public", 
+                    "association": "saco"
+                }, 
+                {
                     "file_name": "prepared-data/employee-[FILEKEY]-saco-agronom-public.csv", 
                     "profession": "Agronom", 
                     "publicprivate": "public", 
                     "association": "saco"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-saco-fysioterapeut-private.csv", 
-                    "profession": "Fysioterapeut", 
-                    "publicprivate": "private", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-saco-miljovetare-public.csv", 
+                    "profession": "Milj\u00f6vetare", 
+                    "publicprivate": "public", 
                     "association": "saco"
                 }, 
                 {
@@ -105,39 +105,27 @@
                     "association": "saco"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-saco-farmaceut-private.csv", 
-                    "profession": "Farmaceut", 
-                    "publicprivate": "private", 
-                    "association": "saco"
-                }, 
-                {
-                    "file_name": "prepared-data/employee-[FILEKEY]-saco-fysioterapeut-public.csv", 
-                    "profession": "Fysioterapeut", 
-                    "publicprivate": "public", 
-                    "association": "saco"
-                }, 
-                {
                     "file_name": "prepared-data/employee-[FILEKEY]-saco-arbetsterapeut-private.csv", 
                     "profession": "Arbetsterapeut", 
                     "publicprivate": "private", 
                     "association": "saco"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-saco-biolog-biokemist-public.csv", 
-                    "profession": "Biolog/biokemist", 
-                    "publicprivate": "public", 
-                    "association": "saco"
-                }, 
-                {
-                    "file_name": "prepared-data/employee-[FILEKEY]-saco-miljovetare-private.csv", 
-                    "profession": "Milj\u00f6vetare", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-saco-fysioterapeut-sjukgymnast-private.csv", 
+                    "profession": "Fysioterapeut/Sjukgymnast", 
                     "publicprivate": "private", 
                     "association": "saco"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-saco-civilekonom-ekonom-public.csv", 
-                    "profession": "Civilekonom/ekonom", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-saco-civilekonomer-ekonom-public.csv", 
+                    "profession": "Civilekonomer ekonom", 
                     "publicprivate": "public", 
+                    "association": "saco"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-[FILEKEY]-saco-civilekonomer-ekonom-private.csv", 
+                    "profession": "Civilekonomer ekonom", 
+                    "publicprivate": "private", 
                     "association": "saco"
                 }, 
                 {
@@ -147,21 +135,9 @@
                     "association": "saco"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-saco-miljovetare-public.csv", 
-                    "profession": "Milj\u00f6vetare", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-saco-psykologer-public.csv", 
+                    "profession": "Psykologer", 
                     "publicprivate": "public", 
-                    "association": "saco"
-                }, 
-                {
-                    "file_name": "prepared-data/employee-[FILEKEY]-saco-biolog-biokemist-private.csv", 
-                    "profession": "Biolog/biokemist", 
-                    "publicprivate": "private", 
-                    "association": "saco"
-                }, 
-                {
-                    "file_name": "prepared-data/employee-[FILEKEY]-saco-prast-diakon-private.csv", 
-                    "profession": "Pr\u00e4st/diakon", 
-                    "publicprivate": "private", 
                     "association": "saco"
                 }, 
                 {
@@ -183,8 +159,14 @@
                     "association": "saco"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-saco-civilekonom-ekonom-private.csv", 
-                    "profession": "Civilekonom/ekonom", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-saco-psykologer-private.csv", 
+                    "profession": "Psykologer", 
+                    "publicprivate": "private", 
+                    "association": "saco"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-[FILEKEY]-saco-miljovetare-private.csv", 
+                    "profession": "Milj\u00f6vetare", 
                     "publicprivate": "private", 
                     "association": "saco"
                 }, 
@@ -219,18 +201,85 @@
                 }, 
                 {
                     "file_name": "prepared-data/manager-[FILEKEY]-saco-enhetschef-gruppchef-forsta-linjens-chef-private.csv", 
-                    "profession": "Enhetschef/gruppchef/f\u00f6rsta linjens chef", 
+                    "profession": "Enhetschef, gruppchef, f\u00f6rsta linjens chef", 
                     "publicprivate": "private", 
                     "association": "saco"
                 }, 
                 {
                     "file_name": "prepared-data/manager-[FILEKEY]-saco-enhetschef-gruppchef-forsta-linjens-chef-public.csv", 
-                    "profession": "Enhetschef/gruppchef/f\u00f6rsta linjens chef", 
+                    "profession": "Enhetschef, gruppchef, f\u00f6rsta linjens chef", 
                     "publicprivate": "public", 
                     "association": "saco"
                 }
             ], 
             "association": "saco"
+        }
+    }, 
+    "ssr": {
+        "employee": {
+            "file_list": [
+                {
+                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-beteendevetare-private.csv", 
+                    "profession": "Beteendevetare", 
+                    "publicprivate": "private", 
+                    "association": "ssr"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-samhallsvetare-private.csv", 
+                    "profession": "Samh\u00e4llsvetare", 
+                    "publicprivate": "private", 
+                    "association": "ssr"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-socionom-public.csv", 
+                    "profession": "Socionom", 
+                    "publicprivate": "public", 
+                    "association": "ssr"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-civilekonomer-ekonom-public.csv", 
+                    "profession": "Civilekonomer ekonom", 
+                    "publicprivate": "public", 
+                    "association": "ssr"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-beteendevetare-public.csv", 
+                    "profession": "Beteendevetare", 
+                    "publicprivate": "public", 
+                    "association": "ssr"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-personalvetare-public.csv", 
+                    "profession": "Personalvetare", 
+                    "publicprivate": "public", 
+                    "association": "ssr"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-civilekonomer-ekonom-private.csv", 
+                    "profession": "Civilekonomer ekonom", 
+                    "publicprivate": "private", 
+                    "association": "ssr"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-personalvetare-private.csv", 
+                    "profession": "Personalvetare", 
+                    "publicprivate": "private", 
+                    "association": "ssr"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-socionom-private.csv", 
+                    "profession": "Socionom", 
+                    "publicprivate": "private", 
+                    "association": "ssr"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-samhallsvetare-public.csv", 
+                    "profession": "Samh\u00e4llsvetare", 
+                    "publicprivate": "public", 
+                    "association": "ssr"
+                }
+            ], 
+            "association": "ssr"
         }
     }, 
     "jusek": {
@@ -249,20 +298,20 @@
                     "association": "jusek"
                 }, 
                 {
+                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-civilekonomer-ekonom-public.csv", 
+                    "profession": "Civilekonomer ekonom", 
+                    "publicprivate": "public", 
+                    "association": "jusek"
+                }, 
+                {
                     "file_name": "prepared-data/employee-[FILEKEY]-jusek-personalvetare-public.csv", 
                     "profession": "Personalvetare", 
                     "publicprivate": "public", 
                     "association": "jusek"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-ekonom-public.csv", 
-                    "profession": "Ekonom", 
-                    "publicprivate": "public", 
-                    "association": "jusek"
-                }, 
-                {
-                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-ekonom-private.csv", 
-                    "profession": "Ekonom", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-civilekonomer-ekonom-private.csv", 
+                    "profession": "Civilekonomer ekonom", 
                     "publicprivate": "private", 
                     "association": "jusek"
                 }, 
@@ -298,73 +347,6 @@
                 }
             ], 
             "association": "jusek"
-        }
-    }, 
-    "ssr": {
-        "employee": {
-            "file_list": [
-                {
-                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-beteendevetare-private.csv", 
-                    "profession": "Beteendevetare", 
-                    "publicprivate": "private", 
-                    "association": "ssr"
-                }, 
-                {
-                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-samhallsvetare-private.csv", 
-                    "profession": "Samh\u00e4llsvetare", 
-                    "publicprivate": "private", 
-                    "association": "ssr"
-                }, 
-                {
-                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-socionom-public.csv", 
-                    "profession": "Socionom", 
-                    "publicprivate": "public", 
-                    "association": "ssr"
-                }, 
-                {
-                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-beteendevetare-public.csv", 
-                    "profession": "Beteendevetare", 
-                    "publicprivate": "public", 
-                    "association": "ssr"
-                }, 
-                {
-                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-personalvetare-public.csv", 
-                    "profession": "Personalvetare", 
-                    "publicprivate": "public", 
-                    "association": "ssr"
-                }, 
-                {
-                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-ekonom-public.csv", 
-                    "profession": "Ekonom", 
-                    "publicprivate": "public", 
-                    "association": "ssr"
-                }, 
-                {
-                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-ekonom-private.csv", 
-                    "profession": "Ekonom", 
-                    "publicprivate": "private", 
-                    "association": "ssr"
-                }, 
-                {
-                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-personalvetare-private.csv", 
-                    "profession": "Personalvetare", 
-                    "publicprivate": "private", 
-                    "association": "ssr"
-                }, 
-                {
-                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-socionom-private.csv", 
-                    "profession": "Socionom", 
-                    "publicprivate": "private", 
-                    "association": "ssr"
-                }, 
-                {
-                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-samhallsvetare-public.csv", 
-                    "profession": "Samh\u00e4llsvetare", 
-                    "publicprivate": "public", 
-                    "association": "ssr"
-                }
-            ], 
-            "association": "ssr"
         }
     }
 }
