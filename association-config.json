@@ -8,17 +8,17 @@
 	},
 	"saco": {
 		"manager": {
-			"selectedProfession": "Högsta chef, högre chef, mellanchef",
+			"selectedProfession": "högsta chef, högre chef, mellanchef",
 			"startIncome": 50000
 		},
 		"employee": {
-			"selectedProfession": "Civilingenjör",
+			"selectedProfession": "civilingenjör",
 			"startIncome": 35000
 		}
 	},
 	"ssr": {
 		"employee": {
-			"selectedProfession": "Socionom",
+			"selectedProfession": "socionom",
 			"startIncome": 35000
 		}
 	}
