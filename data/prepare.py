@@ -21,7 +21,7 @@ DATA_FOLDER = "prepared-data"
 
 DATESET_LISTS_FILE = "dataset_lists.json"
 
-ALLOWED_ASSOCIATIONS = ["saco", "ssr", "jusek"]
+ALLOWED_ASSOCIATIONS = ["saco", "ssr", "jusek", "akavia"]
 ALLOWED_EMPLOYMENTS = ["manager", "employee"]
 
 PERCENTILE_FILE_KEY = "percentile" # "Percentiler"
@@ -154,13 +154,14 @@ def fill_empty_bins(grouped_data):
     """
     for key, dataset in grouped_data.iteritems():
         existing_incomegroups = [parse_int(row["income"].split("-")[0]) for row in dataset]
-        incomegroups = [x for x in srange(existing_incomegroups[1],existing_incomegroups[-1],1000)]
-        missing = list(set(incomegroups) - set(existing_incomegroups[1:-1]))
-        for income_lower in missing:
-            row = deepcopy(dataset[0])
-            row["value"] = 0.0
-            row["income"] = "%s-%s" % (income_lower, income_lower+999)
-            dataset.append(row)
+        if len(existing_incomegroups) > 1:
+            incomegroups = [x for x in srange(existing_incomegroups[1],existing_incomegroups[-1],1000)]
+            missing = list(set(incomegroups) - set(existing_incomegroups[1:-1]))
+            for income_lower in missing:
+                row = deepcopy(dataset[0])
+                row["value"] = 0.0
+                row["income"] = "%s-%s" % (income_lower, income_lower+999)
+                dataset.append(row)
     return grouped_data
 
 def sort_datasets(grouped_data):
@@ -205,6 +206,8 @@ for filepath in glob.iglob(FILES_DIR + "/*.csv"):
         dataset = fill_empty_bins(dataset)
         dataset = sort_datasets(dataset)
 
+    if len(dataset) < 3:
+        import pdb; pdb.set_trace()
     file_list = save_list_of_datasets(dataset, filekey, employment, association)
 
     if association not in dataset_lists:

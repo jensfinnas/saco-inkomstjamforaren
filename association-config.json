@@ -1,4 +1,11 @@
 {
+	"akavia": {
+		"employee": {
+			"selectedProfession": "Jurist",
+			"startIncome": 50000
+		}
+
+	},
 	"jusek": {
 		"employee": {
 			"selectedProfession": "Jurist",
@@ -12,13 +19,14 @@
 			"startIncome": 50000
 		},
 		"employee": {
-			"selectedProfession": "civilingenjör",
+			"selectedProfession": "Civilingenjör",
 			"startIncome": 35000
-		}
+		},
+		"excludedProfessions": ["Miljövetare"]
 	},
 	"ssr": {
 		"employee": {
-			"selectedProfession": "socionom",
+			"selectedProfession": "Socionom",
 			"startIncome": 35000
 		}
 	}
