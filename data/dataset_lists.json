@@ -33,6 +33,12 @@
                     "association": "saco"
                 }, 
                 {
+                    "file_name": "prepared-data/employee-[FILEKEY]-saco-agronom-private.csv", 
+                    "profession": "Agronom", 
+                    "publicprivate": "private", 
+                    "association": "saco"
+                }, 
+                {
                     "file_name": "prepared-data/employee-[FILEKEY]-saco-ekonom-public.csv", 
                     "profession": "Ekonom", 
                     "publicprivate": "public", 
@@ -53,6 +59,12 @@
                 {
                     "file_name": "prepared-data/employee-[FILEKEY]-saco-fysioterapeut-sjukgymnast-public.csv", 
                     "profession": "Fysioterapeut/Sjukgymnast", 
+                    "publicprivate": "public", 
+                    "association": "saco"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-[FILEKEY]-saco-agronom-public.csv", 
+                    "profession": "Agronom", 
                     "publicprivate": "public", 
                     "association": "saco"
                 }, 
@@ -203,71 +215,71 @@
             "association": "saco"
         }
     }, 
-    "jusek": {
+    "ssr": {
         "employee": {
             "file_list": [
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-jurist-private.csv", 
-                    "profession": "Jurist", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-beteendevetare-private.csv", 
+                    "profession": "Beteendevetare", 
                     "publicprivate": "private", 
-                    "association": "jusek"
+                    "association": "ssr"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-samhallsvetare-private.csv", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-samhallsvetare-private.csv", 
                     "profession": "Samh\u00e4llsvetare", 
                     "publicprivate": "private", 
-                    "association": "jusek"
+                    "association": "ssr"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-personalvetare-public.csv", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-socionom-public.csv", 
+                    "profession": "Socionom", 
+                    "publicprivate": "public", 
+                    "association": "ssr"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-beteendevetare-public.csv", 
+                    "profession": "Beteendevetare", 
+                    "publicprivate": "public", 
+                    "association": "ssr"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-personalvetare-public.csv", 
                     "profession": "Personalvetare", 
                     "publicprivate": "public", 
-                    "association": "jusek"
+                    "association": "ssr"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-ekonom-public.csv", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-ekonom-public.csv", 
                     "profession": "Ekonom", 
                     "publicprivate": "public", 
-                    "association": "jusek"
+                    "association": "ssr"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-ekonom-private.csv", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-ekonom-private.csv", 
                     "profession": "Ekonom", 
                     "publicprivate": "private", 
-                    "association": "jusek"
+                    "association": "ssr"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-jurist-public.csv", 
-                    "profession": "Jurist", 
-                    "publicprivate": "public", 
-                    "association": "jusek"
-                }, 
-                {
-                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-personalvetare-private.csv", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-personalvetare-private.csv", 
                     "profession": "Personalvetare", 
                     "publicprivate": "private", 
-                    "association": "jusek"
+                    "association": "ssr"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-systemvetare-public.csv", 
-                    "profession": "Systemvetare", 
-                    "publicprivate": "public", 
-                    "association": "jusek"
-                }, 
-                {
-                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-systemvetare-private.csv", 
-                    "profession": "Systemvetare", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-socionom-private.csv", 
+                    "profession": "Socionom", 
                     "publicprivate": "private", 
-                    "association": "jusek"
+                    "association": "ssr"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-samhallsvetare-public.csv", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-samhallsvetare-public.csv", 
                     "profession": "Samh\u00e4llsvetare", 
                     "publicprivate": "public", 
-                    "association": "jusek"
+                    "association": "ssr"
                 }
             ], 
-            "association": "jusek"
+            "association": "ssr"
         }
     }, 
     "akavia": {
@@ -337,71 +349,71 @@
             "association": "akavia"
         }
     }, 
-    "ssr": {
+    "jusek": {
         "employee": {
             "file_list": [
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-beteendevetare-private.csv", 
-                    "profession": "Beteendevetare", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-jurist-private.csv", 
+                    "profession": "Jurist", 
                     "publicprivate": "private", 
-                    "association": "ssr"
+                    "association": "jusek"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-samhallsvetare-private.csv", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-samhallsvetare-private.csv", 
                     "profession": "Samh\u00e4llsvetare", 
                     "publicprivate": "private", 
-                    "association": "ssr"
+                    "association": "jusek"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-socionom-public.csv", 
-                    "profession": "Socionom", 
-                    "publicprivate": "public", 
-                    "association": "ssr"
-                }, 
-                {
-                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-beteendevetare-public.csv", 
-                    "profession": "Beteendevetare", 
-                    "publicprivate": "public", 
-                    "association": "ssr"
-                }, 
-                {
-                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-personalvetare-public.csv", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-personalvetare-public.csv", 
                     "profession": "Personalvetare", 
                     "publicprivate": "public", 
-                    "association": "ssr"
+                    "association": "jusek"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-ekonom-public.csv", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-ekonom-public.csv", 
                     "profession": "Ekonom", 
                     "publicprivate": "public", 
-                    "association": "ssr"
+                    "association": "jusek"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-ekonom-private.csv", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-ekonom-private.csv", 
                     "profession": "Ekonom", 
                     "publicprivate": "private", 
-                    "association": "ssr"
+                    "association": "jusek"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-personalvetare-private.csv", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-jurist-public.csv", 
+                    "profession": "Jurist", 
+                    "publicprivate": "public", 
+                    "association": "jusek"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-personalvetare-private.csv", 
                     "profession": "Personalvetare", 
                     "publicprivate": "private", 
-                    "association": "ssr"
+                    "association": "jusek"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-socionom-private.csv", 
-                    "profession": "Socionom", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-systemvetare-public.csv", 
+                    "profession": "Systemvetare", 
+                    "publicprivate": "public", 
+                    "association": "jusek"
+                }, 
+                {
+                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-systemvetare-private.csv", 
+                    "profession": "Systemvetare", 
                     "publicprivate": "private", 
-                    "association": "ssr"
+                    "association": "jusek"
                 }, 
                 {
-                    "file_name": "prepared-data/employee-[FILEKEY]-ssr-samhallsvetare-public.csv", 
+                    "file_name": "prepared-data/employee-[FILEKEY]-jusek-samhallsvetare-public.csv", 
                     "profession": "Samh\u00e4llsvetare", 
                     "publicprivate": "public", 
-                    "association": "ssr"
+                    "association": "jusek"
                 }
             ], 
-            "association": "ssr"
+            "association": "jusek"
         }
     }
 }
