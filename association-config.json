@@ -9,25 +9,25 @@
 	"jusek": {
 		"employee": {
 			"selectedProfession": "Jurist",
-			"startIncome": 50000
+			"startIncome": 55000
 		}
 
 	},
 	"saco": {
 		"manager": {
 			"selectedProfession": "högsta chef, högre chef, mellanchef",
-			"startIncome": 50000
+			"startIncome": 55000
 		},
 		"employee": {
-			"selectedProfession": "Civilingenjör",
-			"startIncome": 35000
+			"selectedProfession": "civilingenjör",
+			"startIncome": 40000
 		},
-		"excludedProfessions": ["Miljövetare"]
+		"excludedProfessions": ["miljövetare"]
 	},
 	"ssr": {
 		"employee": {
-			"selectedProfession": "Socionom",
-			"startIncome": 35000
+			"selectedProfession": "socionom",
+			"startIncome": 40000
 		}
 	}
 }

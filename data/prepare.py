@@ -21,7 +21,7 @@ DATA_FOLDER = "prepared-data"
 
 DATESET_LISTS_FILE = "dataset_lists.json"
 
-ALLOWED_ASSOCIATIONS = ["saco", "ssr", "jusek", "akavia"]
+ALLOWED_ASSOCIATIONS = ["saco", "ssr"]
 ALLOWED_EMPLOYMENTS = ["manager", "employee"]
 
 PERCENTILE_FILE_KEY = "percentile" # "Percentiler"
@@ -220,6 +220,6 @@ for filepath in glob.iglob(FILES_DIR + "/*.csv"):
     dataset_lists[association][employment]["association"] = association
     dataset_lists[association][employment]["file_list"] = file_list
 
-
+    print("Update " + DATESET_LISTS_FILE)
     with open(DATESET_LISTS_FILE, 'w') as f:
         json.dump(dataset_lists, f, indent=4)
